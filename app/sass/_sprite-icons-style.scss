@@ -1,0 +1,10 @@
+@import "sprite";
+
+.icon-phone {
+  @include sprite($phone);
+  display: inline-block;
+}
+.icon-vk {
+  @include sprite($vk);
+  display: inline-block;
+}

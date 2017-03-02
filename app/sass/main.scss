@@ -1,2 +1,82 @@
 @import "fonts";
 @import "var";
+@import "mixin";
+@import "sprite-icons-style";
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+  background-color: transparent;
+}
+
+div, a, input, button, ul, li {
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+input, button {
+  -webkit-appearance: none;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  text-indent: 10px;
+}
+input:focus:-moz-placeholder{
+  opacity: 0;
+  text-indent: 10px;
+}
+input:focus::-moz-placeholder {
+  opacity: 0;
+  text-indent: 10px;
+}
+input:focus:-ms-input-placeholder{
+  opacity: 0;
+  text-indent: 10px;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  background: $bg-color;
+  color: $text-color;
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  position: relative;
+  line-height: 1.44;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+
+body:after {
+  content: '';
+  height: 385px;
+  display: block;
+}
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 385px;
+  background: $footer-bg-color;
+  border-top: 3px solid $accent;
+  padding-top: 60px;
+
+  &__social {
+    list-style: none;
+  }
+}
+

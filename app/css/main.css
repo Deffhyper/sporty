@@ -13,12 +13,6 @@
   font-weight: normal; }
 
 @font-face {
-  font-family: "OpenSans-SemiboldItalic";
-  src: url("../fonts/open-sans/OpenSans-SemiboldItalic.ttf") format("truetype"), url("../fonts/open-sans/OpenSansSemiBoldItalic.eot"), url("../fonts/open-sans/OpenSansSemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSansSemiBoldItalic.woff") format("woff");
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
   font-family: "OpenSans-Bold";
   src: url("../fonts/open-sans/OpenSansBold.eot");
   src: url("../fonts/open-sans/OpenSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSansBold.woff") format("woff"), url("../fonts/open-sans/OpenSans-Bold.ttf") format("truetype");
@@ -31,3 +25,84 @@
   src: url("../fonts/open-sans/OpenSansLight.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSansLight.woff") format("woff"), url("../fonts/open-sans/OpenSans-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
+
+.icon-phone {
+  background-image: url(../img/png_sprite/sprite.png);
+  background-position: -73px -96px;
+  width: 20px;
+  height: 20px;
+  display: inline-block; }
+
+.icon-vk {
+  background-image: url(../img/png_sprite/sprite.png);
+  background-position: -18px -125px;
+  width: 20px;
+  height: 12px;
+  display: inline-block; }
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%; }
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+  background-color: transparent; }
+
+div, a, input, button, ul, li {
+  outline: none; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+input, button {
+  -webkit-appearance: none; }
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  text-indent: 10px; }
+
+input:focus:-moz-placeholder {
+  opacity: 0;
+  text-indent: 10px; }
+
+input:focus::-moz-placeholder {
+  opacity: 0;
+  text-indent: 10px; }
+
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+  text-indent: 10px; }
+
+body {
+  min-height: 100%;
+  width: 100%;
+  background: #f8f8f7;
+  color: #3c3c3c;
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  position: relative;
+  line-height: 1.44;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  min-width: 320px; }
+
+body:after {
+  content: '';
+  height: 385px;
+  display: block; }
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 385px;
+  background: #1d2021;
+  border-top: 3px solid #1274bf;
+  padding-top: 60px; }
+  .page-footer__social {
+    list-style: none; }

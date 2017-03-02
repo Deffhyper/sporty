@@ -1,132 +1,420 @@
-/*
-Icon classes can be used entirely standalone. They are named after their original file names.
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$arrow-name: 'arrow';
+$arrow-x: 145px;
+$arrow-y: 15px;
+$arrow-offset-x: -145px;
+$arrow-offset-y: -15px;
+$arrow-width: 8px;
+$arrow-height: 5px;
+$arrow-total-width: 153px;
+$arrow-total-height: 139px;
+$arrow-image: '../img/png_sprite/sprite.png';
+$arrow: (145px, 15px, -145px, -15px, 8px, 5px, 153px, 139px, '../img/png_sprite/sprite.png', 'arrow', );
+$b-line-name: 'b-line';
+$b-line-x: 51px;
+$b-line-y: 96px;
+$b-line-offset-x: -51px;
+$b-line-offset-y: -96px;
+$b-line-width: 22px;
+$b-line-height: 21px;
+$b-line-total-width: 153px;
+$b-line-total-height: 139px;
+$b-line-image: '../img/png_sprite/sprite.png';
+$b-line: (51px, 96px, -51px, -96px, 22px, 21px, 153px, 139px, '../img/png_sprite/sprite.png', 'b-line', );
+$ball-name: 'ball';
+$ball-x: 64px;
+$ball-y: 32px;
+$ball-offset-x: -64px;
+$ball-offset-y: -32px;
+$ball-width: 32px;
+$ball-height: 32px;
+$ball-total-width: 153px;
+$ball-total-height: 139px;
+$ball-image: '../img/png_sprite/sprite.png';
+$ball: (64px, 32px, -64px, -32px, 32px, 32px, 153px, 139px, '../img/png_sprite/sprite.png', 'ball', );
+$boxing-name: 'boxing';
+$boxing-x: 64px;
+$boxing-y: 64px;
+$boxing-offset-x: -64px;
+$boxing-offset-y: -64px;
+$boxing-width: 32px;
+$boxing-height: 32px;
+$boxing-total-width: 153px;
+$boxing-total-height: 139px;
+$boxing-image: '../img/png_sprite/sprite.png';
+$boxing: (64px, 64px, -64px, -64px, 32px, 32px, 153px, 139px, '../img/png_sprite/sprite.png', 'boxing', );
+$buddhist-yoga-pose-name: 'buddhist-yoga-pose';
+$buddhist-yoga-pose-x: 0px;
+$buddhist-yoga-pose-y: 32px;
+$buddhist-yoga-pose-offset-x: 0px;
+$buddhist-yoga-pose-offset-y: -32px;
+$buddhist-yoga-pose-width: 32px;
+$buddhist-yoga-pose-height: 32px;
+$buddhist-yoga-pose-total-width: 153px;
+$buddhist-yoga-pose-total-height: 139px;
+$buddhist-yoga-pose-image: '../img/png_sprite/sprite.png';
+$buddhist-yoga-pose: (0px, 32px, 0px, -32px, 32px, 32px, 153px, 139px, '../img/png_sprite/sprite.png', 'buddhist-yoga-pose', );
+$dance-instructor-name: 'dance-instructor';
+$dance-instructor-x: 32px;
+$dance-instructor-y: 32px;
+$dance-instructor-offset-x: -32px;
+$dance-instructor-offset-y: -32px;
+$dance-instructor-width: 32px;
+$dance-instructor-height: 32px;
+$dance-instructor-total-width: 153px;
+$dance-instructor-total-height: 139px;
+$dance-instructor-image: '../img/png_sprite/sprite.png';
+$dance-instructor: (32px, 32px, -32px, -32px, 32px, 32px, 153px, 139px, '../img/png_sprite/sprite.png', 'dance-instructor', );
+$dumbbells-rounded-couple-in-silhouettes-name: 'dumbbells-rounded-couple-in-silhouettes';
+$dumbbells-rounded-couple-in-silhouettes-x: 64px;
+$dumbbells-rounded-couple-in-silhouettes-y: 0px;
+$dumbbells-rounded-couple-in-silhouettes-offset-x: -64px;
+$dumbbells-rounded-couple-in-silhouettes-offset-y: 0px;
+$dumbbells-rounded-couple-in-silhouettes-width: 32px;
+$dumbbells-rounded-couple-in-silhouettes-height: 32px;
+$dumbbells-rounded-couple-in-silhouettes-total-width: 153px;
+$dumbbells-rounded-couple-in-silhouettes-total-height: 139px;
+$dumbbells-rounded-couple-in-silhouettes-image: '../img/png_sprite/sprite.png';
+$dumbbells-rounded-couple-in-silhouettes: (64px, 0px, -64px, 0px, 32px, 32px, 153px, 139px, '../img/png_sprite/sprite.png', 'dumbbells-rounded-couple-in-silhouettes', );
+$fb-name: 'fb';
+$fb-x: 145px;
+$fb-y: 0px;
+$fb-offset-x: -145px;
+$fb-offset-y: 0px;
+$fb-width: 8px;
+$fb-height: 15px;
+$fb-total-width: 153px;
+$fb-total-height: 139px;
+$fb-image: '../img/png_sprite/sprite.png';
+$fb: (145px, 0px, -145px, 0px, 8px, 15px, 153px, 139px, '../img/png_sprite/sprite.png', 'fb', );
+$hand-with-a-dumbbell-name: 'hand-with-a-dumbbell';
+$hand-with-a-dumbbell-x: 0px;
+$hand-with-a-dumbbell-y: 64px;
+$hand-with-a-dumbbell-offset-x: 0px;
+$hand-with-a-dumbbell-offset-y: -64px;
+$hand-with-a-dumbbell-width: 32px;
+$hand-with-a-dumbbell-height: 32px;
+$hand-with-a-dumbbell-total-width: 153px;
+$hand-with-a-dumbbell-total-height: 139px;
+$hand-with-a-dumbbell-image: '../img/png_sprite/sprite.png';
+$hand-with-a-dumbbell: (0px, 64px, 0px, -64px, 32px, 32px, 153px, 139px, '../img/png_sprite/sprite.png', 'hand-with-a-dumbbell', );
+$hockey-name: 'hockey';
+$hockey-x: 32px;
+$hockey-y: 64px;
+$hockey-offset-x: -32px;
+$hockey-offset-y: -64px;
+$hockey-width: 32px;
+$hockey-height: 32px;
+$hockey-total-width: 153px;
+$hockey-total-height: 139px;
+$hockey-image: '../img/png_sprite/sprite.png';
+$hockey: (32px, 64px, -32px, -64px, 32px, 32px, 153px, 139px, '../img/png_sprite/sprite.png', 'hockey', );
+$inst-name: 'inst';
+$inst-x: 128px;
+$inst-y: 95px;
+$inst-offset-x: -128px;
+$inst-offset-y: -95px;
+$inst-width: 14px;
+$inst-height: 14px;
+$inst-total-width: 153px;
+$inst-total-height: 139px;
+$inst-image: '../img/png_sprite/sprite.png';
+$inst: (128px, 95px, -128px, -95px, 14px, 14px, 153px, 139px, '../img/png_sprite/sprite.png', 'inst', );
+$kvstr-name: 'kvstr';
+$kvstr-x: 96px;
+$kvstr-y: 68px;
+$kvstr-offset-x: -96px;
+$kvstr-offset-y: -68px;
+$kvstr-width: 23px;
+$kvstr-height: 22px;
+$kvstr-total-width: 153px;
+$kvstr-total-height: 139px;
+$kvstr-image: '../img/png_sprite/sprite.png';
+$kvstr: (96px, 68px, -96px, -68px, 23px, 22px, 153px, 139px, '../img/png_sprite/sprite.png', 'kvstr', );
+$mail-flag-name: 'mail-flag';
+$mail-flag-x: 96px;
+$mail-flag-y: 32px;
+$mail-flag-offset-x: -96px;
+$mail-flag-offset-y: -32px;
+$mail-flag-width: 28px;
+$mail-flag-height: 36px;
+$mail-flag-total-width: 153px;
+$mail-flag-total-height: 139px;
+$mail-flag-image: '../img/png_sprite/sprite.png';
+$mail-flag: (96px, 32px, -96px, -32px, 28px, 36px, 153px, 139px, '../img/png_sprite/sprite.png', 'mail-flag', );
+$map-picker-name: 'map-picker';
+$map-picker-x: 128px;
+$map-picker-y: 109px;
+$map-picker-offset-x: -128px;
+$map-picker-offset-y: -109px;
+$map-picker-width: 12px;
+$map-picker-height: 16px;
+$map-picker-total-width: 153px;
+$map-picker-total-height: 139px;
+$map-picker-image: '../img/png_sprite/sprite.png';
+$map-picker: (128px, 109px, -128px, -109px, 12px, 16px, 153px, 139px, '../img/png_sprite/sprite.png', 'map-picker', );
+$menu-book-name: 'menu-book';
+$menu-book-x: 93px;
+$menu-book-y: 96px;
+$menu-book-offset-x: -93px;
+$menu-book-offset-y: -96px;
+$menu-book-width: 19px;
+$menu-book-height: 18px;
+$menu-book-total-width: 153px;
+$menu-book-total-height: 139px;
+$menu-book-image: '../img/png_sprite/sprite.png';
+$menu-book: (93px, 96px, -93px, -96px, 19px, 18px, 153px, 139px, '../img/png_sprite/sprite.png', 'menu-book', );
+$menu-burger-name: 'menu-burger';
+$menu-burger-x: 112px;
+$menu-burger-y: 96px;
+$menu-burger-offset-x: -112px;
+$menu-burger-offset-y: -96px;
+$menu-burger-width: 16px;
+$menu-burger-height: 10px;
+$menu-burger-total-width: 153px;
+$menu-burger-total-height: 139px;
+$menu-burger-image: '../img/png_sprite/sprite.png';
+$menu-burger: (112px, 96px, -112px, -96px, 16px, 10px, 153px, 139px, '../img/png_sprite/sprite.png', 'menu-burger', );
+$menu-house-name: 'menu-house';
+$menu-house-x: 128px;
+$menu-house-y: 35px;
+$menu-house-offset-x: -128px;
+$menu-house-offset-y: -35px;
+$menu-house-width: 16px;
+$menu-house-height: 16px;
+$menu-house-total-width: 153px;
+$menu-house-total-height: 139px;
+$menu-house-image: '../img/png_sprite/sprite.png';
+$menu-house: (128px, 35px, -128px, -35px, 16px, 16px, 153px, 139px, '../img/png_sprite/sprite.png', 'menu-house', );
+$menu-man-name: 'menu-man';
+$menu-man-x: 128px;
+$menu-man-y: 17px;
+$menu-man-offset-x: -128px;
+$menu-man-offset-y: -17px;
+$menu-man-width: 16px;
+$menu-man-height: 18px;
+$menu-man-total-width: 153px;
+$menu-man-total-height: 139px;
+$menu-man-image: '../img/png_sprite/sprite.png';
+$menu-man: (128px, 17px, -128px, -17px, 16px, 18px, 153px, 139px, '../img/png_sprite/sprite.png', 'menu-man', );
+$menu-map-name: 'menu-map';
+$menu-map-x: 0px;
+$menu-map-y: 125px;
+$menu-map-offset-x: 0px;
+$menu-map-offset-y: -125px;
+$menu-map-width: 18px;
+$menu-map-height: 14px;
+$menu-map-total-width: 153px;
+$menu-map-total-height: 139px;
+$menu-map-image: '../img/png_sprite/sprite.png';
+$menu-map: (0px, 125px, 0px, -125px, 18px, 14px, 153px, 139px, '../img/png_sprite/sprite.png', 'menu-map', );
+$menu-sale-name: 'menu-sale';
+$menu-sale-x: 128px;
+$menu-sale-y: 0px;
+$menu-sale-offset-x: -128px;
+$menu-sale-offset-y: 0px;
+$menu-sale-width: 17px;
+$menu-sale-height: 17px;
+$menu-sale-total-width: 153px;
+$menu-sale-total-height: 139px;
+$menu-sale-image: '../img/png_sprite/sprite.png';
+$menu-sale: (128px, 0px, -128px, 0px, 17px, 17px, 153px, 139px, '../img/png_sprite/sprite.png', 'menu-sale', );
+$ok-name: 'ok';
+$ok-x: 119px;
+$ok-y: 68px;
+$ok-offset-x: -119px;
+$ok-offset-y: -68px;
+$ok-width: 9px;
+$ok-height: 15px;
+$ok-total-width: 153px;
+$ok-total-height: 139px;
+$ok-image: '../img/png_sprite/sprite.png';
+$ok: (119px, 68px, -119px, -68px, 9px, 15px, 153px, 139px, '../img/png_sprite/sprite.png', 'ok', );
+$phone-name: 'phone';
+$phone-x: 73px;
+$phone-y: 96px;
+$phone-offset-x: -73px;
+$phone-offset-y: -96px;
+$phone-width: 20px;
+$phone-height: 20px;
+$phone-total-width: 153px;
+$phone-total-height: 139px;
+$phone-image: '../img/png_sprite/sprite.png';
+$phone: (73px, 96px, -73px, -96px, 20px, 20px, 153px, 139px, '../img/png_sprite/sprite.png', 'phone', );
+$ping-pong-name: 'ping-pong';
+$ping-pong-x: 96px;
+$ping-pong-y: 0px;
+$ping-pong-offset-x: -96px;
+$ping-pong-offset-y: 0px;
+$ping-pong-width: 32px;
+$ping-pong-height: 32px;
+$ping-pong-total-width: 153px;
+$ping-pong-total-height: 139px;
+$ping-pong-image: '../img/png_sprite/sprite.png';
+$ping-pong: (96px, 0px, -96px, 0px, 32px, 32px, 153px, 139px, '../img/png_sprite/sprite.png', 'ping-pong', );
+$search-name: 'search';
+$search-x: 128px;
+$search-y: 51px;
+$search-offset-x: -128px;
+$search-offset-y: -51px;
+$search-width: 16px;
+$search-height: 16px;
+$search-total-width: 153px;
+$search-total-height: 139px;
+$search-image: '../img/png_sprite/sprite.png';
+$search: (128px, 51px, -128px, -51px, 16px, 16px, 153px, 139px, '../img/png_sprite/sprite.png', 'search', );
+$slider-left-arrow-name: 'slider-left-arrow';
+$slider-left-arrow-x: 128px;
+$slider-left-arrow-y: 67px;
+$slider-left-arrow-offset-x: -128px;
+$slider-left-arrow-offset-y: -67px;
+$slider-left-arrow-width: 14px;
+$slider-left-arrow-height: 14px;
+$slider-left-arrow-total-width: 153px;
+$slider-left-arrow-total-height: 139px;
+$slider-left-arrow-image: '../img/png_sprite/sprite.png';
+$slider-left-arrow: (128px, 67px, -128px, -67px, 14px, 14px, 153px, 139px, '../img/png_sprite/sprite.png', 'slider-left-arrow', );
+$slider-right-arrow-name: 'slider-right-arrow';
+$slider-right-arrow-x: 128px;
+$slider-right-arrow-y: 81px;
+$slider-right-arrow-offset-x: -128px;
+$slider-right-arrow-offset-y: -81px;
+$slider-right-arrow-width: 14px;
+$slider-right-arrow-height: 14px;
+$slider-right-arrow-total-width: 153px;
+$slider-right-arrow-total-height: 139px;
+$slider-right-arrow-image: '../img/png_sprite/sprite.png';
+$slider-right-arrow: (128px, 81px, -128px, -81px, 14px, 14px, 153px, 139px, '../img/png_sprite/sprite.png', 'slider-right-arrow', );
+$soccer-ball-variant-name: 'soccer-ball-variant';
+$soccer-ball-variant-x: 0px;
+$soccer-ball-variant-y: 0px;
+$soccer-ball-variant-offset-x: 0px;
+$soccer-ball-variant-offset-y: 0px;
+$soccer-ball-variant-width: 32px;
+$soccer-ball-variant-height: 32px;
+$soccer-ball-variant-total-width: 153px;
+$soccer-ball-variant-total-height: 139px;
+$soccer-ball-variant-image: '../img/png_sprite/sprite.png';
+$soccer-ball-variant: (0px, 0px, 0px, 0px, 32px, 32px, 153px, 139px, '../img/png_sprite/sprite.png', 'soccer-ball-variant', );
+$swimming-name: 'swimming';
+$swimming-x: 32px;
+$swimming-y: 0px;
+$swimming-offset-x: -32px;
+$swimming-offset-y: 0px;
+$swimming-width: 32px;
+$swimming-height: 32px;
+$swimming-total-width: 153px;
+$swimming-total-height: 139px;
+$swimming-image: '../img/png_sprite/sprite.png';
+$swimming: (32px, 0px, -32px, 0px, 32px, 32px, 153px, 139px, '../img/png_sprite/sprite.png', 'swimming', );
+$user-icon-name: 'user-icon';
+$user-icon-x: 0px;
+$user-icon-y: 96px;
+$user-icon-offset-x: 0px;
+$user-icon-offset-y: -96px;
+$user-icon-width: 29px;
+$user-icon-height: 29px;
+$user-icon-total-width: 153px;
+$user-icon-total-height: 139px;
+$user-icon-image: '../img/png_sprite/sprite.png';
+$user-icon: (0px, 96px, 0px, -96px, 29px, 29px, 153px, 139px, '../img/png_sprite/sprite.png', 'user-icon', );
+$vd-phone-name: 'vd-phone';
+$vd-phone-x: 29px;
+$vd-phone-y: 96px;
+$vd-phone-offset-x: -29px;
+$vd-phone-offset-y: -96px;
+$vd-phone-width: 22px;
+$vd-phone-height: 22px;
+$vd-phone-total-width: 153px;
+$vd-phone-total-height: 139px;
+$vd-phone-image: '../img/png_sprite/sprite.png';
+$vd-phone: (29px, 96px, -29px, -96px, 22px, 22px, 153px, 139px, '../img/png_sprite/sprite.png', 'vd-phone', );
+$vk-name: 'vk';
+$vk-x: 18px;
+$vk-y: 125px;
+$vk-offset-x: -18px;
+$vk-offset-y: -125px;
+$vk-width: 20px;
+$vk-height: 12px;
+$vk-total-width: 153px;
+$vk-total-height: 139px;
+$vk-image: '../img/png_sprite/sprite.png';
+$vk: (18px, 125px, -18px, -125px, 20px, 12px, 153px, 139px, '../img/png_sprite/sprite.png', 'vk', );
+$spritesheet-width: 153px;
+$spritesheet-height: 139px;
+$spritesheet-image: '../img/png_sprite/sprite.png';
+$spritesheet-sprites: ($arrow, $b-line, $ball, $boxing, $buddhist-yoga-pose, $dance-instructor, $dumbbells-rounded-couple-in-silhouettes, $fb, $hand-with-a-dumbbell, $hockey, $inst, $kvstr, $mail-flag, $map-picker, $menu-book, $menu-burger, $menu-house, $menu-man, $menu-map, $menu-sale, $ok, $phone, $ping-pong, $search, $slider-left-arrow, $slider-right-arrow, $soccer-ball-variant, $swimming, $user-icon, $vd-phone, $vk, );
+$spritesheet: (153px, 139px, '../img/png_sprite/sprite.png', $spritesheet-sprites, );
 
-Example usage in HTML:
-
-`display: block` sprite:
-<div class="icon-home"></div>
-
-To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
-
-// CSS
-.icon {
-  display: inline-block;
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
 }
 
-// HTML
-<i class="icon icon-home"></i>
-*/
-.icon-auricular-phone-symbol-in-a-circle {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -128px 0px;
-  width: 128px;
-  height: 128px;
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
 }
-.icon-ball {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -384px 0px;
-  width: 32px;
-  height: 32px;
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
 }
-.icon-book-one {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: 0px -128px;
-  width: 128px;
-  height: 128px;
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
 }
-.icon-book {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -128px -128px;
-  width: 128px;
-  height: 128px;
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
 }
-.icon-bookmark-star {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -256px 0px;
-  width: 128px;
-  height: 128px;
-}
-.icon-books {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -256px -128px;
-  width: 128px;
-  height: 128px;
-}
-.icon-boxing {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -384px -256px;
-  width: 32px;
-  height: 32px;
-}
-.icon-buddhist-yoga-pose {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -384px -160px;
-  width: 32px;
-  height: 32px;
-}
-.icon-dance-instructor {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -384px -128px;
-  width: 32px;
-  height: 32px;
-}
-.icon-discount-sticker-with-percentage {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: 0px 0px;
-  width: 128px;
-  height: 128px;
-}
-.icon-dumbbells-rounded-couple-in-silhouettes {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -384px -32px;
-  width: 32px;
-  height: 32px;
-}
-.icon-hand-with-a-dumbbell {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -384px -64px;
-  width: 32px;
-  height: 32px;
-}
-.icon-hockey {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -384px -96px;
-  width: 32px;
-  height: 32px;
-}
-.icon-menu-interface-symbol-of-four-horizontal-lines-with-dots {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -256px -256px;
-  width: 128px;
-  height: 128px;
-}
-.icon-percentage {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -128px -256px;
-  width: 128px;
-  height: 128px;
-}
-.icon-ping-pong {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -384px -192px;
-  width: 32px;
-  height: 32px;
-}
-.icon-soccer-ball-variant {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -384px -224px;
-  width: 32px;
-  height: 32px;
-}
-.icon-store {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: 0px -256px;
-  width: 128px;
-  height: 128px;
-}
-.icon-swimming {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -384px -288px;
-  width: 32px;
-  height: 32px;
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
 }
