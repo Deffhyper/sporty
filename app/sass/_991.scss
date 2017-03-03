@@ -1,0 +1,11 @@
+@media (max-width: 991px) {
+  body:after {
+    height: 575px;
+  }
+  .page-footer {
+    height: 575px;
+  }
+  .page-footer__mailto {
+    margin-top: 30px;
+  }
+}

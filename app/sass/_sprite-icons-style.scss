@@ -8,3 +8,67 @@
   @include sprite($vk);
   display: inline-block;
 }
+.icon-fb {
+  @include sprite($fb);
+  display: inline-block;
+}
+
+.icon-inst {
+  @include sprite($inst);
+  display: inline-block;
+}
+
+.icon-ok {
+  @include sprite($ok);
+  display: inline-block;
+}
+
+.icon-arrow {
+  @include sprite($arrow);
+  display: inline-block;
+}
+.icon-mail-flag {
+  @include  sprite($mail-flag);
+  display: inline-block;
+  position: absolute;
+  top: -7px;
+  left: 15px;
+}
+.icon-Email {
+  @include sprite($mail);
+  display: block;
+  position: absolute;
+  top: 61px;
+  left: 31px;
+}
+.icon-b-line {
+  @include sprite($b-line);
+  display: inline-block;
+}
+.icon-vd-phone {
+  @include sprite($vd-phone);
+  display: inline-block;
+}
+.icon-kvstr {
+  @include sprite($kvstr);
+  display: inline-block;
+}
+.icon-map-picker {
+  @include sprite($map-picker);
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

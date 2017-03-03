@@ -1,0 +1,15 @@
+@media (max-width: 1199px) {
+  body:after {
+    height: 420px;
+  }
+
+  .page-footer {
+    height: 420px;
+  }
+
+  .page-footer__list {
+    column-count: 2;
+    padding-left: 90px;
+  }
+
+}
