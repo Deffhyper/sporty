@@ -38,7 +38,7 @@
   @include sprite($mail);
   display: block;
   position: absolute;
-  top: 61px;
+  top: 60px;
   left: 31px;
 }
 .icon-b-line {
@@ -57,9 +57,82 @@
   @include sprite($map-picker);
   display: inline-block;
 }
+.icon-user-icon {
+  @include sprite($user-icon);
+  display: inline-block;
+  position: absolute;
+  top: 17px;
+  left: 16px;
+}
 
-
-
+.icon-menu-burger {
+  @include sprite($menu-burger);
+  display: inline-block;
+}
+.icon-menu-man {
+  @include sprite($menu-man);
+  display: inline-block;
+}
+.icon-menu-map {
+  @include sprite($menu-map);
+  display: inline-block;
+}
+.icon-menu-house {
+  @include sprite($menu-house);
+  display: inline-block;
+}
+.icon-menu-sale {
+  @include sprite($menu-sale);
+  display: inline-block;
+}
+.icon-menu-book {
+  @include sprite($menu-book);
+  display: inline-block;
+}
+.icon-search {
+  @include sprite($search);
+  display: inline-block;
+}
+.icon-box-blue {
+  @include sprite($box-blue);
+  display: inline-block;
+}
+.icon-vall-blue {
+  @include sprite($vall-blue);
+  display: inline-block;
+}
+.icon-joga-blue {
+  @include sprite($joga-blue);
+  display: inline-block;
+}
+.icon-swim-blue {
+  @include sprite($swim-blue);
+  display: inline-block;
+}
+.icon-dance-blue {
+  @include sprite($dance-blue);
+  display: inline-block;
+}
+.icon-tennis-blue {
+  @include sprite($tennis-blue);
+  display: inline-block;
+}
+.icon-fitness-blue {
+  @include sprite($fitness-blue);
+  display: inline-block;
+}
+.icon-football-blue {
+  @include sprite($footboll-blue);
+  display: inline-block;
+}
+.icon-hockey-blue {
+  @include sprite($hockey-blue);
+  display: inline-block;
+}
+.icon-gym-blue {
+  @include sprite($gym-blue);
+  display: inline-block;
+}
 
 
 

@@ -38,14 +38,81 @@
                     </div>
 
                     <div class="site-header__favorite">
-                        <a href="#" class="site-header__favorite--star">&#9733;</a>
+                        <a href="javascript:void(0)" class="site-header__favorite--star">&#9733;</a>
                         <span class="site-header__favorite--counter">15</span>
                     </div>
 
                     <div class="site-header__add">
-                        <a href="#" class="btn">Добавить объект</a>
+                        <a href="javascript:void(0)" class="btn">Добавить объект</a>
+                    </div>
+
+                    <div class="site-header__login">
+                        <i class="icon-user-icon"></i>
+                        <p>Личный кабинет,</p>
+                        <a href="#">Войти</a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="site-header--menu">
+            <nav class=" container navbar">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="navbar-nav">
+                            <li>
+                                <a href="javascript:void(0)"><i class="icon-menu-burger"></i>Виды спорта</a>
+                                <div class="site-header__main-menu">
+                                    <div class="main-menu__left">
+                                        <p class="main-menu__left-title">Популярные виды:</p>
+                                        <ul class="main-menu__left-list">
+                                            <li><i class="icon-box-blue"></i><a href="#">Бокс</a></li>
+                                            <li><i class="icon-vall-blue"></i><a href="#">Волейбол</a></li>
+                                            <li><i class="icon-joga-blue"></i><a href="#">Йога</a></li>
+                                            <li><i class="icon-swim-blue"></i><a href="#">Плавание</a></li>
+                                            <li><i class="icon-dance-blue"></i><a href="#">Танцы</a></li>
+                                            <li><i class="icon-tennis-blue"></i><a href="#">Теннис</a></li>
+                                            <li><i class="icon-fitness-blue"></i><a href="#">Фитнес</a></li>
+                                            <li><i class="icon-football-blue"></i><a href="#">Футбол</a></li>
+                                            <li><i class="icon-hockey-blue"></i><a href="#">Хоккей</a></li>
+                                            <li><i class="icon-gym-blue"></i><a href="#">Спортзалы</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="main-menu__right">
+
+                                    </div>
+                                    <div class="main-menu__bottom">
+
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li><a href="javascript:void(0)"><i class="icon-menu-man"></i>Тренеры</a></li>
+                            <li><a href="javascript:void(0)"><i class="icon-menu-map"></i>Аренда</a></li>
+                            <li><a href="javascript:void(0)"><i class="icon-menu-house"></i>Спортивные магазины</a></li>
+                            <li><a href="javascript:void(0)"><i class="icon-menu-sale"></i>Aкции</a></li>
+                            <li><a href="javascript:void(0)"><i class="icon-menu-book"></i>Блог</a></li>
+                        </ul>
+                        <form class="navbar-right site-header__search">
+                            <fieldset id="search-field">
+                                <input type="search">
+                                <button type="submit" class="btn"><i class="icon-search"></i></button>
+                            </fieldset>
+                            <a href="#" id="search-trigger"><i class="icon-search"></i></a>
+                        </form>
+                    </div>
+                    <!--/.nav-collapse -->
+
+
+                </div>
+            </nav>
         </div>
     </header>

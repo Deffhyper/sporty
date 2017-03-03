@@ -29,6 +29,11 @@ ol, ul {
   margin: 0;
   padding: 0;
 }
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
 
 *,
 *::before,
@@ -314,8 +319,239 @@ body:after {
       }
     }
   }
+
+  &__login {
+    border: 1px dashed #d0d0d0;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 15px 10px 60px;
+    p {
+      color: #222222;
+      font-size: 14px;
+      font-family: $OS-Light-font;
+      margin-bottom: 0;
+    }
+    a {
+      color: $accent;
+      text-decoration: none;
+      border-bottom: 1px dotted $accent;
+      display: inline-block;
+      line-height: 1.1;
+    }
+  }
+
+  &--menu {
+    background-color: $accent;
+    height: 60px;
+    .navbar-collapse.in {
+      position: relative;
+      z-index: 1;
+      background: #fff;
+    }
+    .navbar-nav {
+      height: 60px;
+      &>li>a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: $OS-Bold-font;
+        text-decoration: none;
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+        i {
+          margin-right: 15px;
+
+        }
+      }
+      &>li>a {
+        display: inline-block;
+        padding: 20px 0 20px 30px;
+        position: relative;
+        i {
+          position: absolute;
+          top: 20px;
+          left: 0;
+        }
+        .icon-menu-burger {
+          top: 24px;
+        }
+        .icon-menu-map {
+          top: 22px;
+        }
+      }
+      &>li:not(:last-child) {
+        margin-right: 40px;
+        position: inherit;
+
+        a:before {
+          content: '';
+          display: block;
+          background-color: #0c89e8;
+          height: 14px;
+          width: 1px;
+          position: absolute;
+          top: 23px;
+          right: -23px;
+        }
+      }
+      &>li:first-child {
+        &>a:after {
+          content: "";
+          display: block;
+          width: 100%;
+          position: absolute;
+          bottom: 1px;
+          left: 0;
+          right: 0;
+          border-bottom: 4px solid transparent;
+          transition: .3s ease;
+
+        }
+        &:hover > a:after {
+          border-bottom-color: $button-color;
+        }
+
+      }
+    }
+    .navbar-right {
+      margin-right: 0;
+    }
+  }
+  &__search {
+    padding: 13px 0;
+    position: relative;
+    
+    input {
+      height: 32px;
+      padding-left: 10px;
+    }
+    .btn {
+      i {
+        position: relative;
+        top: 3px;
+      }
+    }
+  }
+
+  &__main-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: auto;
+    min-height: 300px;
+    background-color: #fff;
+    z-index: 10;
+    padding: 36px;
+    &>div {
+      display: inline-block;
+      margin: 0 -4px;
+    }
+    a:before{
+      content: none !important;;
+    }
+    a:after{
+      content: none !important;
+    }
+  }
 }
 
+.main-menu__left {
+  width: 25%;
+
+}
+.main-menu__right {
+  width: 75%;
+}
+
+.main-menu__bottom {
+  width: 100%;
+}
+
+.main-menu__left-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: $OS-Bold-font;
+  color: #222;
+}
+
+.main-menu__left-list {
+  border-right: 1px solid #e8e8e8;
+  li {
+    padding-left: 30px;
+    position: relative;
+    line-height: 2.7;
+
+    a {
+      font-family: $OS-PTSansReg-font;
+      color: #066ab6;
+      text-decoration: none;
+      border-bottom: 1px dotted #066ab6;
+      font-size: 20px;
+      transition: .3s ease;
+      display: inline-block;
+      line-height: 1;
+      &:hover {
+        border-bottom-color: transparent;
+      }
+    }
+  }
+
+  i {
+    position: absolute;
+    top: 11px;
+    left: 0;
+  }
+}
+
+#search-field {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 255px;
+  background: #fff;
+  padding: 3px 0;
+  z-index: 10;
+  border: 1px solid lightgray;
+}
+#search-trigger {
+  position: relative;
+  top: 7px;
+}
+
+.block-with-back {
+  background: url("../img/jpeg_files/bg-special.png");
+  height: 700px;
+  box-shadow: inset 0 0 15px 0 rgba(0, 1, 1, 0.3);
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    height: 12px;
+    background: url("../img/jpeg_files/border-top.png") repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  &:before {
+    content: '';
+    display: block;
+    height: 12px;
+    background: url("../img/jpeg_files/border-bottom.png") repeat-x;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
 
 
 
