@@ -31,7 +31,7 @@
                     <div class="site-header__location">
                         <i class="icon-map-picker"></i>
                         <span>Ваш город: </span>
-                        <a href="#">
+                        <a href="#city-choice" data-toggle="modal" data-target="#city-choice">
                             <span>Киев</span>
                             <span class="icon-arrow"></span>
                         </a>
@@ -87,10 +87,86 @@
                                         </ul>
                                     </div>
                                     <div class="main-menu__right">
-
+                                        <div class="main-menu__right--item">
+                                            <a href="#">A</a>
+                                            <ul>
+                                                <li><a href="#">Автоспорт и мотоспорт<span>(10)</span></a></li>
+                                                <li><a href="#">Айкидо<span>(15)</span></a></li>
+                                                <li><a href="#">Аквааэробика<span>(6)</span></a></li>
+                                                <li><a href="#">Акробатика<span>(3)</span></a></li>
+                                                <li><a href="#">Альпинизм<span>(30)</span></a></li>
+                                                <li><a href="#">Армреслинг<span>(90)</span></a></li>
+                                                <li><a href="#">Аэробика<span>(90)</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="main-menu__right--item">
+                                            <a href="#">Б</a>
+                                            <ul>
+                                                <li><a href="#">Бадбинтон<span>(3)</span></a></li>
+                                                <li><a href="#">Баскетбол<span>(20)</span></a></li>
+                                                <li><a href="#">Биатлон<span>(6)</span></a></li>
+                                                <li><a href="#">Бильярд <span>(3)</span></a></li>
+                                                <li><a href="#">Бодибилдинг<span>(30)</span></a></li>
+                                                <li><a href="#">Бокс<span>(90)</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="main-menu__right--item">
+                                            <a href="#">B</a>
+                                            <ul>
+                                                <li><a href="#">Велоспорт<span>(2)</span></a></li>
+                                                <li><a href="#">Водное поло<span>(3)</span></a></li>
+                                                <li><a href="#">Волейбол<span>(26)</span></a></li>
+                                                <li><a href="#">Вьет Во Дао<span>(1)</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="main-menu__right--item">
+                                            <a href="#">Г</a>
+                                            <ul>
+                                                <li><a href="#">Гандбол <span>(2)</span></a></li>
+                                                <li><a href="#">Гимнастика для беременных<span>(3)</span></a></li>
+                                                <li><a href="#">Гимнастика дыхательная<span>(26)</span></a></li>
+                                                <li><a href="#">Гимнастика оздоровительная<span>(50)</span></a></li>
+                                                <li><a href="#">Гимнастика спортивная<span>(3)</span></a></li>
+                                                <li><a href="#">Гимнастика художественная<span>(9)</span></a></li>
+                                                <li><a href="#">Гимнастика оздоровительная<span>(44)</span></a></li>
+                                                <li><a href="#">Гольф<span>(2)</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="main-menu__right--item">
+                                            <a href="#">Д</a>
+                                            <ul>
+                                                <li><a href="#">Дайвинг<span>(12)</span></a></li>
+                                                <li><a href="#">Дартс<span>(3)</span></a></li>
+                                                <li><a href="#">Джиу-джитсу<span>(16)</span></a></li>
+                                                <li><a href="#">Дзюдо<span>(10)</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="main-menu__right--item">
+                                            <a href="#">Е</a>
+                                            <ul>
+                                                <li><a href="#">Единоборства<span>(2)</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="main-menu__right--item">
+                                            <a href="#">Й</a>
+                                            <ul>
+                                                <li><a href="#">Йога<span>(24)</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="main-menu__right--item">
+                                            <a href="#">К</a>
+                                            <ul>
+                                                <li><a href="#">Капоэйра<span>(12)</span></a></li>
+                                                <li><a href="#">Карате <span>(3)</span></a></li>
+                                                <li><a href="#">Картинг<span>(16)</span></a></li>
+                                                <li><a href="#">Кёрлинг<span>(10)</span></a></li>
+                                                <li><a href="#">Кикбоксинг<span>(10)</span></a></li>
+                                                <li><a href="#">Кобудо<span>(10)</span></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                     <div class="main-menu__bottom">
-
+                                        <i class="icon-all-lines"></i><a href="#">Весь список секций</a>
                                     </div>
 
                                 </div>

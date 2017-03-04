@@ -133,6 +133,14 @@
   @include sprite($gym-blue);
   display: inline-block;
 }
+.icon-all-lines {
+  @include sprite($all-lines);
+  display: inline-block;
+}
+.icon-close-modal {
+  @include sprite($close-modal);
+  display: inline-block;
+}
 
 
 

@@ -57,6 +57,49 @@
     </div>
 </div>
 
+<!-- Modal -->
+<div id="city-choice" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="icon-close-modal"></i></button>
+                <h4 class="modal-title">Выберите Ваш город:</h4>
+            </div>
+            <div class="modal-body">
+                <ul class="city-choice__list">
+                    <li class="city-checked"><a href="#">Киев</a></li>
+                    <li><a href="#">Харьков</a></li>
+                    <li><a href="#">Одесса</a></li>
+                    <li><a href="#">Днепропетровск</a></li>
+                    <li><a href="#">Донецк</a></li>
+                    <li><a href="#">Запорожье</a></li>
+                    <li><a href="#">Львов</a></li>
+                    <li><a href="#">Чернигов</a></li>
+                    <li><a href="#">Полтава</a></li>
+                    <li><a href="#">Черкассы</a></li>
+                    <li><a href="#">Горловка</a></li>
+                    <li><a href="#">Житомир</a></li>
+                    <li><a href="#">Сумы</a></li>
+                    <li><a href="#">Хмельницкий</a></li>
+                    <li><a href="#">Луцк</a></li>
+                    <li><a href="#">Белая Церковь</a></li>
+                    <li><a href="#">Краматорск</a></li>
+                    <li><a href="#">Мелитополь</a></li>
+                    <li><a href="#">Ужгород</a></li>
+                    <li><a href="#">Никополь</a></li>
+                    <li><a href="#">Славянск</a></li>
+                </ul>
+            </div>
+            <div class="modal-footer main-menu__bottom">
+                <i class="icon-all-lines"></i><a href="#">Весь список секций</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
 <script src="js/libs.min.js"></script>
 <script src="js/common.js"></script>
 
