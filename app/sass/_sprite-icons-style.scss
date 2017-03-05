@@ -30,9 +30,6 @@
 .icon-mail-flag {
   @include  sprite($mail-flag);
   display: inline-block;
-  position: absolute;
-  top: -7px;
-  left: 15px;
 }
 .icon-Email {
   @include sprite($mail);
@@ -60,9 +57,6 @@
 .icon-user-icon {
   @include sprite($user-icon);
   display: inline-block;
-  position: absolute;
-  top: 17px;
-  left: 16px;
 }
 
 .icon-menu-burger {
@@ -140,6 +134,48 @@
 .icon-close-modal {
   @include sprite($close-modal);
   display: inline-block;
+}
+.icon-fb-big {
+  @include sprite($fb-big);
+  display: inline-block;
+}
+.icon-vk-big {
+  @include sprite($vk-big);
+  display: inline-block;
+}
+.icon-google-big {
+  @include sprite($google-big);
+  display: inline-block;
+}
+.icon-sticker {
+  @include sprite($sticker);
+  display: inline-block;
+}
+.icon-clock {
+  @include sprite($clock);
+  display: inline-block;
+}
+.icon-gray-burger {
+  @include sprite($gray-burger);
+  display: inline-block;
+}
+.icon-gray-man {
+  @include sprite($gray-man);
+  display: inline-block;
+}
+.icon-gray-map {
+  @include sprite($gray-map);
+  display: inline-block;
+}
+.icon-gray-house {
+  @include sprite($gray-house);
+  display: inline-block;
+}
+.icon-gray-sale {
+  @include sprite($gray-sale);
+  display: inline-block;
+  position: relative;
+  top: 3px;
 }
 
 

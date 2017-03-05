@@ -12,4 +12,51 @@
     padding-left: 90px;
   }
 
+  .form-group {
+    float: left;
+    width: 100%;
+  }
+  .form-group--item {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btn-group.bootstrap-select.custom-select.left-round,
+  .btn-group.bootstrap-select.custom-select.no-round,
+  .btn-group.bootstrap-select.custom-select.right-round{
+    width: 100%;
+    border-right:none;
+  }
+  .custom-select.right-round .btn.dropdown-toggle.btn-default,
+  .custom-select.left-round .btn.dropdown-toggle.btn-default,
+  .custom-select.no-round .btn.dropdown-toggle.btn-default{
+    border-radius: 3px;
+  }
+  .filter-button {
+    width: 100%;
+  }
+  .indicator {
+    display: none;
+  }
+  .site-top-filter {
+    padding: 25px 0 60px;
+  }
+  .site-top-filter__title {
+    margin-bottom: 30px;
+  }
+  .page-footer__mailto .icon-mail-flag {
+    left: 0;
+  }
+  .modal-dialog--big {
+    width: 98%;
+  }
+  .site-header__main-menu {
+    padding: 20px 20px 45px;
+  }
+  .site-header__tel,
+  .site-header__favorite{
+    margin-right: 5px;
+  }
+
+
 }

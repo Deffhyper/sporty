@@ -12,16 +12,16 @@
                         <div class="form-group">
                             <div class="form-group--item">
                                 <select class="custom-select left-round">
-                                    <option value="1">Спортивные объекты</option>
-                                    <option value="2">Тренеры</option>
-                                    <option value="3">Аренда</option>
-                                    <option value="4">Спортивные магазины</option>
-                                    <option value="5">Акции</option>
+                                    <option value="1" data-icon="icon-gray-burger">Спортивные объекты</option>
+                                    <option value="2" data-icon="icon-gray-man">Тренеры</option>
+                                    <option value="3" data-icon="icon-gray-map">Аренда</option>
+                                    <option value="4" data-icon="icon-gray-house">Спортивные магазины</option>
+                                    <option value="5 "data-icon="icon-gray-sale">Акции</option>
                                 </select>
                             </div>
 
                             <div class="form-group--item">
-                                <select class="custom-select no-round">
+                                <select id="modal-select" class="custom-select no-round">
                                     <option value="1">Выберите направление спорта</option>
                                     <option value="2">Футбол</option>
                                     <option value="3">Волейбол</option>
@@ -102,86 +102,86 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h4 class="section-block__title">Спортивные акции Киев</h4>
-                    <div class="slider-five">
+                    <div class="goods-slider">
                         <div>
-                            <div class="slider-five__item">
-                                <div class="slider-five__item--foto">
+                            <div class="goods-slider__item">
+                                <div class="goods-slider__item--foto">
                                     <a href="#">
                                         <span class="icon-sticker"><span>11%</span></span>
                                         <img src="img/jpeg_files/slider-foto-1.png" alt="picture">
                                     </a>
                                 </div>
-                                <div class="slider-five__item--link">
+                                <div class="goods-slider__item--link">
                                     <a href="#">Скидка 50% на все абонементы</a>
                                 </div>
 
                             </div>
                         </div>
                         <div>
-                            <div class="slider-five__item">
-                                <div class="slider-five__item--foto">
+                            <div class="goods-slider__item">
+                                <div class="goods-slider__item--foto">
                                     <a href="#">
                                         <span class="icon-sticker"><span>11%</span></span>
                                         <img src="img/jpeg_files/slider-foto-2.png" alt="picture">
                                     </a>
                                 </div>
-                                <div class="slider-five__item--link">
+                                <div class="goods-slider__item--link">
                                     <a href="#">Скидка 50% на все абонементы</a>
                                 </div>
 
                             </div>
                         </div>
                         <div>
-                            <div class="slider-five__item">
-                                <div class="slider-five__item--foto">
+                            <div class="goods-slider__item">
+                                <div class="goods-slider__item--foto">
                                     <a href="#">
                                         <span class="icon-sticker"><span>11%</span></span>
                                         <img src="img/jpeg_files/slider-foto-3.png" alt="picture">
                                     </a>
                                 </div>
-                                <div class="slider-five__item--link">
+                                <div class="goods-slider__item--link">
                                     <a href="#">Скидка 50% на все абонементы</a>
                                 </div>
 
                             </div>
                         </div>
                         <div>
-                            <div class="slider-five__item">
-                                <div class="slider-five__item--foto">
+                            <div class="goods-slider__item">
+                                <div class="goods-slider__item--foto">
                                     <a href="#">
                                         <span class="icon-sticker"><span>11%</span></span>
                                         <img src="img/jpeg_files/slider-foto-4.png" alt="picture">
                                     </a>
                                 </div>
-                                <div class="slider-five__item--link">
+                                <div class="goods-slider__item--link">
                                     <a href="#">Скидка 50% на все абонементы</a>
                                 </div>
 
                             </div>
                         </div>
                         <div>
-                            <div class="slider-five__item">
-                                <div class="slider-five__item--foto">
+                            <div class="goods-slider__item">
+                                <div class="goods-slider__item--foto">
                                     <a href="#">
                                         <span class="icon-sticker"><span>11%</span></span>
                                         <img src="img/jpeg_files/slider-foto-5.png" alt="picture">
                                     </a>
                                 </div>
-                                <div class="slider-five__item--link">
+                                <div class="goods-slider__item--link">
                                     <a href="#">Скидка 50% на все абонементы</a>
                                 </div>
 
                             </div>
                         </div>
                         <div>
-                            <div class="slider-five__item">
-                                <div class="slider-five__item--foto">
+                            <div class="goods-slider__item">
+                                <div class="goods-slider__item--foto">
                                     <a href="#">
                                         <span class="icon-sticker"><span>11%</span></span>
                                         <img src="img/jpeg_files/slider-foto-1.png" alt="picture">
                                     </a>
                                 </div>
-                                <div class="slider-five__item--link">
+                                <div class="goods-slider__item--link">
                                     <a href="#">Скидка 50% на все абонементы</a>
                                 </div>
 
@@ -201,6 +201,89 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h4 class="section-block__title">Спортивные новости Киев</h4>
+                    <div class="news-slider">
+                        <div>
+                            <div class="news-slider__item">
+                                <div class="news-slider__item--foto">
+                                    <a href="#">
+                                        <span class="time-sticker">
+                                            <i class="icon-clock"></i>
+                                            <time datetime="20.02.2017">20.02.2017</time>
+                                        </span>
+                                        <img src="img/jpeg_files/slider-foto-6.png" alt="news picture">
+                                    </a>
+                                </div>
+                                <div class="news-slider__item--link">
+                                    <a href="#">Тайсон Фьюри и ещё дюжина бойцов, проваливших допинг-тесты</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="news-slider__item">
+                                <div class="news-slider__item--foto">
+                                    <a href="#">
+                                        <span class="time-sticker">
+                                            <i class="icon-clock"></i>
+                                            <time datetime="20.02.2017">20.02.2017</time>
+                                        </span>
+                                        <img src="img/jpeg_files/slider-foto-7.png" alt="news picture">
+                                    </a>
+                                </div>
+                                <div class="news-slider__item--link">
+                                    <a href="#">14 рекордов, которые могут быть побиты по итогам регулярным КХЛ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="news-slider__item">
+                                <div class="news-slider__item--foto">
+                                    <a href="#">
+                                        <span class="time-sticker">
+                                            <i class="icon-clock"></i>
+                                            <time datetime="20.02.2017">20.02.2017</time>
+                                        </span>
+                                        <img src="img/jpeg_files/slider-foto-8.png" alt="news picture">
+                                    </a>
+                                </div>
+                                <div class="news-slider__item--link">
+                                    <a href="#">Квят в «Храме скорости»: удар
+                                        по днищу и слухи от Гасли</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="news-slider__item">
+                                <div class="news-slider__item--foto">
+                                    <a href="#">
+                                        <span class="time-sticker">
+                                            <i class="icon-clock"></i>
+                                            <time datetime="20.02.2017">20.02.2017</time>
+                                        </span>
+                                        <img src="img/jpeg_files/slider-foto-9.png" alt="news picture">
+                                    </a>
+                                </div>
+                                <div class="news-slider__item--link">
+                                    <a href="#">Вальбуэна хоронит бывший клуб. Экс-легионеры РФПЛ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="news-slider__item">
+                                <div class="news-slider__item--foto">
+                                    <a href="#">
+                                        <span class="time-sticker">
+                                            <i class="icon-clock"></i>
+                                            <time datetime="20.02.2017">20.02.2017</time>
+                                        </span>
+                                        <img src="img/jpeg_files/slider-foto-6.png" alt="news picture">
+                                    </a>
+                                </div>
+                                <div class="news-slider__item--link">
+                                    <a href="#">Тайсон Фьюри и ещё дюжина бойцов, проваливших допинг-тесты</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="section-block__link">
                         <a href="#" class="link-button">Все новости</a>
                     </div>

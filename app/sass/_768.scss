@@ -22,4 +22,113 @@
     padding-left: 10px;
   }
 
-}
+  .link-list {
+    column-count: 1;
+    display: table;
+    margin: 0 auto;
+  }
+
+  .goods-slider, .news-slider {
+    max-width: 300px;
+    margin: 0 auto 30px;
+  }
+
+  .site-header--top {
+    padding: 15px 15px 10px;
+  }
+  .navbar-header {
+    padding: 0 15px;
+    margin-left: 10px;
+  }
+  .site-header--menu .navbar-right {
+    position: absolute;
+    right: 20px;
+    top: 3px;
+  }
+  .site-header--menu .navbar-nav {
+    top: 53px;
+    width: 100%;
+  }
+  .site-header__main-menu > div {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+  .site-header--menu .navbar-nav li {
+    width: 100%;
+    display: inline-block;
+  }
+  .site-header--menu .navbar-nav > li:not(:last-child) {
+    width: 100%;
+  }
+  .main-menu__left-list {
+    border-right: none;
+    margin-bottom: 15px;
+  }
+  .main-menu__right {
+    width: 100%;
+    padding: 0;
+    column-count: 1;
+    column-gap: 0;
+  }
+  .site-header__logo {
+    max-width: 130px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .site-header__login {
+    margin-top: 0;
+    position: absolute;
+    right: 13px;
+    top: 0;
+  }
+  .for-mob-group {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 11px;
+  }
+  .modal-dialog {
+    max-width: 90%;
+  }
+  .city-choice__list {
+    column-count: 1;
+    column-gap: 0;
+  }
+  .modal-block.modal-block__left {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .modal__social {
+    text-align: center;
+  }
+  .modal-title__small {
+    text-align: center;
+  }
+  .site-top-filter__title {
+    font-size: 24px;
+  }
+  .site-header__tel--handler .icon-arrow {
+    left: 0px;
+  }
+  .slick-arrow.slick-prev {
+    left: 0;
+    opacity: .5;
+  }
+  .slick-arrow.slick-next {
+    right: 0;
+    opacity: .5;
+  }
+  .goods-slider, .news-slider {
+    margin: 0 auto 15px;
+  }
+  .md-padding {
+    padding: 15px 0;
+  }
+
+
+
+
+  }

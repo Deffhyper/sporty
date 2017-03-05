@@ -57,7 +57,118 @@
     </div>
 </div>
 
-<!-- Modal -->
+<!-- Modal login-->
+<div id="logIn" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="icon-close-modal"></i></button>
+                <h4 class="modal-title">Добро пожаловать!</h4>
+            </div>
+            <div class="container-fluid">
+                <div class="row modal-body-wrapper">
+                    <div class="col-sm-6 modal-block modal-block__left">
+                        <h5 class="modal-title__small">Личный кабинет</h5>
+                        <form action="#" class="logIn__form">
+                            <input type="email" class="input-round-border input-md input-md-margin" placeholder="Ваш e-mail">
+                            <input type="password" class="input-round-border input-md input-md-margin" placeholder="Пароль">
+                            <a href="#" class="modal-link">Забыли пароль?</a>
+                            <button class="btn btn-big">Войти</button>
+                        </form>
+                    </div>
+
+                    <div class="col-sm-6 modal-block modal-block__right">
+                        <h5 class="modal-title__small">Вход через профиль</h5>
+                        <ul class="modal__social">
+                            <li><a href="#"><i class="icon-fb-big"></i></a></li>
+                            <li><a href="#"><i class="icon-vk-big"></i></a></li>
+                            <li><a href="#"><i class="icon-google-big"></i></a></li>
+                        </ul>
+                        <p class="modal-inform">Нет аккаунта?</p>
+                        <p class="modal-inform"><a href="#" class="modal-link">Зарегистрироваться</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal register-->
+<div id="register" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="icon-close-modal"></i></button>
+                <h4 class="modal-title">Добро пожаловать!</h4>
+            </div>
+            <div class="container-fluid">
+                <div class="row modal-body-wrapper">
+                    <div class="col-sm-6 modal-block modal-block__left">
+                        <h5 class="modal-title__small">Личный кабинет</h5>
+                        <form action="#" class="register__form">
+                            <fieldset class="input-md-margin pseudo-placeholder">
+                                <input type="text" id="user-name" class="input-round-border input-md">
+                                <label for="user-name">Ваше имя <span>*</span></label>
+                            </fieldset>
+
+                            <fieldset class="input-md-margin pseudo-placeholder">
+                                <input type="email" id="user-email" class="input-round-border input-md">
+                                <label for="user-email">Ваш e-mail <span>*</span></label>
+                            </fieldset>
+
+                            <fieldset class="input-md-margin pseudo-placeholder">
+                                <input type="password" id="user-pass" class="input-round-border input-md">
+                                <label for="user-pass">Пароль <span>*</span></label>
+                            </fieldset>
+
+                            <fieldset class="input-md-margin pseudo-placeholder">
+                                <input type="password" id="user-confirm-pass" class="input-round-border input-md">
+                                <label for="user-confirm-pass">Повторите пароль <span>*</span></label>
+                            </fieldset>
+
+                            <fieldset class="input-md-margin pseudo-placeholder">
+                                <input type="tel" id="user-tel" class="input-round-border input-md ">
+                                <label for="user-tel" class="pseudo-placeholder">+38 (0__)  ___ - __ -___<span>*</span></label>
+                            </fieldset>
+
+                            <fieldset class="input-md-margin custom-checkbox">
+                                <input type="checkbox" id="user-confirm-rules">
+                                <label for="user-confirm-rules" class="text-small text-light">Регистрируясь на сайте , я соглашаюсь <a href="#" class="link">с условиями конфиденциальности</a></label>
+                            </fieldset>
+                            
+                            <fieldset class="custom-radio">
+                                <input type="radio" id="user-owner"  name="user-choice">
+                                <label for="user-owner">Владелец объекта или тренер</label>
+                            </fieldset>
+
+                            <fieldset class="custom-radio">
+                                <input type="radio" id="user-simple"  name="user-choice">
+                                <label for="user-simple">Пользователь</label>
+                            </fieldset>
+
+                            <button type="submit" class="btn btn-big">Зарегистрироваться</button>
+                        </form>
+                    </div>
+
+                    <div class="col-sm-6 modal-block modal-block__right">
+                        <h5 class="modal-title__small">Вход через профиль</h5>
+                        <ul class="modal__social">
+                            <li><a href="#"><i class="icon-fb-big"></i></a></li>
+                            <li><a href="#"><i class="icon-vk-big"></i></a></li>
+                            <li><a href="#"><i class="icon-google-big"></i></a></li>
+                        </ul>
+                        <p class="modal-inform">Нет аккаунта?</p>
+                        <p class="modal-inform"><a href="#" class="modal-link">Зарегистрироваться</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal city-choice -->
 <div id="city-choice" class="modal fade" role="dialog">
     <div class="modal-dialog">
         <!-- Modal content-->
@@ -94,11 +205,125 @@
             <div class="modal-footer main-menu__bottom">
                 <i class="icon-all-lines"></i><a href="#">Весь список секций</a>
             </div>
-
         </div>
-
     </div>
 </div>
+
+
+<!-- Modal city-choice -->
+<div id="sort-choice" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog--big">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="icon-close-modal"></i></button>
+                <h4 class="modal-title">Выберите интересующее вас направление:</h4>
+            </div>
+            <div class="site-header__main-menu">
+                <div class="main-menu__left">
+                    <p class="main-menu__left-title">Популярные виды:</p>
+                    <ul class="main-menu__left-list">
+                        <li><i class="icon-box-blue"></i><a href="#">Бокс</a></li>
+                        <li><i class="icon-vall-blue"></i><a href="#">Волейбол</a></li>
+                        <li><i class="icon-joga-blue"></i><a href="#">Йога</a></li>
+                        <li><i class="icon-swim-blue"></i><a href="#">Плавание</a></li>
+                        <li><i class="icon-dance-blue"></i><a href="#">Танцы</a></li>
+                        <li><i class="icon-tennis-blue"></i><a href="#">Теннис</a></li>
+                        <li><i class="icon-fitness-blue"></i><a href="#">Фитнес</a></li>
+                        <li><i class="icon-football-blue"></i><a href="#">Футбол</a></li>
+                        <li><i class="icon-hockey-blue"></i><a href="#">Хоккей</a></li>
+                        <li><i class="icon-gym-blue"></i><a href="#">Спортзалы</a></li>
+                    </ul>
+                </div>
+                <div class="main-menu__right">
+                    <div class="main-menu__right--item">
+                        <a href="#">A</a>
+                        <ul>
+                            <li><a href="#">Автоспорт и мотоспорт<span>(10)</span></a></li>
+                            <li><a href="#">Айкидо<span>(15)</span></a></li>
+                            <li><a href="#">Аквааэробика<span>(6)</span></a></li>
+                            <li><a href="#">Акробатика<span>(3)</span></a></li>
+                            <li><a href="#">Альпинизм<span>(30)</span></a></li>
+                            <li><a href="#">Армреслинг<span>(90)</span></a></li>
+                            <li><a href="#">Аэробика<span>(90)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="main-menu__right--item">
+                        <a href="#">Б</a>
+                        <ul>
+                            <li><a href="#">Бадбинтон<span>(3)</span></a></li>
+                            <li><a href="#">Баскетбол<span>(20)</span></a></li>
+                            <li><a href="#">Биатлон<span>(6)</span></a></li>
+                            <li><a href="#">Бильярд <span>(3)</span></a></li>
+                            <li><a href="#">Бодибилдинг<span>(30)</span></a></li>
+                            <li><a href="#">Бокс<span>(90)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="main-menu__right--item">
+                        <a href="#">B</a>
+                        <ul>
+                            <li><a href="#">Велоспорт<span>(2)</span></a></li>
+                            <li><a href="#">Водное поло<span>(3)</span></a></li>
+                            <li><a href="#">Волейбол<span>(26)</span></a></li>
+                            <li><a href="#">Вьет Во Дао<span>(1)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="main-menu__right--item">
+                        <a href="#">Г</a>
+                        <ul>
+                            <li><a href="#">Гандбол <span>(2)</span></a></li>
+                            <li><a href="#">Гимнастика для беременных<span>(3)</span></a></li>
+                            <li><a href="#">Гимнастика дыхательная<span>(26)</span></a></li>
+                            <li><a href="#">Гимнастика оздоровительная<span>(50)</span></a></li>
+                            <li><a href="#">Гимнастика спортивная<span>(3)</span></a></li>
+                            <li><a href="#">Гимнастика художественная<span>(9)</span></a></li>
+                            <li><a href="#">Гимнастика оздоровительная<span>(44)</span></a></li>
+                            <li><a href="#">Гольф<span>(2)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="main-menu__right--item">
+                        <a href="#">Д</a>
+                        <ul>
+                            <li><a href="#">Дайвинг<span>(12)</span></a></li>
+                            <li><a href="#">Дартс<span>(3)</span></a></li>
+                            <li><a href="#">Джиу-джитсу<span>(16)</span></a></li>
+                            <li><a href="#">Дзюдо<span>(10)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="main-menu__right--item">
+                        <a href="#">Е</a>
+                        <ul>
+                            <li><a href="#">Единоборства<span>(2)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="main-menu__right--item">
+                        <a href="#">Й</a>
+                        <ul>
+                            <li><a href="#">Йога<span>(24)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="main-menu__right--item">
+                        <a href="#">К</a>
+                        <ul>
+                            <li><a href="#">Капоэйра<span>(12)</span></a></li>
+                            <li><a href="#">Карате <span>(3)</span></a></li>
+                            <li><a href="#">Картинг<span>(16)</span></a></li>
+                            <li><a href="#">Кёрлинг<span>(10)</span></a></li>
+                            <li><a href="#">Кикбоксинг<span>(10)</span></a></li>
+                            <li><a href="#">Кобудо<span>(10)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-menu__bottom">
+                    <i class="icon-all-lines"></i><a href="#">Весь список секций</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <script src="js/libs.min.js"></script>
 <script src="js/common.js"></script>
