@@ -54,8 +54,10 @@
     background-color: #fff;
     position: absolute;
     top: 60px;
-    z-index: 10;
+    z-index: 11;
+    z-index: 11;
     display: none;
+    box-shadow: 0 9px 20px 3px #000;
     li {
       width: 100%;
       display: block;
@@ -105,6 +107,12 @@
   .site-header--menu .navbar-nav > .with-drop-menu .site-header__main-menu {
     position: relative;
     top: 0;
+  }
+  .site-header--menu .navbar-nav > li:not(:last-child) {
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .site-header__main-menu {
+    box-shadow: none;
   }
   .navbar-header {
     display: block;

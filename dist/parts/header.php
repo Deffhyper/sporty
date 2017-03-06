@@ -20,8 +20,8 @@
                     <div class="for-mob-group">
                         <div class="site-header__tel">
                             <i class="icon-phone"></i>
-                            <a href="tel:8 (800) 757 32 15" class="site-header__tel--title">8 (800) 757 32 15</a>
-                            <a href="#" class="site-header__tel--handler" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a href="tel:8 (800) 757 32 15" class="site-header__tel--title" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">8 (800) 757 32 15</a>
+                            <a href="#" class="site-header__tel--handler">
                                 <span class="icon-arrow"></span>
                             </a>
                             <ul class="dropdown-menu">
@@ -40,8 +40,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="for-mob-group hidden-xs">
-                        <div class="site-header__favorite">
+                    <div class="for-mob-group">
+                        <div class="site-header__favorite hidden-xs">
                             <a href="javascript:void(0)" class="site-header__favorite--star">&#9733;</a>
                             <span class="site-header__favorite--counter">15</span>
                         </div>
@@ -55,7 +55,7 @@
                     <div class="site-header__login">
                         <i class="icon-user-icon"></i>
                         <p>Личный кабинет,</p>
-                        <a href="#register" data-toggle="modal" data-target="#register">Войти</a>
+                        <a href="#logIn" data-toggle="modal" data-target="#logIn">Войти</a>
                     </div>
                 </div>
             </div>

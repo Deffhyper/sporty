@@ -86,7 +86,7 @@
                             <li><a href="#"><i class="icon-google-big"></i></a></li>
                         </ul>
                         <p class="modal-inform">Нет аккаунта?</p>
-                        <p class="modal-inform"><a href="#" class="modal-link">Зарегистрироваться</a></p>
+                        <p class="modal-inform"><a href="#" id="toRegister" class="modal-link" data-toggle="modal" data-target="#register">Зарегистрироваться</a></p>
                     </div>
                 </div>
             </div>

@@ -4,123 +4,24 @@
     <bookmark url="file://$PROJECT_DIR$/app/parts/header.php" line="97" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27c7432-2d14-4c37-8a99-157789600795" name="Default" comment="add section on index.php">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSans-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSans-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSans-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSans-Semibold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSans-SemiboldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSansBold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSansBold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSansLight.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSansLight.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSansRegular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSansRegular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSansSemiBold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSansSemiBold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSansSemiBoldItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/open-sans/OpenSansSemiBoldItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/PTSansBold/PTSansBold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/PTSansBold/PTSansBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/PTSansBold/PTSansBold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/PTSansItalic/PTSansItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/PTSansItalic/PTSansItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/PTSansItalic/PTSansItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/PTSansRegular/PTSansRegular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/PTSansRegular/PTSansRegular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/PTSansRegular/PTSansRegular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/all-lines.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/arrow-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/b-line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/ball.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/bg-special.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/blue-book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/blue-burger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/blue-house.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/blue-man.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/blue-map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/blue-sale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/border-bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/border-image-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/border-image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/border-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/box-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/boxing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/buddhist-yoga-pose.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/checked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/checked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/close-modal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/dance-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/dance-instructor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/dumbbells-rounded-couple-in-silhouettes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/dumbbells-rounded-couple-in-silhouettes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/fb-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/fb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/fitness-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/footboll-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/footer-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/google-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/gray-burger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/gray-house.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/gray-man.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/gray-map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/gray-sale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/gym-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/hand-with-a-dumbbell.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/hockey-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/hockey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/inst.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/joga-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/kvstr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/m-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/mail-flag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/mail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/map-picker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/menu-book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/menu-burger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/menu-house.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/menu-man.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/menu-map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/menu-sale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/ping-pong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/select-burger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/site-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-foto-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-foto-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-foto-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-foto-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-foto-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-foto-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-foto-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-foto-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-foto-9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-left-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/slider-left-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/slider-right-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/slider-right-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/soccer-ball-variant.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_sprite/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/sticker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/swim-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/swimming.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/tennis-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/user-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/vall-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/vd-phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/vk-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/vk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/parts/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/parts/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/libs.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/libs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/main.css" />
+    <list default="true" id="f27c7432-2d14-4c37-8a99-157789600795" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_1200.scss" afterPath="$PROJECT_DIR$/app/sass/_1200.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_768.scss" afterPath="$PROJECT_DIR$/app/sass/_768.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_991.scss" afterPath="$PROJECT_DIR$/app/sass/_991.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_fonts.scss" afterPath="$PROJECT_DIR$/app/sass/_fonts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" afterPath="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_var.scss" afterPath="$PROJECT_DIR$/app/sass/_var.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/common.js" afterPath="$PROJECT_DIR$/dist/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/footer.php" afterPath="$PROJECT_DIR$/app/parts/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/parts/footer.php" afterPath="$PROJECT_DIR$/dist/parts/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/header.php" afterPath="$PROJECT_DIR$/app/parts/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/parts/header.php" afterPath="$PROJECT_DIR$/dist/parts/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.php" afterPath="$PROJECT_DIR$/app/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.php" afterPath="$PROJECT_DIR$/dist/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sporty.iws" />
@@ -146,18 +47,18 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5">
-              <caret line="273" column="23" selection-start-line="273" selection-start-column="23" selection-end-line="273" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.6016771">
+              <caret line="703" column="1" selection-start-line="703" selection-start-column="1" selection-end-line="703" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -166,28 +67,28 @@
       <file leaf-file-name="_768.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_768.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.115385">
-              <caret line="128" column="3" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="3" />
+            <state vertical-scroll-proportion="-5.5272727">
+              <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_991.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_991.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_991.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2142857">
-              <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
+            <state vertical-scroll-proportion="-7.8545456">
+              <caret line="110" column="56" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/parts/header.php">
+      <file leaf-file-name="_1200.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_1200.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.423077">
-              <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+            <state vertical-scroll-proportion="-3.0545454">
+              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -197,7 +98,27 @@
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/parts/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.072727">
+              <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/parts/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.884615">
+              <caret line="88" column="74" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -233,19 +154,19 @@
         <option value="$PROJECT_DIR$/app/parts/header-one.php" />
         <option value="$PROJECT_DIR$/app/parts/head.php" />
         <option value="$PROJECT_DIR$/app/libs/bootstrap/dist/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/app/sass/_fonts.scss" />
-        <option value="$PROJECT_DIR$/app/sass/_var.scss" />
         <option value="$PROJECT_DIR$/app/libs/masked-input/masked-input.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/parts/footer.php" />
-        <option value="$PROJECT_DIR$/app/index.php" />
+        <option value="$PROJECT_DIR$/app/sass/_fonts.scss" />
+        <option value="$PROJECT_DIR$/app/sass/_var.scss" />
         <option value="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" />
+        <option value="$PROJECT_DIR$/app/index.php" />
+        <option value="$PROJECT_DIR$/app/parts/footer.php" />
         <option value="$PROJECT_DIR$/app/sass/_1200.scss" />
         <option value="$PROJECT_DIR$/app/parts/header.php" />
-        <option value="$PROJECT_DIR$/app/sass/_768.scss" />
-        <option value="$PROJECT_DIR$/app/sass/main.scss" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/sass/_768.scss" />
         <option value="$PROJECT_DIR$/app/sass/_991.scss" />
+        <option value="$PROJECT_DIR$/app/sass/main.scss" />
       </list>
     </option>
   </component>
@@ -294,8 +215,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -324,16 +243,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sporty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sporty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sporty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sporty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/workspace/sempal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -443,7 +400,13 @@
       <option name="project" value="LOCAL" />
       <updated>1488719990875</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="make dist for production(full version)">
+      <created>1488720286329</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1488720286329</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -456,30 +419,52 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21521036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22168285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3256617" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32528734" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32528734" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22168285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -501,7 +486,8 @@
     <MESSAGE value="header" />
     <MESSAGE value="add top menu, popup &quot;city-choice&quot;" />
     <MESSAGE value="add section on index.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="add section on index.php" />
+    <MESSAGE value="make dist for production(full version)" />
+    <option name="LAST_COMMIT_MESSAGE" value="make dist for production(full version)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -520,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="29" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,66 +784,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_var.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31165645">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="29" />
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_1200.scss">
+    <entry file="file://$PROJECT_DIR$/app/sass/_var.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.436363">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_sprite-icons-style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/parts/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-34.0">
-          <caret line="213" column="20" selection-start-line="213" selection-start-column="9" selection-end-line="213" selection-end-column="20" />
+        <state vertical-scroll-proportion="-3.909091">
+          <caret line="174" column="32" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/parts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.884615">
+          <caret line="88" column="74" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_1200.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0545454">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/parts/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.423077">
-          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5">
-          <caret line="273" column="23" selection-start-line="273" selection-start-column="23" selection-end-line="273" selection-end-column="23" />
+        <state vertical-scroll-proportion="-5.072727">
+          <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
           <folding />
         </state>
       </provider>
@@ -868,23 +843,31 @@
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_768.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.115385">
-          <caret line="128" column="3" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="3" />
+        <state vertical-scroll-proportion="-5.5272727">
+          <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_991.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2142857">
-          <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
+        <state vertical-scroll-proportion="-7.8545456">
+          <caret line="110" column="56" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6016771">
+          <caret line="703" column="1" selection-start-line="703" selection-start-column="1" selection-end-line="703" selection-end-column="1" />
           <folding />
         </state>
       </provider>

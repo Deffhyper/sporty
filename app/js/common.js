@@ -13,6 +13,12 @@ $(function() {
         } else {
             searchField.slideUp();
         }
+        if(!$(e.target).closest('.navbar-nav').length) {
+            $('.site-header--menu').find('.navbar-nav').slideUp();
+            $('.menu-trigger').removeClass('open');
+            e.stopPropagation();
+
+        }
     });
 
     // remove pseudo labels from input after touch
@@ -25,6 +31,11 @@ $(function() {
         } else {
             $(this).addClass('touch')
         }
+    });
+    $('input[type="tel"], input[type="text"], input[type="password"], input[type="email"]').on('blur', function(){
+       if($(this).val() == ""){
+           $(this).removeClass('touch');
+       }
     });
 
     // custom bootstrap select
@@ -99,20 +110,22 @@ $(function() {
         ]
     });
 
-    $('[data-id="modal-select"]').click(function(e){
+    $("#modal-select").click(function(){
         $('#sort-choice').modal('show');
-
     });
 
+    $("#toRegister").click(function(e){
+        $("#logIn").modal('hide');
+    });
 
 
     function bindClickOnTabMenu(widthScreen){
 
         if (widthScreen < 992) {
 
-            $('.navbar-nav').find('.with-drop-menu').unbind('click touchstart').bind('click touchstart', function (e) {
+            $('.navbar-nav').find('.with-drop-menu a').unbind('click touchstart').bind('click touchstart', function (e) {
                 e.preventDefault();
-                $(this).find('.site-header__main-menu').slideToggle();
+                $(this).next('.site-header__main-menu').slideToggle();
             });
 
             $('.menu-trigger').unbind('click touchstart').bind('click touchstart', function(e){

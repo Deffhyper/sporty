@@ -171,6 +171,10 @@
   @include sprite($gray-house);
   display: inline-block;
 }
+.icon-select-burger {
+  @include sprite($select-burger);
+  display: inline-block;
+}
 .icon-gray-sale {
   @include sprite($gray-sale);
   display: inline-block;

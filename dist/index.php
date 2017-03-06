@@ -11,6 +11,7 @@
                     <form action="#" id="" class="site-top-filter__form">
                         <div class="form-group">
                             <div class="form-group--item">
+                                <button class="icon-select-burger"></button>
                                 <select class="custom-select left-round">
                                     <option value="1" data-icon="icon-gray-burger">Спортивные объекты</option>
                                     <option value="2" data-icon="icon-gray-man">Тренеры</option>
@@ -21,7 +22,8 @@
                             </div>
 
                             <div class="form-group--item">
-                                <select id="modal-select" class="custom-select no-round">
+                                <button id="modal-select" class="icon-select-burger"></button>
+                                <select  class="custom-select no-round">
                                     <option value="1">Выберите направление спорта</option>
                                     <option value="2">Футбол</option>
                                     <option value="3">Волейбол</option>
@@ -31,6 +33,7 @@
                             </div>
 
                             <div class="form-group--item">
+                                <button class="icon-select-burger"></button>
                                 <select class="custom-select right-round">
                                     <option value="1">Выберите район</option>
                                     <option value="2">Днепровский</option>

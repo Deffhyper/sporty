@@ -91,7 +91,16 @@
     margin-top: 11px;
   }
   .modal-dialog {
-    max-width: 90%;
+    max-width: 96%;
+    margin: 30px auto;
+  }
+  .modal-link {
+    display: table;
+    margin: 0 auto 20px;
+  }
+  .modal .btn {
+    display: block;
+    width: 100%;
   }
   .city-choice__list {
     column-count: 1;
@@ -126,6 +135,11 @@
   }
   .md-padding {
     padding: 15px 0;
+  }
+  #search-trigger {
+    position: absolute;
+    top: 18px;
+    right: 5px;
   }
 
 
