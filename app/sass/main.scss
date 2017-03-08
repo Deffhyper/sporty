@@ -1039,6 +1039,23 @@ body:after {
       transform: rotateZ(-90deg);
     }
   }
+  .bs-searchbox {
+    position: absolute;
+    top: -48px;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  .bs-searchbox .form-control {
+    border: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+  }
+  .bootstrap-select.btn-group .no-results {
+    padding: 15px;
+    margin: 0;
+    white-space: normal;
+  }
   .dropdown-menu {
     margin: -2px 0 0;
     padding: 0;
@@ -1162,6 +1179,12 @@ body:after {
     font-family: $OS-Bold-font;
     color: $main-text-color;
     margin-bottom: 23px;
+    &--light {
+      font-size: 24px;
+      font-family: $OS-Reg-font;
+      color: $main-text-color;
+      margin-bottom: 23px;
+    }
   }
   &__text {
     text-indent: 30px;
@@ -1685,11 +1708,85 @@ body:after {
   }
 }
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////// article /////////////////////////////////////////////////////
+.article-block {
+  @extend .blog-list__item;
+  float: none;
+  .star-ratings-css {
+    top: 15px;
+    right: 25px;
+    font-size: 24px;
+  }
+  .section-block__title {
+    margin-top: 0;
+    max-width: 500px;
+    line-height: 1;
+    margin-bottom: 15px;
+  }
+}
+.article-foto {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 20px;
 
+  img{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20px;
 
-
-
+  }
+}
+.article-content {
+  font-size: 14px;
+  padding-bottom: 20px;
+  p {
+    text-indent: 20px;
+    margin-bottom: 20px;
+  }
+}
+.social-counter {
+  background-color: #f4f4f4;
+  padding: 15px;
+}
+.social-likes__counter_single, .social-likes_ready .social-likes__counter {
+  //display: inline-block;
+  //background: #fff;
+  //color: black;
+  //padding: 5px;
+}
+.social-likes_ready .social-likes__counter_empty {
+  //display: none !important;
+}
+.social-likes__button {
+  padding: 8px 8px 7px 30px;
+  font-weight: 300;
+}
+.social-likes__icon_twitter {
+  top: 8px;
+  left: 8px;
+}
+.social-likes__icon_vkontakte {
+  top: 10px;
+  left: 7px;
+}
+.social-likes__icon_odnoklassniki {
+  left: 12px;
+  top: 6px;
+}
+.social-likes__icon_plusone {
+  left: 10px;
+  top: 7px;
+}
+.social-likes__icon_facebook {
+  left: 8px;
+  top: 7px;
+  font-size: 16px;
+}
 
 
 

@@ -23,12 +23,12 @@
 
                             <div class="form-group--item">
                                 <button id="modal-select" class="icon-select-burger"></button>
-                                <select  class="custom-select no-round">
-                                    <option value="1">Выберите направление спорта</option>
-                                    <option value="2">Футбол</option>
-                                    <option value="3">Волейбол</option>
-                                    <option value="4">Велоспорт</option>
-                                    <option value="5">Дзю До</option>
+                                <select  class="custom-select no-round" data-live-search="true">
+                                    <option value="0">Выберите направление спорта</option>
+                                    <option value="1" data-tokens="Футбол aen,jk">Футбол</option>
+                                    <option value="2" data-tokens="Волейбол djktq,jk">Волейбол</option>
+                                    <option value="3" data-tokens="Велоспорт dtkjcgjhn">Велоспорт</option>
+                                    <option value="4" data-tokens="Дзю До lp. lj">Дзю До</option>
                                 </select>
                             </div>
 
