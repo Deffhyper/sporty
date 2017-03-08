@@ -141,6 +141,31 @@
     top: 18px;
     right: 5px;
   }
+  .blog-list__item--foto {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .blog-list__item--content {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .blog-list__item {
+    padding-bottom: 30px;
+  }
+  .blog-list--readAll {
+    bottom: 16px;
+    left: 20px;
+  }
+  .star-ratings-css {
+    top: 47px;
+  }
+  .blog-list--subtitle {
+    margin-bottom: 1px;
+    max-width: 150px;
+    max-height: 17px;
+    overflow: hidden;
+  }
 
 
 

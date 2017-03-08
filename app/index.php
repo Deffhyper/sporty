@@ -203,7 +203,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h4 class="section-block__title">Спортивные новости Киев</h4>
+                    <h4 class="section-block__title center-title">Спортивные новости Киев</h4>
                     <div class="news-slider">
                         <div>
                             <div class="news-slider__item">

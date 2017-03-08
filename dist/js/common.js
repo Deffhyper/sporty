@@ -13,12 +13,12 @@ $(function() {
         } else {
             searchField.slideUp();
         }
-        if(!$(e.target).closest('.navbar-nav').length) {
-            $('.site-header--menu').find('.navbar-nav').slideUp();
-            $('.menu-trigger').removeClass('open');
-            e.stopPropagation();
-
-        }
+        //if(!$(e.target).closest('.navbar-nav').length) {
+        //    $('.site-header--menu').find('.navbar-nav').slideUp();
+        //    $('.menu-trigger').removeClass('open');
+        //    e.stopPropagation();
+        //
+        //}
     });
 
     // remove pseudo labels from input after touch
@@ -80,6 +80,8 @@ $(function() {
 
     //news slider on index page
 
+    //4 item
+
     $('.news-slider').slick({
         dots: false,
         infinite: true,
@@ -98,6 +100,30 @@ $(function() {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+    //3 item
+    $('.news-slider-1').slick({
+        dots: false,
+        infinite: true,
+        arrows: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2
                 }
             },
             {
@@ -134,8 +160,15 @@ $(function() {
                 $('.site-header--menu').find('.navbar-nav').slideToggle();
             });
 
+            $('.left-sidebar--title').unbind('click touchstart').bind('click touchstart', function(){
+                $(this).toggleClass('open');
+                $(this).next('#accordion').slideToggle();
+            });
+
         } else {
             $('.navbar-nav').find('.with-drop-menu a').unbind('click touchstart');
+            $('.left-sidebar--title').unbind('click touchstart');
+            $('.left-sidebar--title').removeClass('open');
         }
     }
 

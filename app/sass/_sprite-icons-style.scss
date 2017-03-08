@@ -182,6 +182,15 @@
   top: 3px;
 }
 
+.label-icon {
+  @include sprite($label);
+  display: inline-block;
+}
+
+.icon-star-marker {
+  @include sprite($star-marker);
+  display: inline-block;
+}
 
 
 

@@ -125,6 +125,7 @@
     margin-top: 10px;
     background: transparent;
     position: relative;
+    margin-left: 15px;
     .icon-bar {
       display: block;
       height: 3px;
@@ -159,7 +160,33 @@
   .menu-trigger.open .icon-bar:nth-child(2) {
    opacity: 0;
   }
-
+  .left-sidebar {
+    margin-bottom: 25px;
+  }
+  .left-sidebar__subscribe {
+    margin-top: 50px;
+  }
+  .left-sidebar-nav {
+    display: none;
+  }
+  .left-sidebar--title {
+    text-align: left;
+    position: relative;
+    padding-left: 15px;
+    cursor: pointer;
+    pointer-events: all;
+    .icon-arrow {
+      position: absolute;
+      top: 27px;
+      right: 15px;
+      transition: .3s ease;
+    }
+    &.open {
+      .icon-arrow {
+        transform: rotateZ(-90deg);
+      }
+    }
+  }
 
 
 
