@@ -44,7 +44,8 @@ gulp.task('scripts', function() {
 		'app/libs/slick-carousel/slick/slick.min.js', // Slick carousel
 		'app/libs/bootstrap-select/dist/js/bootstrap-select.js', // Custom bootstrap select
 		'app/libs/masked-input/masked-input.js', // Masked input
-		'app/libs/social-likes-master/dist/social-likes.min.js' // social likes
+		'app/libs/social-likes-master/dist/social-likes.min.js', // social likes
+		'app/libs/jquery.rateit/scripts/jquery.rateit.min.js' // rating star
 
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js

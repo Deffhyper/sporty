@@ -15,12 +15,12 @@
                     <ul id="accordion" class="left-sidebar-nav" role="tablist" aria-multiselectable="true">
                         <li>
                             <div role="tab" id="tab-1" class="left-sidebar-nav__title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#tab-content-1" aria-expanded="true"
                                    aria-controls="tab-content-1">Обзор новостей<span class="caret"></span></a>
 
                             </div>
-                            <div id="tab-content-1" class="left-sidebar-nav__content panel-collapse collapse in"
+                            <div id="tab-content-1" class="left-sidebar-nav__content panel-collapse collapse"
                                  role="tabpanel" aria-labelledby="tab-1">
                                 <ul>
                                     <li><a href="#">Последние сутки</a><span>(12)</span></li>
@@ -30,12 +30,12 @@
                         </li>
                         <li>
                             <div role="tab" id="tab-2" class="left-sidebar-nav__title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                <a  role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#tab-content-2" aria-expanded="true"
                                    aria-controls="tab-content-2">Авторские статьи<span class="caret"></span></a>
 
                             </div>
-                            <div id="tab-content-2" class="left-sidebar-nav__content panel-collapse collapse"
+                            <div id="tab-content-2" class="left-sidebar-nav__content panel-collapse collapse in"
                                  role="tabpanel" aria-labelledby="tab-2">
                                 <ul>
                                     <li><a href="#">Последние сутки</a><span>(12)</span></li>
@@ -91,14 +91,10 @@
             </div>
             <div class="col-md-9 col-sm-12">
                 <div class="article-block">
-                    <h1 class="section-block__title">Свидание года. Бушар проспорила парню в твиттере</h1>
+                    <h1 class="section-block__title top-zero">Свидание года. Бушар проспорила парню в твиттере</h1>
                     <div class="star-ratings-css">
-                        <div class="star-ratings-css-top" style="width: 25%">
-                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                        </div>
-                        <div class="star-ratings-css-bottom">
-                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                        </div>
+                        <div class="rateit" data-rateit-resetable="false" data-rateit-value="3.5"
+                             data-rateit-mode="font"></div>
                     </div>
                     <div class="article-foto">
                         <img src="img/jpeg_files/article-1.jpg" alt="article-photo">

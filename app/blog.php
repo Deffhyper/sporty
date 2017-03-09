@@ -15,12 +15,12 @@
                     <ul id="accordion" class="left-sidebar-nav" role="tablist" aria-multiselectable="true">
                         <li>
                             <div role="tab" id="tab-1" class="left-sidebar-nav__title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#tab-content-1" aria-expanded="true"
                                    aria-controls="tab-content-1">Обзор новостей<span class="caret"></span></a>
 
                             </div>
-                            <div id="tab-content-1" class="left-sidebar-nav__content panel-collapse collapse in"
+                            <div id="tab-content-1" class="left-sidebar-nav__content panel-collapse collapse"
                                  role="tabpanel" aria-labelledby="tab-1">
                                 <ul>
                                     <li><a href="#">Последние сутки</a><span>(12)</span></li>
@@ -30,22 +30,17 @@
                         </li>
                         <li>
                             <div role="tab" id="tab-2" class="left-sidebar-nav__title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                <a role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#tab-content-2" aria-expanded="true"
                                    aria-controls="tab-content-2">Авторские статьи<span class="caret"></span></a>
 
                             </div>
-                            <div id="tab-content-2" class="left-sidebar-nav__content panel-collapse collapse"
+                            <div id="tab-content-2" class="left-sidebar-nav__content panel-collapse collapse in"
                                  role="tabpanel" aria-labelledby="tab-2">
                                 <ul>
                                     <li><a href="#">Последние сутки</a><span>(12)</span></li>
                                     <li><a href="#">Личный обзор </a><span>(20)</span></li>
                                     <li><a href="#">Последние сутки</a><span>(12)</span></li>
-                                    <li><a href="#">Личный обзор </a><span>(20)</span></li>
-                                    <li><a href="#">Последние сутки</a><span>(12)</span></li>
-                                    <li><a href="#">Личный обзор </a><span>(20)</span></li>
-                                    <li><a href="#">Последние сутки</a><span>(12)</span></li>
-                                    <li><a href="#">Личный обзор </a><span>(20)</span></li>
                                 </ul>
                             </div>
                         </li>
@@ -91,6 +86,8 @@
             </div>
             <div class="col-md-9 col-sm-12">
 
+                <h1 class="section-block__title text-center top-zero">Блог наших активных пользователей</h1>
+
                 <ul class="blog-list">
                     <li class="blog-list__item">
                         <div class="blog-list__item--foto">
@@ -107,12 +104,7 @@
                             <p class="blog-list--title">Куньлунь Ред Стар - Магнитогорск </p>
 
                             <div class="star-ratings-css">
-                                <div class="star-ratings-css-top" style="width: 25%">
-                                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                                </div>
-                                <div class="star-ratings-css-bottom">
-                                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                                </div>
+                                <div class="rateit" data-rateit-resetable="false" data-rateit-mode="font"></div>
                             </div>
                             <a href="#" class="blog-list--subtitle link-blue">Хоккей</a>
 
@@ -140,12 +132,7 @@
                             <p class="blog-list--title">Пилоты «F-1» круче космонавтов</p>
 
                             <div class="star-ratings-css">
-                                <div class="star-ratings-css-top" style="width: 25%">
-                                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                                </div>
-                                <div class="star-ratings-css-bottom">
-                                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                                </div>
+                                <div class="rateit" data-rateit-resetable="false" data-rateit-mode="font"></div>
                             </div>
                             <a href="#" class="blog-list--subtitle link-blue">F-1</a>
 
@@ -173,12 +160,8 @@
                             <p class="blog-list--title">Любимый тренер Роналдо и Тарибо Уэста</p>
 
                             <div class="star-ratings-css">
-                                <div class="star-ratings-css-top" style="width: 25%">
-                                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                                </div>
-                                <div class="star-ratings-css-bottom">
-                                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                                </div>
+                                <div class="rateit" data-rateit-resetable="false" data-rateit-value="3.5"
+                                     data-rateit-mode="font"></div>
                             </div>
                             <a href="#" class="blog-list--subtitle link-blue">Футбол</a>
 
@@ -204,12 +187,8 @@
                             <p class="blog-list--title">Какую дочь воспитал Франк Лебеф</p>
 
                             <div class="star-ratings-css">
-                                <div class="star-ratings-css-top" style="width: 25%">
-                                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                                </div>
-                                <div class="star-ratings-css-bottom">
-                                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                                </div>
+                                <div class="rateit" data-rateit-resetable="false" data-rateit-value="4.5"
+                                     data-rateit-mode="font"></div>
                             </div>
                             <a href="#" class="blog-list--subtitle link-blue">Фитнес</a>
 
@@ -235,12 +214,9 @@
                             <p class="blog-list--title">Золотая мужская эстафета на ЧМ 2017</p>
 
                             <div class="star-ratings-css">
-                                <div class="star-ratings-css-top" style="width: 25%">
-                                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                                </div>
-                                <div class="star-ratings-css-bottom">
-                                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-                                </div>
+                                <div class="rateit" data-rateit-resetable="false" data-rateit-mode="font"
+                                     data-rateit-value="2.5" data-rateit-ispreset="true"
+                                     data-rateit-readonly="true"></div>
                             </div>
                             <a href="#" class="blog-list--subtitle link-blue">Мужская эстафета</a>
 
@@ -402,5 +378,8 @@
     </div>
 </section>
 
+
+
 <?php include_once "parts/footer.php" ?>
+
 </html>

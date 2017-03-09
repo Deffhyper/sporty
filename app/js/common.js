@@ -144,6 +144,8 @@ $(function() {
         $("#logIn").modal('hide');
     });
 
+    $('.tateit').rateit();
+
 
     function bindClickOnTabMenu(widthScreen){
 

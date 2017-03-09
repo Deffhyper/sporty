@@ -111,6 +111,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   min-width: 320px;
+  padding-right: 0 !important;
 }
 
 body:after {
@@ -1383,6 +1384,7 @@ body:after {
   font-family: $OS-Light-font;
   color: #343434;
   padding: 20px 0;
+  font-size: 14px;
   ul {
     li{
       display: inline-block;
@@ -1394,7 +1396,7 @@ body:after {
         }
         &:after {
           content: "";
-          margin: 0 15px 0 25px;
+          margin: 0 9px 0 15px;
           display: inline-block;
           @include sprite($bred-arrow);
         }
@@ -1444,7 +1446,7 @@ body:after {
 .left-sidebar-nav {
   background-color: $accent;
   color: #fff;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
   a{
     color: inherit;
@@ -1455,7 +1457,8 @@ body:after {
   }
   &__title a{
     display: block;
-    padding: 15px;
+    padding: 15px 30px;
+    font-size: 14px;
 
     .caret {
       color: #ffb200;
@@ -1481,7 +1484,7 @@ body:after {
     border-top: 1px solid #2776b2;
     position: relative;
     a {
-      text-decoration: underline;
+      text-decoration: none;
       position: relative;
       &:before {
         content: '';
@@ -1500,7 +1503,7 @@ body:after {
     }
     &:hover {
       a {
-        text-decoration: none;
+        text-decoration: underline;
       }
       &:after {
         opacity: 1;
@@ -1514,14 +1517,14 @@ body:after {
       background-color: $button-color;
       position: absolute;
       top: 0;
-      right: -15px;
+      right: -25px;
       bottom: 0;
       opacity: 0;
       transition: .3s ease;
     }
   }
   ul{
-    padding:0 15px;
+    padding: 0 25px;
     font-family: $OS-Light-font;
     font-size: 14px;
   }
@@ -1587,7 +1590,7 @@ body:after {
   width: 100px;
   position: absolute;
   padding: 0;
-  top: -5px;
+  top: -3px;
   right: -10px;
 }
 .star-ratings-css-top {
@@ -1615,6 +1618,12 @@ body:after {
     width: 100%;
     position: relative;
     margin-bottom: 15px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0, .1);
+    transition: .3s ease;
+    &:hover {
+      border-color: $accent;
+      box-shadow: 0 0 8px 0 rgba(20, 137, 225, 0.2);
+    }
 
     &--content {
       position: relative;
@@ -1649,6 +1658,7 @@ body:after {
     display: inline-block;
     margin-bottom: 10px;
     line-height: 1;
+    font-size: 14px;
   }
   &--prev {
     color: $text-color;
@@ -1713,9 +1723,11 @@ body:after {
   @extend .blog-list__item;
   float: none;
   .star-ratings-css {
-    top: 15px;
+    top: 17px;
     right: 25px;
-    font-size: 24px;
+    .rateit-font {
+      font-size: 24px;
+    }
   }
   .section-block__title {
     margin-top: 0;
@@ -1787,6 +1799,34 @@ body:after {
   top: 7px;
   font-size: 16px;
 }
+
+.text-center {
+  text-align: center;
+}
+.top-zero {
+  margin-top: 0;
+}
+.rateit-font {
+  font-size: 22px;
+}
+.rateit .rateit-selected,
+.rateit .rateit-hover {
+  color: #ffb200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
