@@ -178,6 +178,20 @@
   .article-content p {
     margin-bottom: 10px;
   }
+  .list-counter {
+    padding-left: 15px;
+  }
+  .list-counter li:before {
+    height: 0;
+    width: 0;
+    border: none;
+    top: 0;
+    left: -20px;
+    padding: 0;
+  }
+  .md-padding--bottom {
+    padding:0 0 30px;
+  }
 
 
 

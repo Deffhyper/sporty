@@ -164,13 +164,14 @@ $(function() {
 
             $('.left-sidebar--title').unbind('click touchstart').bind('click touchstart', function(){
                 $(this).toggleClass('open');
-                $(this).next('#accordion').slideToggle();
+                $(this).next('ul').slideToggle();
             });
 
         } else {
             $('.navbar-nav').find('.with-drop-menu a').unbind('click touchstart');
             $('.left-sidebar--title').unbind('click touchstart');
             $('.left-sidebar--title').removeClass('open');
+            $('.left-sidebar--title').next('ul').slideDown();
         }
     }
 

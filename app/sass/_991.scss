@@ -187,6 +187,30 @@
       }
     }
   }
+  .left-sidebar-nav.left-sidebar-nav--ctrl {
+    padding: 5px 0;
+    li:first-child a {
+      border: none;
+    }
+  }
+  .image-wrapper {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+  .image-wrapper img {
+    max-width: none;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .md-padding--bottom {
+    padding:0 0 50px;
+  }
+
 
 
 
