@@ -192,6 +192,16 @@
   display: inline-block;
 }
 
+.icon-log-out {
+  @include sprite($log-out);
+  display: inline-block;
+}
+
+.icon-plus {
+  @include sprite($plus);
+  display: inline-block;
+}
+
 
 
 

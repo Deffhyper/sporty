@@ -146,6 +146,29 @@ $(function() {
 
     $('.tateit').rateit();
 
+    ///////////////////////////////////////// add contact telephone ///////////////////////////////////////////
+
+    $('.contact-info').on('click touchstart', function(e){
+        e.preventDefault();
+        var target = e.target;
+        console.log(target.className);
+        var telBlock ='<div class="row">'+
+                            '<div class="col-sm-2"></div>'+
+                            '<div class="col-sm-7">'+
+                                '<div class="row">'+
+                                    '<div class="col-sm-6"><input type="tel" class="border-input col-sm-12" placeholder="+38(0__) ___-____"></div>'+
+                                    '<div class="col-sm-6"><input type="text" class="border-input col-sm-12"></div>'+
+                                '</div>'+
+                            '</div>'+
+                            '<div class="col-sm-3">'+
+                            '</div>'+
+                        '</div>';
+        if(target.className == 'contact-info__add-tel') {
+            $('.add-tel-number').append(telBlock);
+            $('input[type="tel"]').mask("+38(099) 999-9999");
+        }
+    });
+
 
     function bindClickOnTabMenu(widthScreen){
 
