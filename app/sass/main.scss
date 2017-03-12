@@ -2110,7 +2110,7 @@ body:after {
   .section-block__title {
     margin-bottom: 30px;
   }
-  .contact-info__add-tel {
+  .add-item {
     color: $accent;
     display: inline-block;
     padding: 8px 0;
@@ -2130,10 +2130,99 @@ body:after {
     background-color: #eaeaea;
     border: 1px solid #cbcbcb;
     padding: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0, .1);
   }
   .no-left-padding {
     padding-left: 0;
   }
+  .sub-section {
+    padding: 15px 30px;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0, .1);
+    .btn-danger {
+      background-color: #e92d2d;
+      &:hover {
+        background-color: #ff2e2e;
+      }
+    }
+    .btn-success {
+      background-color: #1274bf;
+    }
+    .label-medium {
+      position: relative;
+      top: 5px;
+    }
+  }
+  .add-sport-section-block {
+    margin-bottom: 50px;
+  }
+  .checkout-stream {
+
+
+    &__list {
+      border: 1px solid #e2e2e2;
+      box-shadow: inset 0 0 5px 0 rgba(0, 1, 1, 0.15);
+      background-color: #f0f0f0;
+      padding: 10px 15px 10px 20px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+
+      .mCSB_scrollTools .mCSB_draggerRail {
+        background-color: transparent;
+        box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.2);
+        width: 7px;
+      }
+      .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+        width: 9px;
+        background: #9b9b9b url("../img/png_icons/scroll.png") no-repeat center;
+      }
+    }
+    &__item {
+      border-bottom: 1px solid #cbcbcb;
+      padding: 8px 0 4px;
+      &:last-child {
+        border: none;
+      }
+      .label-medium {
+        display: block;
+      }
+    }
+
+  }
+  .add-sport-trainer {
+    &__item {
+      &.border-input {
+        padding: 8px 25px 8px 35px;
+        position: relative;
+        cursor: pointer;
+        span {
+          font-family: $OS-SBold-font;
+          font-size: 16px;
+          color: $accent;
+          border-bottom: 1px dotted $accent;
+          display: inline-block;
+          line-height: 1;
+          transition: .3s ease;
+          &:hover {
+            border-bottom-color: transparent ;
+          }
+        }
+      }
+      .icon-trainer {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      .icon-close-red {
+        position: absolute;
+        top: 12px;
+        right: 10px;
+      }
+    }
+  }
+
 }
 .custom-input-file {
   display: flex;
@@ -2197,7 +2286,9 @@ body:after {
 .border-input--short {
   max-width: 100px;
 }
-
+.sm-padding {
+  padding: 15px 0;
+}
 
 
 

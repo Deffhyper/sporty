@@ -58,7 +58,7 @@
 
 .icon-inst {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -42px -206px;
+  background-position: -56px -206px;
   width: 14px;
   height: 14px;
   display: inline-block; }
@@ -138,7 +138,7 @@
 
 .icon-menu-man {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -251px -18px;
+  background-position: -251px -36px;
   width: 16px;
   height: 18px;
   display: inline-block; }
@@ -159,21 +159,21 @@
 
 .icon-menu-sale {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -87px -222px;
+  background-position: -53px -222px;
   width: 17px;
   height: 17px;
   display: inline-block; }
 
 .icon-menu-book {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -232px -87px;
+  background-position: -232px -119px;
   width: 19px;
   height: 18px;
   display: inline-block; }
 
 .icon-search {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -251px -155px;
+  background-position: -251px -107px;
   width: 16px;
   height: 16px;
   display: inline-block; }
@@ -187,7 +187,7 @@
 
 .icon-vall-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -36px -222px;
+  background-position: -70px -222px;
   width: 17px;
   height: 17px;
   display: inline-block; }
@@ -208,7 +208,7 @@
 
 .icon-dance-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -251px -203px;
+  background-position: -251px -218px;
   width: 10px;
   height: 21px;
   display: inline-block; }
@@ -222,7 +222,7 @@
 
 .icon-fitness-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -251px -139px;
+  background-position: -251px -187px;
   width: 16px;
   height: 16px;
   display: inline-block; }
@@ -236,7 +236,7 @@
 
 .icon-hockey-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -70px -222px;
+  background-position: -36px -222px;
   width: 17px;
   height: 17px;
   display: inline-block; }
@@ -257,14 +257,14 @@
 
 .icon-close-modal {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -251px -187px;
+  background-position: -251px -155px;
   width: 16px;
   height: 16px;
   display: inline-block; }
 
 .icon-fb-big {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: 0px 0px;
+  background-position: 0px -40px;
   width: 200px;
   height: 40px;
   display: inline-block; }
@@ -278,7 +278,7 @@
 
 .icon-google-big {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: 0px -40px;
+  background-position: 0px 0px;
   width: 200px;
   height: 40px;
   display: inline-block; }
@@ -292,14 +292,14 @@
 
 .icon-clock {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -68px -206px;
+  background-position: -70px -206px;
   width: 12px;
   height: 12px;
   display: inline-block; }
 
 .icon-gray-burger {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -183px -186px;
+  background-position: -199px -186px;
   width: 16px;
   height: 10px;
   display: inline-block; }
@@ -320,7 +320,7 @@
 
 .icon-gray-house {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -251px -107px;
+  background-position: -251px -123px;
   width: 16px;
   height: 16px;
   display: inline-block; }
@@ -334,7 +334,7 @@
 
 .icon-gray-sale {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -53px -222px;
+  background-position: -104px -222px;
   width: 17px;
   height: 17px;
   display: inline-block;
@@ -357,16 +357,30 @@
 
 .icon-log-out {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -251px -123px;
+  background-position: -251px -139px;
   width: 16px;
   height: 16px;
   display: inline-block; }
 
 .icon-plus {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -56px -206px;
+  background-position: -82px -206px;
   width: 12px;
   height: 12px;
+  display: inline-block; }
+
+.icon-close-red {
+  background-image: url(../img/png_sprite/sprite.png);
+  background-position: -94px -206px;
+  width: 12px;
+  height: 12px;
+  display: inline-block; }
+
+.icon-trainer {
+  background-image: url(../img/png_sprite/sprite.png);
+  background-position: -251px -203px;
+  width: 15px;
+  height: 15px;
   display: inline-block; }
 
 html {
@@ -2172,11 +2186,11 @@ body:after {
       height: 100px; }
   .add-block .section-block__title {
     margin-bottom: 30px; }
-  .add-block .contact-info__add-tel {
+  .add-block .add-item {
     color: #1489e1;
     display: inline-block;
     padding: 8px 0; }
-    .add-block .contact-info__add-tel i {
+    .add-block .add-item i {
       margin-right: 5px;
       position: relative;
       top: 1px; }
@@ -2188,9 +2202,76 @@ body:after {
   .add-block .add-sport-section {
     background-color: #eaeaea;
     border: 1px solid #cbcbcb;
-    padding: 30px; }
+    padding: 30px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
   .add-block .no-left-padding {
     padding-left: 0; }
+  .add-block .sub-section {
+    padding: 15px 30px;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
+    .add-block .sub-section .btn-danger {
+      background-color: #e92d2d; }
+      .add-block .sub-section .btn-danger:hover {
+        background-color: #ff2e2e; }
+    .add-block .sub-section .btn-success {
+      background-color: #1274bf; }
+    .add-block .sub-section .label-medium {
+      position: relative;
+      top: 5px; }
+  .add-block .add-sport-section-block {
+    margin-bottom: 50px; }
+  .add-block .checkout-stream__list {
+    border: 1px solid #e2e2e2;
+    -webkit-box-shadow: inset 0 0 5px 0 rgba(0, 1, 1, 0.15);
+            box-shadow: inset 0 0 5px 0 rgba(0, 1, 1, 0.15);
+    background-color: #f0f0f0;
+    padding: 10px 15px 10px 20px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    margin-bottom: 20px; }
+    .add-block .checkout-stream__list .mCSB_scrollTools .mCSB_draggerRail {
+      background-color: transparent;
+      -webkit-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.2);
+              box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.2);
+      width: 7px; }
+    .add-block .checkout-stream__list .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+      width: 9px;
+      background: #9b9b9b url("../img/png_icons/scroll.png") no-repeat center; }
+  .add-block .checkout-stream__item {
+    border-bottom: 1px solid #cbcbcb;
+    padding: 8px 0 4px; }
+    .add-block .checkout-stream__item:last-child {
+      border: none; }
+    .add-block .checkout-stream__item .label-medium {
+      display: block; }
+  .add-block .add-sport-trainer__item.border-input {
+    padding: 8px 25px 8px 35px;
+    position: relative;
+    cursor: pointer; }
+    .add-block .add-sport-trainer__item.border-input span {
+      font-family: "OpenSans-Semibold", sans-serif;
+      font-size: 16px;
+      color: #1489e1;
+      border-bottom: 1px dotted #1489e1;
+      display: inline-block;
+      line-height: 1;
+      -webkit-transition: .3s ease;
+      transition: .3s ease; }
+      .add-block .add-sport-trainer__item.border-input span:hover {
+        border-bottom-color: transparent; }
+  .add-block .add-sport-trainer__item .icon-trainer {
+    position: absolute;
+    top: 10px;
+    left: 10px; }
+  .add-block .add-sport-trainer__item .icon-close-red {
+    position: absolute;
+    top: 12px;
+    right: 10px; }
 
 .custom-input-file {
   display: -webkit-box;
@@ -2249,6 +2330,9 @@ body:after {
 
 .border-input--short {
   max-width: 100px; }
+
+.sm-padding {
+  padding: 15px 0; }
 
 @media (max-width: 1199px) {
   body:after {

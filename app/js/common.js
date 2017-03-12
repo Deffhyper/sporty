@@ -151,7 +151,6 @@ $(function() {
     $('.contact-info').on('click touchstart', function(e){
         e.preventDefault();
         var target = e.target;
-        console.log(target.className);
         var telBlock ='<div class="row">'+
                             '<div class="col-sm-2"></div>'+
                             '<div class="col-sm-7">'+
@@ -163,10 +162,18 @@ $(function() {
                             '<div class="col-sm-3">'+
                             '</div>'+
                         '</div>';
-        if(target.className == 'contact-info__add-tel') {
+        if(target.className == 'add-item') {
             $('.add-tel-number').append(telBlock);
             $('input[type="tel"]').mask("+38(099) 999-9999");
         }
+    });
+
+    /////////////////////////////////////////////  checkout stream custom scrollbar ///////////////////////////////////
+
+    $('.checkout-stream__list').mCustomScrollbar({
+        autoDraggerLength: false,
+        scrollEasing:"easeOut",
+        setHeight: "210px"
     });
 
 
@@ -174,7 +181,7 @@ $(function() {
 
         if (widthScreen < 992) {
 
-            $('.navbar-nav').find('.with-drop-menu a').unbind('click touchstart').bind('click touchstart', function (e) {
+            $('.navbar-nav').find('.with-drop-menu a').unbind('click touchstart').bind('click touchstart', function(e){
                 e.preventDefault();
                 $(this).next('.site-header__main-menu').slideToggle();
             });
