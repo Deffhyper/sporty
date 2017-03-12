@@ -192,6 +192,41 @@
   .md-padding--bottom {
     padding:0 0 30px;
   }
+  .info__label.pull-right {
+    float: none !important;
+  }
+  .add-block .no-left-padding {
+    padding-left: 15px;
+  }
+  .border-input--short {
+    max-width: none;
+  }
+  #add-your-trainer {
+    margin: auto;
+    display: inherit;
+  }
+  .add-block .add-sport-section {
+    padding: 15px;
+  }
+  .block-with-border {
+    padding: 10px;
+  }
+  .add-block .sub-section {
+    padding: 10px;
+  }
+  .add-block .add-sport-trainer__item.border-input {
+    height: auto;
+  }
+  .add-block .add-sport-trainer__item.border-input span {
+    display: inline;
+  }
+  .is-active-check {
+    margin-bottom: 10px;
+  }
+  .add-block .add-item {
+    font-size: inherit;
+    padding-top: 0;
+  }
 
 
 

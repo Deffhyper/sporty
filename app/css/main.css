@@ -2168,7 +2168,8 @@ body:after {
       height: 101px;
       overflow: hidden;
       position: relative;
-      margin-right: 4.5%; }
+      margin-right: 4.5%;
+      margin-bottom: 15px; }
       .add-block .photo-set--list .photo-set--item .custom-input-file-2 {
         border: 1px solid #cbcbcb; }
       .add-block .photo-set--list .photo-set--item img {
@@ -2180,10 +2181,8 @@ body:after {
         -webkit-transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%); }
-  .add-block .object-description {
-    padding: 15px 0; }
-    .add-block .object-description textarea {
-      height: 100px; }
+  .add-block .object-description textarea {
+    height: 100px; }
   .add-block .section-block__title {
     margin-bottom: 30px; }
   .add-block .add-item {
@@ -2214,12 +2213,6 @@ body:after {
     border-bottom: 1px solid #e4e4e4;
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
-    .add-block .sub-section .btn-danger {
-      background-color: #e92d2d; }
-      .add-block .sub-section .btn-danger:hover {
-        background-color: #ff2e2e; }
-    .add-block .sub-section .btn-success {
-      background-color: #1274bf; }
     .add-block .sub-section .label-medium {
       position: relative;
       top: 5px; }
@@ -2249,6 +2242,8 @@ body:after {
       border: none; }
     .add-block .checkout-stream__item .label-medium {
       display: block; }
+  .add-block .add-sport-trainer__list {
+    margin-bottom: 30px; }
   .add-block .add-sport-trainer__item.border-input {
     padding: 8px 25px 8px 35px;
     position: relative;
@@ -2272,6 +2267,41 @@ body:after {
     position: absolute;
     top: 12px;
     right: 10px; }
+  .add-block .btn.btn-danger {
+    padding: 9px 25px; }
+  .add-block .btn.btn-success {
+    padding: 9px 25px; }
+  .add-block .add-block__submit {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#0e67b5), to(#1a7fc5));
+    background-image: -webkit-linear-gradient(bottom, #0e67b5, #1a7fc5);
+    background-image: linear-gradient(to top, #0e67b5, #1a7fc5);
+    border-top: 2px solid #338dcb;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    color: #fff;
+    padding: 14px 30px;
+    margin-right: 40px; }
+    .add-block .add-block__submit:hover {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#0e67b5), to(#1a7fc5));
+      background-image: -webkit-linear-gradient(top, #0e67b5, #1a7fc5);
+      background-image: linear-gradient(to bottom, #0e67b5, #1a7fc5); }
+  .add-block .form-footer {
+    padding-top: 60px;
+    padding-bottom: 25px; }
+  .add-block .add-block__reset {
+    background: none;
+    color: #1489e1;
+    text-decoration: underline; }
+    .add-block .add-block__reset:hover {
+      text-decoration: none; }
+
+.btn.btn-danger {
+  background-color: #e92d2d; }
+  .btn.btn-danger:hover {
+    background-color: #ff2e2e; }
+
+.btn.btn-success {
+  background-color: #1274bf; }
 
 .custom-input-file {
   display: -webkit-box;
@@ -2386,7 +2416,19 @@ body:after {
   .article-foto {
     height: 330px; }
   .left-sidebar-nav.left-sidebar-nav--ctrl li {
-    padding: 0 11px 0 15px; } }
+    padding: 0 11px 0 15px; }
+  .add-block .photo-set--list .photo-set--item {
+    margin-right: 4.1%; }
+  .add-block .info__label {
+    vertical-align: bottom;
+    padding: 5px 0;
+    white-space: normal; }
+  .add-block .add-item {
+    padding: 9px 0;
+    font-size: 13px; }
+  #add-your-trainer {
+    position: relative;
+    left: -20px; } }
 
 @media (max-width: 991px) {
   body:after {
@@ -2565,7 +2607,9 @@ body:after {
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
   .md-padding--bottom {
-    padding: 0 0 50px; } }
+    padding: 0 0 50px; }
+  #add-your-trainer {
+    left: 0; } }
 
 @media (max-width: 768px) {
   body:after {
@@ -2720,4 +2764,28 @@ body:after {
     left: -20px;
     padding: 0; }
   .md-padding--bottom {
-    padding: 0 0 30px; } }
+    padding: 0 0 30px; }
+  .info__label.pull-right {
+    float: none !important; }
+  .add-block .no-left-padding {
+    padding-left: 15px; }
+  .border-input--short {
+    max-width: none; }
+  #add-your-trainer {
+    margin: auto;
+    display: inherit; }
+  .add-block .add-sport-section {
+    padding: 15px; }
+  .block-with-border {
+    padding: 10px; }
+  .add-block .sub-section {
+    padding: 10px; }
+  .add-block .add-sport-trainer__item.border-input {
+    height: auto; }
+  .add-block .add-sport-trainer__item.border-input span {
+    display: inline; }
+  .is-active-check {
+    margin-bottom: 10px; }
+  .add-block .add-item {
+    font-size: inherit;
+    padding-top: 0; } }

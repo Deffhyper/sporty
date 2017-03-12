@@ -66,7 +66,11 @@
                             </fieldset>
 
                             <fieldset>
-                                <input type="text" class="border-input col-sm-12" placeholder="Название клуба">
+                                <div class="row">
+                                    <div class="col-sm-12 col-xs-12">
+                                        <input type="text" class="border-input col-sm-12 col-xs-12" placeholder="Название клуба">
+                                    </div>
+                                </div>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group">
@@ -101,11 +105,11 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-sm-5">
-                                        <input type="text" class="border-input col-sm-12" placeholder="Выбрать улицу">
+                                    <div class="col-sm-5 col-xs-12">
+                                        <input type="text" class="border-input col-sm-12 col-xs-12" placeholder="Выбрать улицу">
                                     </div>
-                                    <div class="col-sm-2">
-                                        <input type="text" class="border-input col-sm-12" placeholder="Номер">
+                                    <div class="col-sm-2 col-xs-12">
+                                        <input type="text" class="border-input col-sm-12 col-xs-12" placeholder="Номер">
                                     </div>
                                 </div>
                             </fieldset>
@@ -169,7 +173,7 @@
 
                             </fieldset>
                             <fieldset class="photo-set">
-                                <h3 class="photo-set--title">Главная фотография</h3>
+                                <h3 class="photo-set--title top-zero">Главная фотография</h3>
                                 <label for="file-1" class="custom-input-file"><input type="file" id="file-1"><span>Выберите файлы</span></label>
                                 <div class="photo-set--list">
                                     <ul>
@@ -184,7 +188,7 @@
                             </fieldset>
                             <fieldset class="object-description">
                                 <div class="form-group">
-                                    <textarea class="border-input col-sm-12" rows="10" placeholder="Описание объекта"></textarea>
+                                    <textarea class="border-input col-sm-12 col-xs-12" rows="10" placeholder="Описание объекта"></textarea>
                                 </div>
                             </fieldset>
 
@@ -195,8 +199,8 @@
                                         <div class="col-sm-2"><span class="info__label">Телефон:</span></div>
                                         <div class="col-sm-7">
                                             <div class="row">
-                                                <div class="col-sm-6"><input type="tel" class="border-input col-sm-12" placeholder="+38(0__) ___-____"></div>
-                                                <div class="col-sm-6"><input type="text" class="border-input col-sm-12" placeholder="Название отдела"></div>
+                                                <div class="col-sm-6"><input type="tel" class="border-input col-sm-12 col-xs-12" placeholder="+38(0__) ___-____"></div>
+                                                <div class="col-sm-6"><input type="text" class="border-input col-sm-12 col-xs-12" placeholder="Название отдела"></div>
                                             </div>
                                         </div>
                                         <div class="col-sm-3">
@@ -208,7 +212,7 @@
                                     <div class="row">
                                         <div class="col-sm-2"><span class="info__label">E-mail адрес:</span></div>
                                         <div class="col-sm-10">
-                                            <input type="email" class="border-input col-sm-12" placeholder="email">
+                                            <input type="email" class="border-input col-sm-12 col-xs-12" placeholder="email">
                                         </div>
                                     </div>
 
@@ -216,7 +220,7 @@
                                     <div class="row">
                                         <div class="col-sm-2"><span class="info__label">E-mail для заявок:</span></div>
                                         <div class="col-sm-10">
-                                            <input type="email" class="border-input col-sm-12" placeholder="email">
+                                            <input type="email" class="border-input col-sm-12 col-xs-12" placeholder="email">
                                         </div>
                                     </div>
                             </fieldset>
@@ -228,17 +232,17 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="row">
-                                                <div class="col-sm-6"><span class="info__label">Стоимость за месяц от:</span></div>
-                                                <div class="col-sm-6 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12">
+                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Стоимость за месяц от:</span></div>
+                                                <div class="col-sm-6 col-xs-12 no-left-padding">
+                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                        </div>
                                         <div class="col-sm-6">
                                             <div class="row">
-                                                <div class="col-sm-6"><span class="info__label">Разовое посещение от:</span></div>
-                                                <div class="col-sm-6 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12">
+                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Разовое посещение от:</span></div>
+                                                <div class="col-sm-6 col-xs-12 no-left-padding">
+                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                        </div>
@@ -246,16 +250,16 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="row">
-                                                <div class="col-sm-6"><span class="info__label">Годовой абонемент от:</span></div>
-                                                <div class="col-sm-6 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12 ">
+                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Годовой абонемент от:</span></div>
+                                                <div class="col-sm-6 col-xs-12 no-left-padding">
+                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                        </div>
                                         <div class="col-sm-6">
                                             <div class="row">
-                                                <div class="col-sm-6"><span class="info__label">Бесплатное занятие</span></div>
-                                                <div class="col-sm-6 no-left-padding">
+                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Бесплатное занятие</span></div>
+                                                <div class="col-sm-6 col-xs-12 no-left-padding">
                                                     <select class="custom-select" title="Да" data-width="70px">
                                                         <option value="0">Да</option>
                                                         <option value="1">Нет</option>
@@ -325,17 +329,17 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="row">
-                                                <div class="col-sm-6"><span class="info__label">Стоимость за месяц от:</span></div>
-                                                <div class="col-sm-6 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12">
+                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Стоимость за месяц от:</span></div>
+                                                <div class="col-sm-6 col-xs-12 no-left-padding">
+                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="row">
-                                                <div class="col-sm-6"><span class="info__label">Разовое посещение от:</span></div>
-                                                <div class="col-sm-6 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12">
+                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Разовое посещение от:</span></div>
+                                                <div class="col-sm-6 col-xs-12 no-left-padding">
+                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                         </div>
@@ -343,28 +347,22 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="row">
-                                                <div class="col-sm-6"><span class="info__label">Годовой абонемент от:</span></div>
-                                                <div class="col-sm-6 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12 ">
+                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Годовой абонемент от:</span></div>
+                                                <div class="col-sm-6 col-xs-12 no-left-padding">
+                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="row">
-                                                <div class="col-sm-6"><span class="info__label">Бесплатное занятие</span></div>
-                                                <div class="col-sm-6 no-left-padding">
+                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Бесплатное занятие</span></div>
+                                                <div class="col-sm-6 col-xs-12 no-left-padding">
                                                     <select class="custom-select" title="Да" data-width="70px">
                                                         <option value="0">Да</option>
                                                         <option value="1">Нет</option>
                                                     </select>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <input type="checkbox" id="add-4" class="custom-checkbox">
-                                            <label for="add-4" class="label-medium">Уточняйте</label>
                                         </div>
                                     </div>
                                 </div>
@@ -388,8 +386,30 @@
                                     </li>
                                 </ul>
                                 <h3 class="photo-set--title">Выберете своего тренера:</h3>
-
+                                <div class="row add-sport-trainer__form">
+                                    <div class="col-md-5 col-sm-4 col-xs-12">
+                                        <select name="" id="trainer-names" class="custom-select" title="ФИО тренера" data-width="100%">
+                                            <option value="Куспак Светлана Олеговна">Куспак Светлана Олеговна</option>
+                                            <option value="Титов Сергей Александрович">Титов Сергей Александрович</option>
+                                            <option value="Капустян Дмитрий Иванович">Капустян Дмитрий Иванович</option>
+                                            <option value="Ллойд Ольга Леонидовна">Ллойд Ольга Леонидовна</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-12 no-left-padding"><span class="info__label pull-right">или впишите его ID:</span></div>
+                                    <div class="col-sm-2 col-xs-12">
+                                        <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
+                                    </div>
+                                    <div class="col-md-2 col-sm-3 col-xs-12">
+                                       <button type="button" id="add-your-trainer" class="btn btn-success">Добавить</button>
+                                    </div>
+                                </div>
                             </fieldset>
+
+                            <fieldset class="form-footer">
+                                <button type="submit" class="add-block__submit">Сохранить</button>
+                                <button type="reset" class="add-block__reset">Отменить</button>
+                            </fieldset>
+
                         </form>
                     </div>
                 </div>

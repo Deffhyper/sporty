@@ -2081,6 +2081,7 @@ body:after {
       overflow: hidden;
       position: relative;
       margin-right: 4.5%;
+      margin-bottom: 15px;
 
       .custom-input-file-2 {
         border: 1px solid #cbcbcb;
@@ -2099,7 +2100,7 @@ body:after {
     }
   }
   .object-description {
-    padding: 15px 0;
+    //padding: 15px 0;
     textarea {
       height: 100px;
     }
@@ -2141,15 +2142,7 @@ body:after {
     border-right: 1px solid #e4e4e4;
     border-bottom: 1px solid #e4e4e4;
     box-shadow: 0 2px 4px 0 rgba(0,0,0, .1);
-    .btn-danger {
-      background-color: #e92d2d;
-      &:hover {
-        background-color: #ff2e2e;
-      }
-    }
-    .btn-success {
-      background-color: #1274bf;
-    }
+
     .label-medium {
       position: relative;
       top: 5px;
@@ -2189,9 +2182,11 @@ body:after {
         display: block;
       }
     }
-
   }
   .add-sport-trainer {
+    &__list {
+      margin-bottom: 30px;
+    }
     &__item {
       &.border-input {
         padding: 8px 25px 8px 35px;
@@ -2222,8 +2217,51 @@ body:after {
       }
     }
   }
-
+  .btn {
+    &.btn-danger {
+      padding: 9px 25px;
+    }
+    &.btn-success {
+      padding: 9px 25px;
+    }
+  }
+  .add-block__submit {
+    background-image: linear-gradient(to top, #0e67b5, #1a7fc5);
+    border-top: 2px solid #338dcb;
+    border-radius: 4px;
+    color: #fff;
+    padding: 14px 30px;
+    margin-right: 40px;
+    &:hover {
+      background-image: linear-gradient(to bottom, #0e67b5, #1a7fc5);
+    }
+  }
+  .form-footer {
+    padding-top: 60px;
+    padding-bottom: 25px;
+  }
+  .add-block__reset {
+    background: none;
+    color: $accent;
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
+
+.btn {
+  &.btn-danger {
+    background-color: #e92d2d;
+    &:hover {
+      background-color: #ff2e2e;
+    }
+  }
+  &.btn-success {
+    background-color: #1274bf;
+  }
+}
+
 .custom-input-file {
   display: flex;
   height: 48px;
@@ -2289,6 +2327,7 @@ body:after {
 .sm-padding {
   padding: 15px 0;
 }
+
 
 
 
