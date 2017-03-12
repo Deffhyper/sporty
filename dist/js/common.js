@@ -148,15 +148,15 @@ $(function() {
 
     ///////////////////////////////////////// add contact telephone ///////////////////////////////////////////
 
-    $('.contact-info').on('click touchstart', function(e){
+    $('.contact-info').on('click', function(e){
         e.preventDefault();
         var target = e.target;
         var telBlock ='<div class="row">'+
                             '<div class="col-sm-2"></div>'+
                             '<div class="col-sm-7">'+
                                 '<div class="row">'+
-                                    '<div class="col-sm-6"><input type="tel" class="border-input col-sm-12" placeholder="+38(0__) ___-____"></div>'+
-                                    '<div class="col-sm-6"><input type="text" class="border-input col-sm-12"></div>'+
+                                    '<div class="col-sm-6"><input type="tel" class="border-input col-sm-12 col-xs-12" placeholder="+38(0__) ___-____"></div>'+
+                                    '<div class="col-sm-6"><input type="text" class="border-input col-sm-12 col-xs-12" placeholder="Название отдела"></div>'+
                                 '</div>'+
                             '</div>'+
                             '<div class="col-sm-3">'+
@@ -176,32 +176,51 @@ $(function() {
         setHeight: "210px"
     });
 
+    ///////////////////////////////////////////// add trainer to add-form //////////////////////////////////////////
+
+    $('#add-your-trainer').click(function(){
+        var trainerName = $('#trainer-names').val();
+        var trainerBlock = '<li class="add-sport-trainer__item border-input">'+
+                                '<i class="icon-trainer"></i>' +
+                                '<span>'+trainerName+'</span>' +
+                                '<i class="icon-close-red"></i>'+
+                            '</li>';
+        $('.add-sport-trainer__list').append(trainerBlock);
+    });
+
+    $('.add-sport-trainer__list').on('click', function(e){
+        var target = e.target;
+        if (target.className === "icon-close-red") {
+           $(target).parent().remove();
+        }
+    });
+
 
     function bindClickOnTabMenu(widthScreen){
 
         if (widthScreen < 992) {
 
-            $('.navbar-nav').find('.with-drop-menu a').unbind('click touchstart').bind('click touchstart', function(e){
+            $('.navbar-nav').find('.with-drop-menu a').unbind('click ').bind('click ', function(e){
                 e.preventDefault();
                 $(this).next('.site-header__main-menu').slideToggle();
             });
 
-            $('.menu-trigger').unbind('click touchstart').bind('click touchstart', function(e){
+            $('.menu-trigger').unbind('click ').bind('click ', function(e){
                 e.preventDefault();
                 $(this).toggleClass('open');
                 $('.site-header--menu').find('.navbar-nav').slideToggle();
             });
 
-            $('.left-sidebar--title').unbind('click touchstart').bind('click touchstart', function(){
+            $('.left-sidebar--title').unbind('click touchstart').bind('click ', function(){
                 $(this).toggleClass('open');
-                $(this).next('ul').slideToggle();
+                $(this).next().slideToggle();
             });
 
         } else {
-            $('.navbar-nav').find('.with-drop-menu a').unbind('click touchstart');
-            $('.left-sidebar--title').unbind('click touchstart');
+            $('.navbar-nav').find('.with-drop-menu a').unbind('click ');
+            $('.left-sidebar--title').unbind('click');
             $('.left-sidebar--title').removeClass('open');
-            $('.left-sidebar--title').next('ul').slideDown();
+            $('.left-sidebar--title').next().slideDown();
         }
     }
 

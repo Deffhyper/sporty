@@ -2788,4 +2788,6 @@ body:after {
     margin-bottom: 10px; }
   .add-block .add-item {
     font-size: inherit;
-    padding-top: 0; } }
+    padding-top: 0; }
+  .add-sport-section .custom-select {
+    margin-bottom: 15px; } }
