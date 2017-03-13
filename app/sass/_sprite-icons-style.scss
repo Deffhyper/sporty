@@ -237,6 +237,11 @@
   display: inline-block;
 }
 
+.icon-sticker-top {
+  @include sprite($sticker-top);
+  display: inline-block;
+}
+
 
 
 

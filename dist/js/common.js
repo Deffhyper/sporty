@@ -198,6 +198,12 @@ $(function() {
         }
     });
 
+    /////////////////////////////////// sticky right sidebar //////////////////
+
+    $('.sticky-block').stick_in_parent({
+        offset_top: 20
+    });
+
 
     function bindClickOnTabMenu(widthScreen){
 

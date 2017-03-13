@@ -12,7 +12,7 @@
                     <h2 class="left-sidebar--title hidden-lg hidden-md">Все категории <span class="icon-arrow hidden-lg hidden-md"></span>
                     </h2>
                     <ul class="left-sidebar-nav left-sidebar-nav--ctrl">
-                        <li>
+                        <li class="active">
                             <a href="#">Персональная информация</a>
                         </li>
                         <li>

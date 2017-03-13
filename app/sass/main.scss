@@ -1538,7 +1538,7 @@ body:after {
       border-right: 4px solid transparent;
       &:hover {
         background-color: #0f66a9;
-        //border-right-color: #ffb200;
+        border-right-color: #ffb200;
         a{
           border-top-color: transparent;
         }
@@ -2047,7 +2047,7 @@ body:after {
     }
   }
   &:checked+label:before {
-    background: #fff url("../img/jpeg_files/checked-sm.png") no-repeat center;
+    background: #fff url("../img/jpeg_files/checked.png") no-repeat center;
   }
 }
 .label-bold {
@@ -2118,6 +2118,10 @@ body:after {
 
       .custom-input-file-2 {
         border: 1px solid #cbcbcb;
+        transition: .3s ease;
+        &:hover {
+          border-color: $accent;
+        }
       }
 
 
@@ -2344,6 +2348,7 @@ body:after {
   margin-bottom: 15px;
   &:hover {
     color: $accent;
+    border-color: $accent;
   }
   span {
     display: inline-block;
@@ -2355,11 +2360,9 @@ body:after {
 }
 .custom-input-file-2 {
   display: inline-block;
-
   width: 101px;
   height: 101px;
   vertical-align: top;
-  //margin: 0 -2px;
   position: relative;
   cursor: pointer;
   &:after {
@@ -2407,6 +2410,12 @@ body:after {
   float: left;
   width: 100%;
   margin-bottom: 20px;
+  transition: .3s ease;
+
+  &:hover {
+    border-color: #1489e1;
+    box-shadow: 0 0 8px 0 rgba(20, 137, 225, 0.2);
+  }
 
   &-photo {
     width: 250px;
@@ -2414,6 +2423,12 @@ body:after {
     overflow: hidden;
     position: relative;
     float: left;
+    .icon-sticker-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
     img {
       height: 100%;
       width: auto;
@@ -2436,6 +2451,23 @@ body:after {
     &__partitions {
       p {
         margin-bottom: 0;
+      }
+      &--list {
+        padding-left: 5px;
+        &>li {
+          padding: 0;
+          &:last-child a{
+            text-decoration: none;
+            margin-left: 5px;
+          }
+        }
+        a{
+          color: inherit;
+          text-decoration: underline;
+          &:hover {
+            text-decoration: none;
+          }
+        }
       }
     }
     hr {
@@ -2510,6 +2542,10 @@ body:after {
   margin-right: 15px;
 }
 
+.bold-text {
+  font-family: $OS-Bold-font;
+}
+
 
 .admin-goods {
   margin-bottom: 25px;
@@ -2562,10 +2598,23 @@ body:after {
     }
     &--checkbox {
       font-family: $OS-Light-font;
-      margin-left: 35px;
+      margin-left: 55px;
       vertical-align: middle;
+      margin-top: 5px;
       label {
         display: block;
+        position: relative;
+        &:before {
+          position: absolute;
+          top: 2px;
+          left: -20px;
+        }
+      }
+      .custom-checkbox {
+        &:checked+label:before {
+          border: none;
+          background: #fff url("../img/jpeg_files/checked-bold.png") no-repeat center;
+        }
       }
     }
     &--submit {
@@ -2577,29 +2626,40 @@ body:after {
 .item-filter {
   font-size: 14px;
   padding: 5px 0;
+  ul {
+    display: inline-block;
+    padding: 5px 0;
+    &>li {
+      padding: 0;
+    }
+  }
   &__child {
-    display: none;
-    &+label {
+
+    a {
       color: #066ab6;
       border-bottom: 1px dotted #066ab6;
-      display: inline-block;
       line-height: 1;
       margin: 15px;
     }
-    &:checked+label{
-      border-bottom: none;
+    &.active{
+      a{
+        border-bottom: none;
+      }
+
     }
   }
 }
 
 .banner {
-  height: 165px;
-  background-repeat: no-repeat;
-  background-size: cover;
   margin-bottom: 20px;
   a {
     display: block;
     height: 100%;
+    img {
+      max-width: 100%;
+      height: auto;
+      width: 100%;
+    }
   }
 }
 

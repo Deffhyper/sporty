@@ -62,47 +62,49 @@
             </div>
             <div class="col-sm-12">
                 <div class="item-filter add-block">
-                    <form action="">
-                        <span class="info__label">Сортировать по:</span>
-                        <input type="checkbox" id="if-1" class="item-filter__child">
-                        <label for="if-1" class="hidden-sm hidden-xs">рейтингу</label>
-                        <input type="checkbox" id="if-2" class="item-filter__child">
-                        <label for="if-2" class="hidden-sm hidden-xs">цене по убыванию</label>
-                        <input type="checkbox" id="if-3" class="item-filter__child">
-                        <label for="if-3" class="hidden-sm hidden-xs">цене по возрастанию</label>
-                        <input type="checkbox" id="if-4" class="item-filter__child">
-                        <label for="if-4" class="hidden-sm hidden-xs">по отзывам</label>
-                        <input type="checkbox" id="if-5" class="item-filter__child">
-                        <label for="if-5" class="hidden-sm hidden-xs">по алфавиту</label>
-
-                        <select name="" id="" class="custom-select hidden-lg hidden-md">
+                    <span class="info__label">Сортировать по:</span>
+                    <ul class="list-inline hidden-sm hidden-xs">
+                        <li class="item-filter__child active"><a href="javascript:void(0)">рейтингу</a></li>
+                        <li  class="item-filter__child"><a href="javascript:void(0)">цене по убыванию</a></li>
+                        <li  class="item-filter__child"><a href="javascript:void(0)">цене по возрастанию</a></li>
+                        <li class="item-filter__child"><a href="javascript:void(0)">по отзывам</a></li>
+                        <li class="item-filter__child"><a href="javascript:void(0)">по алфавиту</a></li>
+                    </ul>
+                    <select name="" id="" class="custom-select hidden-lg hidden-md">
                             <option value="1">рейтингу</option>
                             <option value="1">цене по убыванию</option>
                             <option value="1">цене по возрастанию</option>
                             <option value="1">по отзывам</option>
                             <option value="1">по алфавиту</option>
-                        </select>
-                    </form>
-                    
+                    </select>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-9 col-sm-12">
-                <div class="banner" style="background-image: url('img/jpeg_files/banner.jpg');">
-                    <a href="#"></a>
+                <div class="banner"">
+                    <a href="#">
+                        <img src="img/jpeg_files/banner.jpg" alt="banner">
+                    </a>
                 </div>
-                
+
                 <ul class="favorite-list clearfix">
                     <li class="goods">
                         <div class="goods-photo">
+                            <i class="icon-sticker-top"></i>
                             <img src="img/jpeg_files/club-1.jpg" alt="club-1">
                         </div>
                         <div class="goods-prop">
-                            <h4 class="goods-prop__title">Сеть фитнес-клубов Gold Fitness</h4>
+                            <h4 class="goods-prop__title bold-text">Сеть фитнес-клубов Gold Fitness</h4>
                             <div class="goods-prop__partitions">
                                 <p>Секции: </p>
-                                <p>Бокс, Карате, Спортивный зал, Пилатес</p>
+                                <ul class="list-inline goods-prop__partitions--list">
+                                    <li><a href="javascript:void(0)">Бокс,</a></li>
+                                    <li><a href="javascript:void(0)">Карате,</a></li>
+                                    <li><a href="javascript:void(0)">Спортивный зал,</a></li>
+                                    <li><a href="javascript:void(0)">Пилатес</a></li>
+                                    <li><a href="javascript:void(0)"><b>+2</b></a></li>
+                                </ul>
                             </div>
                             <hr>
                             <div class="clearfix">
@@ -136,13 +138,20 @@
                     </li>
                     <li class="goods">
                         <div class="goods-photo">
+                            <i class="icon-sticker-top"></i>
                             <img src="img/jpeg_files/club-2.jpg" alt="club-1">
                         </div>
                         <div class="goods-prop">
-                            <h4 class="goods-prop__title">Сеть фитнес-клубов Gold Fitness</h4>
+                            <h4 class="goods-prop__title bold-text">Сеть фитнес-клубов Gold Fitness</h4>
                             <div class="goods-prop__partitions">
                                 <p>Секции: </p>
-                                <p>Бокс, Карате, Спортивный зал, Пилатес</p>
+                                <ul class="list-inline goods-prop__partitions--list">
+                                    <li><a href="javascript:void(0)">Бокс,</a></li>
+                                    <li><a href="javascript:void(0)">Карате,</a></li>
+                                    <li><a href="javascript:void(0)">Спортивный зал,</a></li>
+                                    <li><a href="javascript:void(0)">Пилатес</a></li>
+                                    <li><a href="javascript:void(0)"><b>+2</b></a></li>
+                                </ul>
                             </div>
                             <hr>
                             <div class="clearfix">
@@ -179,10 +188,16 @@
                             <img src="img/jpeg_files/club-5.jpg" alt="club-1">
                         </div>
                         <div class="goods-prop">
-                            <h4 class="goods-prop__title">Сеть фитнес-клубов Gold Fitness</h4>
+                            <h4 class="goods-prop__title bold-text">Сеть фитнес-клубов Gold Fitness</h4>
                             <div class="goods-prop__partitions">
                                 <p>Секции: </p>
-                                <p>Бокс, Карате, Спортивный зал, Пилатес</p>
+                                <ul class="list-inline goods-prop__partitions--list">
+                                    <li><a href="javascript:void(0)">Бокс,</a></li>
+                                    <li><a href="javascript:void(0)">Карате,</a></li>
+                                    <li><a href="javascript:void(0)">Спортивный зал,</a></li>
+                                    <li><a href="javascript:void(0)">Пилатес</a></li>
+                                    <li><a href="javascript:void(0)"><b>+2</b></a></li>
+                                </ul>
                             </div>
                             <hr>
                             <div class="clearfix">
@@ -219,10 +234,16 @@
                             <img src="img/jpeg_files/club-6.jpg" alt="club-1">
                         </div>
                         <div class="goods-prop">
-                            <h4 class="goods-prop__title">Сеть фитнес-клубов Gold Fitness</h4>
+                            <h4 class="goods-prop__title bold-text">Сеть фитнес-клубов Gold Fitness</h4>
                             <div class="goods-prop__partitions">
                                 <p>Секции: </p>
-                                <p>Бокс, Карате, Спортивный зал, Пилатес</p>
+                                <ul class="list-inline goods-prop__partitions--list">
+                                    <li><a href="javascript:void(0)">Бокс,</a></li> 
+                                    <li><a href="javascript:void(0)">Карате,</a></li>  
+                                    <li><a href="javascript:void(0)">Спортивный зал,</a></li>
+                                    <li><a href="javascript:void(0)">Пилатес</a></li>
+                                    <li><a href="javascript:void(0)"><b>+2</b></a></li>
+                                </ul>
                             </div>
                             <hr>
                             <div class="clearfix">
@@ -262,7 +283,7 @@
                 </div>
                 
             </div>
-            <div class="col-md-3 col-sm-12">
+            <div class="col-md-3 col-sm-12 sticky-block">
                 <div class="right-sidebar">
                     <div class="right-sidebar__map">
                         <a href="#" class="right-sidebar__map--link btn btn-success">Развернуть карту</a>
@@ -280,12 +301,12 @@
                                                         scrollwheel: false,
                                                         center: myLatLng
                                                     });
-                        //                                    var icon =
+                                                    var icon = "http://deff-hyper.xyz/img/jpeg_files/picker-yellow.png"
 
                                                     var marker = new google.maps.Marker({
                                                         position: myLatLng,
                                                         map: map,
-                        //                                icon: icon,
+                                                        icon: icon,
                                                         title: 'Sporty'
                                                     });
 
