@@ -292,6 +292,16 @@
     padding-top: 0;
     padding-bottom: 20px;
   }
+  .reviews-item {
+    padding: 5px 10px;
+  }
+  .reviews-title {
+    max-width: none;
+    width: 100%;
+  }
+  .reviews-rating.pull-right {
+    float: none !important;
+  }
 
 
 
