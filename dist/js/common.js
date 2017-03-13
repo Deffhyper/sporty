@@ -144,7 +144,10 @@ $(function() {
         $("#logIn").modal('hide');
     });
 
-    $('.tateit').rateit();
+    $('.rateit').rateit();
+    $('.rateit').bind('rated', function() {
+       $(this).next('.rateit-value-now').text($(this).rateit('value'));
+    });
 
     ///////////////////////////////////////// add contact telephone ///////////////////////////////////////////
 

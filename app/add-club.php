@@ -115,33 +115,33 @@
                             </fieldset>
 
                             <fieldset class="map-init">
-                                <div id="map" style="height: 200px; background-color: gray"></div>
-<!--                                <script>-->
-<!---->
-<!--                                    //        init map with javascript-->
-<!--                                    function initMap() {-->
-<!--                                        var myLatLng = {lat: 50.4434022, lng: 30.5202183};-->
-<!---->
-<!---->
-<!--                                        var map = new google.maps.Map(document.getElementById('map'), {-->
-<!--                                            zoom: 13,-->
-<!--                                            scrollwheel: false,-->
-<!--                                            center: myLatLng-->
-<!--                                        });-->
-<!--//                                    var iconBase = '';-->
-<!---->
-<!--                                        var marker = new google.maps.Marker({-->
-<!--                                            position: myLatLng,-->
-<!--                                            map: map,-->
-<!--//                                        icon: iconBase,-->
-<!--                                            title: 'Sporty'-->
-<!--                                        });-->
-<!---->
-<!--                                    }-->
-<!--                                </script>-->
-<!--                                <script async defer-->
-<!--                                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZIngoLRi7b8SOAsASZu726qekWdjQng0&callback=initMap">-->
-<!--                                </script>-->
+                                <div id="map" style="height: 200px;"></div>
+                                <script>
+
+                                    //        init map with javascript
+                                    function initMap() {
+                                        var myLatLng = {lat: 50.4434022, lng: 30.5202183};
+
+
+                                        var map = new google.maps.Map(document.getElementById('map'), {
+                                            zoom: 13,
+                                            scrollwheel: false,
+                                            center: myLatLng
+                                        });
+//                                    var iconBase = '';
+
+                                        var marker = new google.maps.Marker({
+                                            position: myLatLng,
+                                            map: map,
+//                                        icon: iconBase,
+                                            title: 'Sporty'
+                                        });
+
+                                    }
+                                </script>
+                                <script async defer
+                                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZIngoLRi7b8SOAsASZu726qekWdjQng0&callback=initMap">
+                                </script>
                             </fieldset>
                             <fieldset class="photo-set">
                                 <h3 class="photo-set--title">Фотографии</h3>

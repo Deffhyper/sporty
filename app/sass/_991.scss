@@ -214,6 +214,48 @@
     left: 0;
   }
 
+  .direction-filter form > div {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .direction-filter {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .direction-filter__item {
+    margin-right: 0;
+
+    .custom-select {
+      width: 100% !important;
+    }
+  }
+  .direction-filter__item--checkbox {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .direction-filter__item--submit {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .item-filter.add-block {
+    .info__label {
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+  }
+  .item-filter {
+    padding: 15px 0;
+  }
+  .direction-show-more {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .right-sidebar {
+    margin-bottom: 30px;
+  }
+
+
 
 
 

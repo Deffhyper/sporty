@@ -212,6 +212,31 @@
   display: inline-block;
 }
 
+.icon-elect {
+  @include sprite($elect);
+  display: inline-block;
+}
+
+.icon-elect-2 {
+  @include sprite($elect-2);
+  display: inline-block;
+}
+
+.icon-blue-picker {
+  @include sprite($blue-picker);
+  display: inline-block;
+}
+
+.icon-red-heart {
+  @include sprite($red-heart);
+  display: inline-block;
+}
+
+.icon-white-plus {
+  @include sprite($white-plus);
+  display: inline-block;
+}
+
 
 
 

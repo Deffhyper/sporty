@@ -86,6 +86,25 @@
     position: relative;
     left: -20px;
   }
+  .goods-prop__rating-favorite {
+    max-width: 240px;
+  }
+  .goods-prop__location {
+    height: 29px;
+  }
+  .goods-prop__to-favorite {
+    display: block;
+    margin-top: 5px;
+  }
+  .direction-filter__item {
+    .info__label {
+      display: block;
+    }
+  }
+  .direction-filter__item {
+    margin-right: 6%;
+  }
+
 
 
 }
