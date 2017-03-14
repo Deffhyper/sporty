@@ -204,6 +204,8 @@ $(function() {
         language: 'ru'
     });
 
+    ////////////////////////////////// responsive table //////////////////////////////////////////
+    $('#simple-example-table').stacktable();
 
 
 

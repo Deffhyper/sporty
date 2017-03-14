@@ -320,6 +320,43 @@
     padding: 0 5px 10px 5px;
     font-size: 14px;
   }
+  .statistic-body__table {
+    display: none;
+  }
+  .stacktable.small-only {
+    display: table;
+    overflow: visible;
+  }
+  .statistic-body__table.stacktable.small-only {
+    .st-head-row.st-head-row-main {
+      display: none;
+    }
+    .st-head-row {
+      height: 50px;
+      padding: 0 20px;
+      background-color: #f9f9f9;
+    }
+    .st-key {
+      i {
+        display: none;
+      }
+    }
+  }
+  .statistic-body__table tbody tr:nth-child(even) {
+    background-color: inherit;
+  }
+  .statistic-header {
+    .section-block__title {
+      float: none !important;
+    }
+    .add-block {
+      float: none !important;
+    }
+  }
+  .statistic-body__table tbody tr td {
+    height: 40px;
+  }
+
 
 
 

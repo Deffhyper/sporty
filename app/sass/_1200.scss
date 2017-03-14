@@ -109,6 +109,14 @@
     padding: 0 20px 20px 0;
     font-size: 14px;
   }
+  .statistic-body__table tbody tr td:first-child {
+    width: 50%;
+  }
+  .statistic-body__table tbody tr td:nth-child(2),
+  .statistic-body__table tbody tr td:nth-child(3),
+  .statistic-body__table tbody tr td:nth-child(4) {
+    width: 16.666666%;
+  }
 
 
 

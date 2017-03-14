@@ -242,6 +242,21 @@
   display: inline-block;
 }
 
+.icon-statistic {
+  @include sprite($statistic);
+  display: inline-block;
+}
+
+.icon-small-yellow-picker {
+  @include sprite($small-yellow-picker);
+  display: inline-block;
+}
+
+.icon-small-yellow-eye {
+  @include sprite($small-yellow-eye);
+  display: inline-block;
+}
+
 
 
 
