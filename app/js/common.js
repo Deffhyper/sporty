@@ -198,11 +198,15 @@ $(function() {
         }
     });
 
-    /////////////////////////////////// sticky right sidebar //////////////////
-
-    $('.sticky-block').stick_in_parent({
-        offset_top: 20
+    /////////////////////////////// datepicker ///////////////////////
+    $('.datepicker').datepicker({
+        format: 'mm/dd/yyyy',
+        language: 'ru'
     });
+
+
+
+
 
 
     function bindClickOnTabMenu(widthScreen){
@@ -225,11 +229,22 @@ $(function() {
                 $(this).next().slideToggle();
             });
 
+            $("#sticky-block").trigger("sticky_kit:detach");
+
         } else {
             $('.navbar-nav').find('.with-drop-menu a').unbind('click ');
             $('.left-sidebar--title').unbind('click');
             $('.left-sidebar--title').removeClass('open');
             $('.left-sidebar--title').next().slideDown();
+
+            /////////////////////////////////// sticky right sidebar //////////////////
+            var styckyHeight = $("#sticky-left").height();
+
+            $('#sticky-block').stick_in_parent({
+                offset_top: 20
+            }).on("sticky_kit:stick", function() {
+                $(this).parent().css("height", styckyHeight -20);
+            });
         }
     }
 

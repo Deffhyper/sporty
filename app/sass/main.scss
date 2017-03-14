@@ -2163,6 +2163,9 @@ body:after {
     vertical-align: middle;
     padding: 8px 0;
     white-space: nowrap;
+    &--bold {
+      font-family: $OS-Bold-font;
+    }
   }
   .add-sport-section {
     background-color: #eaeaea;
@@ -2291,6 +2294,12 @@ body:after {
   background-image: linear-gradient(to top, #f7921c, #fab142);
   &:hover {
     background-image: linear-gradient(to bottom, #f7921c, #fab142);
+  }
+}
+.btn-blue-gradient {
+  background-image: linear-gradient(to top, #0f67b5, #338dcb);
+  &:hover {
+    background-image: linear-gradient(to bottom, #0f67b5, #338dcb);
   }
 }
 
@@ -2549,17 +2558,21 @@ body:after {
 
 .admin-goods {
   margin-bottom: 25px;
+  transition: .3s ease;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.1);
+  &:hover {
+    border-color: #1489e1;
+
+  }
   .goods {
     box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
   }
   &__control {
-    background-color: #fff;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.1);
 
     &--left {
       float: left;
@@ -2610,16 +2623,16 @@ body:after {
           left: -20px;
         }
       }
-      .custom-checkbox {
-        &:checked+label:before {
-          border: none;
-          background: #fff url("../img/jpeg_files/checked-bold.png") no-repeat center;
-        }
-      }
     }
     &--submit {
       margin-left: 35px;
     }
+  }
+}
+.custom-checkbox.custom-checkbox__bold {
+  &:checked+label:before {
+    border: none;
+    background: #fff url("../img/jpeg_files/checked-bold.png") no-repeat center;
   }
 }
 
@@ -2743,7 +2756,37 @@ body:after {
   }
 }
 
+.personal-form {
+  padding: 0 100px 20px 0;
+  font-size: 14px;
 
+  &__required-block {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  &__checkbox-list {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  &__confirm {
+    display: block;
+    line-height: 0;
+    margin-bottom: 14px;
+    font-size: 12px;
+    font-style: italic;
+    a{
+      margin-left: 5px;
+    }
+  }
+}
+
+.datepicker {
+  padding: 0 10px;
+}
+.mark-red {
+  background: transparent;
+  color: #ff0000;;
+}
 
 
 

@@ -47,7 +47,9 @@ gulp.task('scripts', function() {
 		'app/libs/social-likes-master/dist/social-likes.min.js', // social likes
 		'app/libs/jquery.rateit/scripts/jquery.rateit.min.js', // rating star
 		'app/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js', // rating star
-		'app/libs/sticky-kit/sticky.min.js' // sticky-kit
+		'app/libs/sticky-kit/sticky.min.js', // sticky-kit
+		'app/libs/bootstrap-datepicker-master/js/bootstrap-datepicker.min.js', // datepicker
+		'app/libs/bootstrap-datepicker-master/locales/bootstrap-datepicker.ru.min.js' // datepicker locale
 
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js

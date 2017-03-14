@@ -128,12 +128,12 @@
                                             scrollwheel: false,
                                             center: myLatLng
                                         });
-//                                    var iconBase = '';
+                                   var icon = "http://deff-hyper.xyz/img/jpeg_files/picker-yellow.png";
 
                                         var marker = new google.maps.Marker({
                                             position: myLatLng,
                                             map: map,
-//                                        icon: iconBase,
+                                            icon: icon,
                                             title: 'Sporty'
                                         });
 

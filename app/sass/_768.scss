@@ -303,6 +303,23 @@
   .reviews-rating.pull-right {
     float: none !important;
   }
+  .personal-form {
+    .text-right {
+      text-align: left;
+    }
+  }
+  .personal-form__checkbox-list {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .personal-form__required-block {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .personal-form {
+    padding: 0 5px 10px 5px;
+    font-size: 14px;
+  }
 
 
 

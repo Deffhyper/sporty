@@ -35,9 +35,9 @@
                         </select>
                     </div>
                     <div class="direction-filter__item--checkbox">
-                        <input type="checkbox" id="add-1" class="custom-checkbox">
+                        <input type="checkbox" id="add-1" class="custom-checkbox custom-checkbox__bold">
                         <label for="add-1" class="">Только для детей</label>
-                        <input type="checkbox" id="add-2" class="custom-checkbox">
+                        <input type="checkbox" id="add-2" class="custom-checkbox custom-checkbox__bold">
                         <label for="add-2" class="">Только для взрослых</label>
                     </div>
                     <div class="direction-filter__item--submit">
@@ -81,7 +81,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-9 col-sm-12">
+            <div id="sticky-left" class="col-md-9 col-sm-12">
                 <div class="banner"">
                     <a href="#">
                         <img src="img/jpeg_files/banner.jpg" alt="banner">
@@ -277,44 +277,43 @@
                     </li>
                 </ul>
                 <?php include_once "parts/pagination.php" ?>
-                
                 <div class="direction-show-more">
                     <a href="#">Показать еще</a>
                 </div>
-                
             </div>
-            <div class="col-md-3 col-sm-12 sticky-block">
+            <div id="sticky-block" class="col-md-3 col-sm-12">
                 <div class="right-sidebar">
                     <div class="right-sidebar__map">
                         <a href="#" class="right-sidebar__map--link btn btn-success">Развернуть карту</a>
+
                         <div id="map" style="height: 530px; background-color: #f2f2f2"></div>
-                                            <script>
+                        <script>
 
-                                                //        init map with javascript
-                                                function initMap() {
-                                                    var myLatLng = {lat: 50.4434022, lng: 30.5202183};
+                            //        init map with javascript
+                            function initMap() {
+                                var myLatLng = {lat: 50.4434022, lng: 30.5202183};
 
 
-                                                    var map = new google.maps.Map(document.getElementById('map'), {
-                                                        zoom: 10,
-                                                        disableDefaultUI: true,
-                                                        scrollwheel: false,
-                                                        center: myLatLng
-                                                    });
-                                                    var icon = "http://deff-hyper.xyz/img/jpeg_files/picker-yellow.png"
+                                var map = new google.maps.Map(document.getElementById('map'), {
+                                    zoom: 10,
+                                    disableDefaultUI: true,
+                                    scrollwheel: false,
+                                    center: myLatLng
+                                });
+                                var icon = "http://deff-hyper.xyz/img/jpeg_files/picker-yellow.png";
 
-                                                    var marker = new google.maps.Marker({
-                                                        position: myLatLng,
-                                                        map: map,
-                                                        icon: icon,
-                                                        title: 'Sporty'
-                                                    });
+                                var marker = new google.maps.Marker({
+                                    position: myLatLng,
+                                    map: map,
+                                    icon: icon,
+                                    title: 'Sporty'
+                                });
 
-                                                }
-                                            </script>
-                                            <script async defer
-                                                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZIngoLRi7b8SOAsASZu726qekWdjQng0&callback=initMap">
-                                            </script>
+                            }
+                        </script>
+                        <script async defer
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZIngoLRi7b8SOAsASZu726qekWdjQng0&callback=initMap">
+                        </script>
                     </div>
                 </div>
             </div>
@@ -322,7 +321,6 @@
     </div>
 </section>
 
-<!--<div class="clearfix"></div>-->
 
 <section class="block-with-back section-block md-padding">
     <div class="container ">
