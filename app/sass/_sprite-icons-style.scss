@@ -257,6 +257,11 @@
   display: inline-block;
 }
 
+.icon-sticker-sale {
+  @include sprite($sticker-sale);
+  display: inline-block;
+}
+
 
 
 
