@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   body:after {
     content: none;
   }
@@ -240,8 +240,9 @@
   }
   .goods-photo {
     float: none;
-    max-width: 250px;
+    max-width: 270px;
     margin: auto;
+    width: auto;
   }
   .goods-prop {
     margin-left: 0;
@@ -385,6 +386,139 @@
     width: 57%;
     padding-right: 9px;
   }
+  .r-tabs .r-tabs-panel {
+    padding: 0 15px 5px;
+  }
+  .object-tabs__content--title.goods-prop__title {
+    display: none;
+  }
+  .price-title a {
+    padding: 15px 20px;
+  }
+  .price-title a .icon-circle {
+    top: 15px;
+  }
+  .r-tabs-accordion-title{
+
+    .r-tabs-anchor {
+      display: block;
+      padding: 15px;
+      color: #066ab6;
+      font-family: $OS-SBold-font;
+      background-color: #fff;
+      margin-bottom: 15px;
+      border-radius: 3px;
+      border: 1px solid #e4e4e4;
+      font-size: 16px;
+      transition: inherit;
+      position: relative;
+      &:after {
+        content: '';
+        display: block;
+        width: 2px;
+        height: 10px;
+        background-color: #066ab6;
+        position: absolute;
+        top: 22px;
+        right: 20px;
+        transition: .3s ease;
+      }
+      &:before {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 2px;
+        background-color: #066ab6;
+        position: absolute;
+        top: 26px;
+        right: 16px;
+      }
+    }
+
+    &.r-tabs-state-active {
+
+      .r-tabs-anchor {
+        margin-bottom: 0;
+        border-bottom: none;
+
+        &:after {
+          background-color: transparent;
+        }
+
+      }
+    }
+  }
+  .r-tabs .r-tabs-panel.r-tabs-state-active {
+    margin-bottom: 15px;
+    border-top: none;
+  }
+
+  .three-photo-block li {
+    height: auto;
+    display: block;
+    text-align: center;
+    width: auto;
+    max-width: 260px;
+    margin: 0 auto 15px !important;
+  }
+
+  .return-to-search {
+    padding: 0 0 20px;
+  }
+
+  .price-panel .panel-body .goods-prop__price--right,
+  .price-panel .panel-body .goods-prop__price--left{
+    width: 100%;
+    text-align: center;
+  }
+  .price-panel .panel-body .goods-prop__price--left .border-dots {
+    border-bottom: none
+  }
+
+  .price-accordion .goods-prop__price ul li:nth-child(even){
+    background-color: #e4e4e4;
+    span:first-child {
+      background-color: transparent;
+    }
+  }
+
+  .action-list {
+    .goods-prop {
+      padding: 10px 5px;
+    }
+    .goods-prop__location {
+      height: 26px;
+    }
+    .goods-prop__title {
+      margin-bottom: 5px;
+    }
+    .goods-prop__reviews {
+      margin-right: 0;
+    }
+    .goods-prop__start-price {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+  }
+  .trainer-list .goods-prop__location {
+    margin: 15px 0 25px;
+    height: 33px;
+    padding-top: 3px;
+  }
+  .trainer-list .goods-photo {
+    width: auto;
+  }
+  .trainer-list .goods-prop {
+    padding: 10px 5px;
+  }
+
+  .reviews-list {
+    .reviews-item {
+      padding: 5px;
+    }
+  }
+
+
 
 
 

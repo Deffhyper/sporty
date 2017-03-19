@@ -3,7 +3,7 @@
 @import "var";
 @import "mixin";
 @import "sprite-icons-style";
-@import "tab-accord";
+
 
 html {
   -webkit-box-sizing: border-box;
@@ -2498,10 +2498,27 @@ select.custom-select {
       left: 0;
       z-index: 1;
     }
-    img {
-      height: 100%;
-      width: auto;
+    .icon-sticker-empty {
       position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      span {
+        font-style: normal;
+        color: #fff;
+        font-family: $OS-SBold-font;
+        display: inline-block;
+        transform: rotateZ(-45deg);
+        position: absolute;
+        top: 23px;
+        left: 18px;
+      }
+    }
+    img {
+      height: auto;
+      width: 100%;
+      position: absolute;
+      min-height: 220px;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -3186,6 +3203,17 @@ select.custom-select {
   }
 }
 
+.return-to-search {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: $OS-Light-font;
+  .icon-return {
+    margin-right: 3px;
+    position: relative;
+    top: 2px;
+  }
+}
 
 
 
@@ -3207,7 +3235,8 @@ select.custom-select {
 
 
 
-
+@import "tab-accord";
+@import "price-accord";
 @import "1200";
 @import "991";
 @import "768";

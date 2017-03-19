@@ -282,6 +282,16 @@
   display: inline-block;
 }
 
+.icon-return {
+  @include sprite($return);
+  display: inline-block;
+}
+
+.icon-sticker-empty {
+  @include sprite($sticker-empty);
+  display: inline-block;
+}
+
 
 
 

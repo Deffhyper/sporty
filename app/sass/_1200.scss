@@ -167,5 +167,66 @@
     min-height: 413px;
   }
 
+  .three-photo-block li {
+    height: 140px;
+  }
+  .object-tabs__title a {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  .r-tabs-nav .object-tabs__title {
+    margin-right: .7%;
+  }
+  .r-tabs-nav .object-tabs__title:last-child.r-tabs-state-active:after,
+  .r-tabs-nav .object-tabs__title.r-tabs-state-active:after {
+    height: 39px;
+  }
+
+  .price-panel .panel-body .goods-prop__price--left {
+    width: 80%;
+  }
+  .price-panel .panel-body .goods-prop__price--right {
+    width: 20%;
+  }
+  .action-list {
+
+    .btn-medium {
+      padding: 12px 20px;
+    }
+
+    .goods-prop__start-price {
+      margin-bottom: 3px;
+    }
+
+    .goods-prop__title {
+      height: 40px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
