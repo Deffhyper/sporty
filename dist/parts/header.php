@@ -20,10 +20,7 @@
                     <div class="for-mob-group">
                         <div class="site-header__tel">
                             <i class="icon-phone"></i>
-                            <a href="tel:8 (800) 757 32 15" class="site-header__tel--title" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">8 (800) 757 32 15</a>
-                            <a href="#" class="site-header__tel--handler">
-                                <span class="icon-arrow"></span>
-                            </a>
+                            <a href="tel:8 (800) 757 32 15" class="site-header__tel--title" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">8 (800) 757 32 15 <span class="icon-arrow"></span></a>
                             <ul class="dropdown-menu">
                                 <li><i class="icon-b-line"></i><a href="tel:+38 (093) 757 32 15"><span>+38 (093)</span> 757 32 15</a></li>
                                 <li><i class="icon-vd-phone"></i><a href="tel:+38 (099) 757 32 15"><span>+38 (099)</span> 757 32 15</a></li>
@@ -42,8 +39,10 @@
                     </div>
                     <div class="for-mob-group">
                         <div class="site-header__favorite hidden-xs">
-                            <a href="javascript:void(0)" class="site-header__favorite--star">&#9733;</a>
-                            <span class="site-header__favorite--counter">15</span>
+                            <a href="javascript:void(0)">
+                                <i class="icon-red-heart"></i>
+                                <span class="site-header__favorite--counter">15</span>
+                            </a>
                         </div>
 
                         <div class="site-header__add">

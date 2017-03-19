@@ -116,11 +116,14 @@
   .modal-title__small {
     text-align: center;
   }
+  .modal-block__right .modal-title__small {
+    padding-left: 0;
+  }
   .site-top-filter__title {
     font-size: 24px;
   }
   .site-header__tel--handler .icon-arrow {
-    left: 0px;
+    left: 0;
   }
   .slick-arrow.slick-prev {
     left: 0;
@@ -356,6 +359,33 @@
   .statistic-body__table tbody tr td {
     height: 40px;
   }
+  .object-top__controls .goods-prop__rating-favorite {
+    max-width: none;
+    text-align: center;
+  }
+  .object-top__controls .goods-prop__to-favorite {
+    margin-left: 0;
+  }
+  .object-top__controls {
+    padding: 0 0 10px;
+  }
+  .object-top__slider {
+    width: 265px;
+  }
+  .lSSlideOuter .lSPager.lSGallery img {
+    height: 75px;
+  }
+  .object-top__prop .goods-prop__title {
+    max-width: 100%;
+  }
+  .goods-prop__price--right {
+    width: 43%;
+  }
+  .goods-prop__price--left {
+    width: 57%;
+    padding-right: 9px;
+  }
+
 
 
 

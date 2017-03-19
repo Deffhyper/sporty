@@ -2,7 +2,14 @@
 <html>
 <?php include_once "parts/header.php" ?>
 
-<?php include_once "parts/breadcrumbs.php" ?>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <?php include_once "parts/breadcrumbs.php" ?>
+        </div>
+    </div>
+</div>
+
 
 <section class="section-block md-padding--bottom">
     <div class="container">

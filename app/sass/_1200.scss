@@ -21,15 +21,15 @@
     width: 100%;
     margin-bottom: 20px;
   }
-  .btn-group.bootstrap-select.custom-select.left-round,
-  .btn-group.bootstrap-select.custom-select.no-round,
-  .btn-group.bootstrap-select.custom-select.right-round{
+  .left-round,
+  .no-round,
+  .right-round{
     width: 100%;
     border-right:none;
   }
-  .custom-select.right-round .btn.dropdown-toggle.btn-default,
-  .custom-select.left-round .btn.dropdown-toggle.btn-default,
-  .custom-select.no-round .btn.dropdown-toggle.btn-default{
+  .right-round,
+  .left-round ,
+  .no-round {
     border-radius: 3px;
   }
   .btn.filter-button {
@@ -102,7 +102,13 @@
     }
   }
   .direction-filter__item {
-    margin-right: 6%;
+    margin-right: 4%;
+  }
+  .direction-filter__item--checkbox {
+    margin-left: 70px;
+  }
+  .direction-filter__item--wrapper {
+    min-width: 100%;
   }
 
   .personal-form {
@@ -124,7 +130,42 @@
   .goods-prop__price--right {
     width: 33%;
   }
+  .business-hours li {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .object-top__prop {
+    margin-left: 310px;
+    .goods-prop__title {
+      max-width: 280px;
+    }
 
+  }
+  .object-top__controls .goods-prop__rating-favorite {
+    max-width: none;
+  }
+  .object-top__controls .goods-prop__to-favorite {
+    display: inline-block;
+  }
+  .object-contacts__title {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .object-contacts > li {
+    margin-bottom: 15px;
+  }
+  .object-top__controls {
+    padding: 15px 0 0;
+  }
+  .object-top {
+    min-height: 454px;
+  }
+  .object-contacts {
+    min-height: 413px;
+  }
 
 
 }

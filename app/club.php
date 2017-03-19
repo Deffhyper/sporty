@@ -2,7 +2,13 @@
 <html>
 <?php include_once "parts/header.php" ?>
 
-<?php include_once "parts/breadcrumbs.php" ?>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <?php include_once "parts/breadcrumbs.php" ?>
+        </div>
+    </div>
+</div>
 
 <section class="section-block md-padding--bottom">
     <div class="container">
@@ -54,10 +60,12 @@
                     <li class="admin-goods">
                         <div class="goods">
                             <div class="goods-photo">
-                                <img src="img/jpeg_files/club-3.png" alt="club-1">
+                                <a href="#">
+                                    <img src="img/jpeg_files/club-3.png" alt="club-1">
+                                </a>
                             </div>
                             <div class="goods-prop">
-                                <h4 class="goods-prop__title">Сеть фитнес-клубов Gold Fitness</h4>
+                                <h4 class="goods-prop__title"><a href="#">Сеть фитнес-клубов Gold Fitness</a></h4>
                                 <div class="goods-prop__partitions">
                                     <p>Секции: </p>
                                     <p>Бокс, Карате, Спортивный зал, Пилатес</p>
@@ -110,10 +118,12 @@
                     <li class="admin-goods">
                         <div class="goods">
                             <div class="goods-photo">
-                                <img src="img/jpeg_files/club-5.jpg" alt="club-1">
+                                <a href="#">
+                                    <img src="img/jpeg_files/club-5.jpg" alt="club-1">
+                                </a>
                             </div>
                             <div class="goods-prop">
-                                <h4 class="goods-prop__title">Сеть фитнес-клубов Gold Fitness</h4>
+                                <h4 class="goods-prop__title"><a href="#">Сеть фитнес-клубов Gold Fitness</a></h4>
                                 <div class="goods-prop__partitions">
                                     <p>Секции: </p>
                                     <p>Бокс, Карате, Спортивный зал, Пилатес</p>
@@ -166,10 +176,12 @@
                     <li class="admin-goods">
                         <div class="goods">
                             <div class="goods-photo">
-                                <img src="img/jpeg_files/club-6.jpg" alt="club-1">
+                                <a href="#">
+                                    <img src="img/jpeg_files/club-6.jpg" alt="club-1">
+                                </a>
                             </div>
                             <div class="goods-prop">
-                                <h4 class="goods-prop__title">Сеть фитнес-клубов Gold Fitness</h4>
+                                <h4 class="goods-prop__title"><a href="#">Сеть фитнес-клубов Gold Fitness</a></h4>
                                 <div class="goods-prop__partitions">
                                     <p>Секции: </p>
                                     <p>Бокс, Карате, Спортивный зал, Пилатес</p>

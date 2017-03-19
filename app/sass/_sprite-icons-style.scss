@@ -262,6 +262,26 @@
   display: inline-block;
 }
 
+.icon-vk-color {
+  @include sprite($vk-color);
+  display: inline-block;
+}
+
+.icon-fb-color {
+  @include sprite($fb-color);
+  display: inline-block;
+}
+
+.icon-google-color {
+  @include sprite($google-color);
+  display: inline-block;
+}
+
+.icon-ok-color {
+  @include sprite($ok-color);
+  display: inline-block;
+}
+
 
 
 

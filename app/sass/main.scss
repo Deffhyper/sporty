@@ -3,6 +3,7 @@
 @import "var";
 @import "mixin";
 @import "sprite-icons-style";
+@import "tab-accord";
 
 html {
   -webkit-box-sizing: border-box;
@@ -313,6 +314,13 @@ body:after {
       top: 3px;
       margin-right: 7px;
     }
+
+    .icon-arrow {
+      transition: .3s ease;
+      margin-left: 3px;
+      position: relative;
+      bottom: 4px;
+    }
     &.open {
       .icon-arrow {
         transform: rotateZ(-90deg);
@@ -385,11 +393,18 @@ body:after {
       color: $accent;
       text-decoration: none;
 
+      &:hover {
+        span:first-child {
+          border-bottom-color: transparent;
+        }
+      }
+
       span:first-child{
-        border-bottom: 1px dashed $accent;
+        border-bottom: 1px dotted $accent;
         line-height: 1;
         display: inline-block;
         margin-left: 4px;
+        transition: .3s ease;
       }
     }
     &>span {
@@ -458,6 +473,10 @@ body:after {
       border-bottom: 1px dotted $accent;
       display: inline-block;
       line-height: 1.1;
+      transition: .3s ease;
+      &:hover {
+        border-bottom-color: transparent;
+      }
     }
     .icon-user-icon {
       position: absolute;
@@ -793,10 +812,14 @@ body:after {
     background-color: #f9f9f7;
     margin-bottom: -999px;
     padding-bottom: 999px;
+    .modal-title__small {
+      padding-left: 11px;
+    }
   }
 }
 .modal__social {
   margin-bottom: 20px;
+  text-align: center;
   i {
     opacity: .8;
     transition: .3s ease;
@@ -944,6 +967,10 @@ body:after {
   a {
     border-bottom: 1px dotted #066ab6;
     color: #066ab6;
+    transition: .3s ease;
+    &:hover {
+      border-bottom-color: transparent;
+    }
   }
   li {
     position: relative;
@@ -1014,9 +1041,17 @@ body:after {
 .form-group {
   float: left;
   margin-bottom: 0;
+  width: 80%;
   &--item {
     float: left;
     position: relative;
+    height: 58px;
+    background-color: #fff;
+
+    .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+      width: 100%;
+    }
+
     .icon-select-burger {
       position: absolute;
       top: 23px;
@@ -1025,6 +1060,21 @@ body:after {
       background-color: #fff;
     }
   }
+}
+
+.left-round {
+  width: 30%;
+  border-right: 1px solid #e9e9e9;
+  border-radius: 3px 0 0 3px;
+}
+.right-round {
+  width: 30%;
+  border-radius: 0 3px 3px 0;
+}
+.no-round{
+  width: 40%;
+  border-radius: 0;
+  border-right: 1px solid #e9e9e9;
 }
 
 
@@ -1046,6 +1096,9 @@ body:after {
   background-color: #fff;
   border-color: inherit;
 }
+select.custom-select {
+  display: none;
+}
 
 .custom-select {
   .btn {
@@ -1054,15 +1107,6 @@ body:after {
     font-size: 14px;
     font-family: $OS-Reg-font;
     outline: none;
-  }
-  &.left-round .btn.dropdown-toggle.btn-default{
-    border-radius: 3px 0 0 3px;
-  }
-  &.right-round .btn.dropdown-toggle.btn-default{
-    border-radius: 0 3px 3px 0;
-  }
-  &.no-round .btn.dropdown-toggle.btn-default {
-    border-radius: 0;
   }
   .caret {
     transition: .3s ease;
@@ -1104,17 +1148,6 @@ body:after {
   }
 }
 
-.btn-group.bootstrap-select.custom-select.left-round {
-  width: 250px;
-  border-right: 1px solid #e9e9e9;
-}
-.btn-group.bootstrap-select.custom-select.no-round {
-  width: 380px;
-  border-right: 1px solid #e9e9e9;
-}
-.btn-group.bootstrap-select.custom-select.right-round {
-  width: 270px;
-}
 .bootstrap-select.btn-group .dropdown-menu li a:hover {
   background-color: #f2f2f2;
 }
@@ -1453,6 +1486,10 @@ body:after {
       a {
         text-decoration: none;
         color: inherit;
+        transition: .3s ease;
+        &:hover {
+          border-bottom-color: transparent;
+        }
       }
     }
   }
@@ -1980,6 +2017,22 @@ body:after {
   padding-left: 50px;
   padding-top: 10px;
   margin-bottom: 30px;
+  &__yellow {
+    li {
+      &:before {
+        color: #ffba1a;
+        border-color: #ffba1a;
+      }
+    }
+  }
+  &__blue {
+    li {
+      &:before {
+        color: #066ab6;
+        border-color: #066ab6;
+      }
+    }
+  }
   li {
     position: relative;
     counter-increment: myCount;
@@ -1988,14 +2041,12 @@ body:after {
       display: block;
       height: 22px;
       width: 22px;
-      color: #ffba1a;
-      border: 1px solid #ffba1a;
+      border: 1px solid;
       border-radius: 50%;
       position: absolute;
       top: -1px;
       left: -40px;
       text-align: center;
-
       font-size: 14px;
     }
   }
@@ -2437,6 +2488,10 @@ body:after {
     overflow: hidden;
     position: relative;
     float: left;
+    a {
+      display: block;
+      height: 100%;
+    }
     .icon-sticker-top {
       position: absolute;
       top: 0;
@@ -2461,6 +2516,9 @@ body:after {
       font-family: $OS-SBold-font;
       font-size: 18px;
       margin: 0 0 15px 0;
+      a {
+        color: inherit;
+      }
     }
     &__partitions {
       p {
@@ -2612,6 +2670,7 @@ body:after {
     &:nth-child(3){
       margin-right: 0;
     }
+
     label {
       font-family: $OS-Bold-font;
       margin-bottom: 0;
@@ -2619,7 +2678,7 @@ body:after {
     }
     &--checkbox {
       font-family: $OS-Light-font;
-      margin-left: 55px;
+      margin-left: 70px;
       vertical-align: middle;
       margin-top: 5px;
       label {
@@ -2636,12 +2695,35 @@ body:after {
       margin-left: 35px;
     }
   }
+
+  &__wrapper {
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+    border: 1px solid #cbcbcb;
+    border-radius: 3px;
+    .custom-select .btn {
+      border: none;
+    }
+    .custom-select .dropdown-menu {
+      margin: 0;
+    }
+    &--lg{
+      width: 180px;
+    }
+    &--md{
+      width: 130px;
+    }
+  }
 }
 .custom-checkbox.custom-checkbox__bold {
   &:checked+label:before {
     border: none;
-    background: #fff url("../img/jpeg_files/checked-bold.png") no-repeat center;
+    @include sprite($checked-bold);
+    left: -22px;
+    top: 0;
   }
+
 }
 
 .item-filter {
@@ -2655,12 +2737,15 @@ body:after {
     }
   }
   &__child {
-
     a {
       color: #066ab6;
       border-bottom: 1px dotted #066ab6;
       line-height: 1;
       margin: 15px;
+      transition: .3s ease;
+      &:hover {
+        border-bottom-color: transparent;
+      }
     }
     &.active{
       a{
@@ -2895,14 +2980,17 @@ body:after {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 10;
   }
 
   &__slider{
-    width: 300px;
+    width: 290px;
+    height: 339px;
     float: left;
+    overflow: hidden;
 
     .lSSlideWrapper {
-      height: 260px;
+      height: 250px;
 
     }
 
@@ -2949,9 +3037,12 @@ body:after {
   }
 
   &__controls {
-    padding: 24px 0 0;
+    padding: 5px 0 0;
     .goods-prop__rating-favorite {
-      margin-top: 5px;
+      margin-top: 10px;
+    }
+    .goods-prop__to-favorite {
+      margin-left: 40px;
     }
   }
 }
@@ -2962,17 +3053,17 @@ body:after {
 .lSSlideOuter .lSPager.lSGallery img {
   display: block;
   max-width: none;
-  height: 90px;
+  height: 82px;
 }
 
 .object-img-slider {
-  height: 260px !important;
+  //height: 250px !important;
 }
 
 .object-img-slider__item {
   img {
     width: auto;
-    height: 261px;
+    height: 252px;
     margin: auto;
     display: block;
   }
@@ -3062,8 +3153,41 @@ body:after {
   &__title{
     font-size: 16px;
     font-family: $OS-Bold-font;
+    margin-bottom: 15px;
+  }
+  &>li {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
+
+.social-share {
+  li {
+    display: inline-block;
+    opacity: .8;
+    transition: .3s ease;
+    margin-right: 5px;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.business-tel {
+  li {
+    margin-bottom: 5px;
+  }
+  a {
+    color: #343434;
+  }
+}
+
+
+
 
 
 

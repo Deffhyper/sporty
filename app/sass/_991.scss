@@ -219,15 +219,15 @@
     margin-bottom: 5px;
   }
   .direction-filter {
-    overflow-x: hidden;
+
     width: 100%;
   }
   .direction-filter__item {
     margin-right: 0;
-
-    .custom-select {
-      width: 100% !important;
-    }
+  }
+  .direction-filter__wrapper--lg,
+  .direction-filter__wrapper--md {
+    width: 100%;
   }
   .direction-filter__item--checkbox {
     margin-left: 20px;
@@ -253,7 +253,34 @@
   }
   .right-sidebar {
     margin-bottom: 30px;
+    float: left;
+    width: 100%;
   }
+
+  .object-top {
+    min-height: 100%;
+  }
+
+  .object-contacts {
+    min-height: 100%;
+  }
+
+  .business-hours li {
+    display: inline-block;
+    width: 48%;
+    margin-left: -2px;
+    margin-right: 4%;
+  }
+  .object-top__slider {
+    float: none;
+    margin: 0 auto 15px;
+  }
+  .object-top__prop {
+    margin-left: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
 
 
 

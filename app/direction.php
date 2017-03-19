@@ -9,30 +9,36 @@
                 <form action="#">
                     <div class="direction-filter__item add-block">
                         <label for="df-1" class="info__label">Направление:</label>
-                        <select name="" id="df-1" class="custom-select" title="Спортивные залы" data-width="170px">
-                            <option value="0">Спортивные залы-1</option>
-                            <option value="1">Спортивные залы-2</option>
-                            <option value="2">Спортивные залы-3</option>
-                            <option value="3">Спортивные залы-4</option>
-                        </select>
+                        <div class="direction-filter__wrapper direction-filter__wrapper--lg">
+                            <select name="" id="df-1" class="custom-select" title="Спортивные залы" data-width="100%" style="display: none">
+                                <option value="0">Спортивные залы-1</option>
+                                <option value="1">Спортивные залы-2</option>
+                                <option value="2">Спортивные залы-3</option>
+                                <option value="3">Спортивные залы-4</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="direction-filter__item add-block">
                         <label for="df-2" class="info__label">Район:</label>
-                        <select name="" id="df-2" class="custom-select" title="Святошин" data-width="130px">
-                            <option value="0">Район:-1</option>
-                            <option value="1">Район:-2</option>
-                            <option value="2">Район:-3</option>
-                            <option value="3">Район:-4</option>
-                        </select>
+                        <div class="direction-filter__wrapper direction-filter__wrapper--md">
+                            <select name="" id="df-2" class="custom-select" title="Святошин" data-width="100%" style="display: none">
+                                <option value="0">Район:-1</option>
+                                <option value="1">Район:-2</option>
+                                <option value="2">Район:-3</option>
+                                <option value="3">Район:-4</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="direction-filter__item add-block">
                         <label for="df-3" class="info__label">Метро:</label>
-                        <select name="" id="df-3" class="custom-select" title="Печерская" data-width="130px">
-                            <option value="0">Метро:-1</option>
-                            <option value="1">Метро:-2</option>
-                            <option value="2">Метро:-3</option>
-                            <option value="3">Метро:-4</option>
-                        </select>
+                        <div class="direction-filter__wrapper direction-filter__wrapper--md">
+                            <select name="" id="df-3" class="custom-select" title="Печерская" data-width="100%" style="display: none">
+                                <option value="0">Метро:-1</option>
+                                <option value="1">Метро:-2</option>
+                                <option value="2">Метро:-3</option>
+                                <option value="3">Метро:-4</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="direction-filter__item--checkbox">
                         <input type="checkbox" id="add-1" class="custom-checkbox custom-checkbox__bold">
@@ -49,7 +55,15 @@
     </div>
 </section>
 
-<?php include_once "parts/breadcrumbs.php" ?>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <?php include_once "parts/breadcrumbs.php" ?>
+        </div>
+    </div>
+</div>
+
+
 
 <section class="section-block">
     <div class="container">
@@ -91,11 +105,13 @@
                 <ul class="favorite-list clearfix">
                     <li class="goods">
                         <div class="goods-photo">
-                            <i class="icon-sticker-top"></i>
-                            <img src="img/jpeg_files/club-1.jpg" alt="club-1">
+                            <a href="#">
+                                <i class="icon-sticker-top"></i>
+                                <img src="img/jpeg_files/club-1.jpg" alt="club-1">
+                            </a>
                         </div>
                         <div class="goods-prop">
-                            <h4 class="goods-prop__title bold-text">Сеть фитнес-клубов Gold Fitness</h4>
+                            <h4 class="goods-prop__title bold-text"><a href="#">Сеть фитнес-клубов Gold Fitness</a></h4>
                             <div class="goods-prop__partitions">
                                 <p>Секции: </p>
                                 <ul class="list-inline goods-prop__partitions--list">
@@ -138,11 +154,13 @@
                     </li>
                     <li class="goods">
                         <div class="goods-photo">
-                            <i class="icon-sticker-top"></i>
-                            <img src="img/jpeg_files/club-2.jpg" alt="club-1">
+                            <a href="#">
+                                <i class="icon-sticker-top"></i>
+                                <img src="img/jpeg_files/club-2.jpg" alt="club-1">
+                            </a>
                         </div>
                         <div class="goods-prop">
-                            <h4 class="goods-prop__title bold-text">Сеть фитнес-клубов Gold Fitness</h4>
+                            <h4 class="goods-prop__title bold-text"><a href="#">Сеть фитнес-клубов Gold Fitness</a></h4>
                             <div class="goods-prop__partitions">
                                 <p>Секции: </p>
                                 <ul class="list-inline goods-prop__partitions--list">
@@ -185,10 +203,12 @@
                     </li>
                     <li class="goods">
                         <div class="goods-photo">
-                            <img src="img/jpeg_files/club-5.jpg" alt="club-1">
+                            <a href="#">
+                                <img src="img/jpeg_files/club-5.jpg" alt="club-1">
+                            </a>
                         </div>
                         <div class="goods-prop">
-                            <h4 class="goods-prop__title bold-text">Сеть фитнес-клубов Gold Fitness</h4>
+                            <h4 class="goods-prop__title bold-text"><a href="#">Сеть фитнес-клубов Gold Fitness</a></h4>
                             <div class="goods-prop__partitions">
                                 <p>Секции: </p>
                                 <ul class="list-inline goods-prop__partitions--list">
@@ -231,10 +251,12 @@
                     </li>
                     <li class="goods">
                         <div class="goods-photo">
-                            <img src="img/jpeg_files/club-6.jpg" alt="club-1">
+                            <a href="#">
+                                <img src="img/jpeg_files/club-6.jpg" alt="club-1">
+                            </a>
                         </div>
                         <div class="goods-prop">
-                            <h4 class="goods-prop__title bold-text">Сеть фитнес-клубов Gold Fitness</h4>
+                            <h4 class="goods-prop__title bold-text"><a href="#">Сеть фитнес-клубов Gold Fitness</a></h4>
                             <div class="goods-prop__partitions">
                                 <p>Секции: </p>
                                 <ul class="list-inline goods-prop__partitions--list">

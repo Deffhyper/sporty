@@ -10,9 +10,9 @@
 
                     <form action="#" id="" class="site-top-filter__form">
                         <div class="form-group">
-                            <div class="form-group--item">
-                                <button class="icon-select-burger"></button>
-                                <select class="custom-select left-round">
+                            <div class="form-group--item left-round">
+                                <span class="icon-select-burger"></span>
+                                <select class="custom-select " style="display: none">
                                     <option value="1" data-icon="icon-gray-burger">Спортивные объекты</option>
                                     <option value="2" data-icon="icon-gray-man">Тренеры</option>
                                     <option value="3" data-icon="icon-gray-map">Аренда</option>
@@ -21,9 +21,9 @@
                                 </select>
                             </div>
 
-                            <div class="form-group--item">
-                                <button id="modal-select" class="icon-select-burger"></button>
-                                <select  class="custom-select no-round" data-live-search="true">
+                            <div class="form-group--item no-round">
+                                <a href="#" id="modal-select" class="icon-select-burger"></a>
+                                <select  class="custom-select " data-live-search="true" style="display: none">
                                     <option value="0">Выберите направление спорта</option>
                                     <option value="1" data-tokens="Футбол aen,jk">Футбол</option>
                                     <option value="2" data-tokens="Волейбол djktq,jk">Волейбол</option>
@@ -32,9 +32,9 @@
                                 </select>
                             </div>
 
-                            <div class="form-group--item">
-                                <button class="icon-select-burger"></button>
-                                <select class="custom-select right-round">
+                            <div class="form-group--item right-round">
+                                <span class="icon-select-burger"></span>
+                                <select class="custom-select" style="display: none">
                                     <option value="1">Выберите район</option>
                                     <option value="2">Днепровский</option>
                                     <option value="3">Соломенский</option>
@@ -74,7 +74,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h4 class="section-block__title">Популярные секции Киева</h4>
+                    <h4 class="section-block__title center-title">Популярные секции Киева</h4>
                     <ul class="link-list">
                         <li class="link-list__item"><a href="#" class="link">PRO Jumping TRX<span>(40)</span></a></li>
                         <li class="link-list__item"><a href="#" class="link">Zumba <span>(40)</span></a></li>
@@ -104,7 +104,7 @@
         <div class="container ">
             <div class="row">
                 <div class="col-sm-12">
-                    <h4 class="section-block__title">Спортивные акции Киев</h4>
+                    <h4 class="section-block__title center-title">Спортивные акции Киев</h4>
                     <div class="goods-slider">
                         <div>
                             <div class="goods-slider__item">
@@ -299,7 +299,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h4 class="section-block__title">О проекте Sporty</h4>
+                    <h4 class="section-block__title center-title">О проекте Sporty</h4>
                     <p class="section-block__text">
                         Cпорт сегодня занимает достаточно много времени в общем объеме интересов человечества.
                         Каждого из нас привлекает какой то вид спорта, будь то футбол, хоккей, теннис, бокс, баксетбол или
