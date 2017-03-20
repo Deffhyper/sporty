@@ -4072,6 +4072,11 @@ select.custom-select {
     background-color: #e4e4e4; }
     .price-accordion .goods-prop__price ul li:nth-child(even) span:first-child {
       background-color: transparent; }
+  .price-accordion .goods-prop__price li {
+    margin-bottom: 0;
+    padding: 10px 0; }
+  .price-accordion .price-panel .panel-body {
+    padding: 5px 15px 15px; }
   .action-list .goods-prop {
     padding: 10px 5px; }
   .action-list .goods-prop__location {

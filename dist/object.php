@@ -30,23 +30,23 @@
                         <i class="icon-sticker-sale"></i>
                     </div>
                     <div class="object-top__slider">
-                        <ul class="object-img-slider">
-                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/bitrix-1.jpg">
+                        <ul class="object-img-slider object-img-gallery">
+                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/bitrix-1.jpg" data-src="img/jpeg_files/bitrix-1.jpg">
                                 <img src="img/jpeg_files/bitrix-1.jpg" alt="club">
                             </li>
-                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/bitrix-2.jpg">
+                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/bitrix-2.jpg" data-src="img/jpeg_files/bitrix-2.jpg">
                                 <img src="img/jpeg_files/bitrix-2.jpg" alt="club">
                             </li>
-                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/bitrix-3.jpg">
+                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/bitrix-3.jpg" data-src="img/jpeg_files/bitrix-3.jpg">
                                 <img src="img/jpeg_files/bitrix-3.jpg" alt="club">
                             </li>
-                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/club-6.jpg">
+                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/club-6.jpg" data-src="img/jpeg_files/club-6.jpg">
                                 <img src="img/jpeg_files/club-6.jpg" alt="club">
                             </li>
-                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/club-2.jpg">
+                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/club-2.jpg" data-src="img/jpeg_files/club-2.jpg">
                                 <img src="img/jpeg_files/club-2.jpg" alt="club">
                             </li>
-                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/club-1.jpg">
+                            <li class="object-img-slider__item" data-thumb="img/jpeg_files/club-1.jpg" data-src="img/jpeg_files/club-1.jpg">
                                 <img src="img/jpeg_files/club-1.jpg" alt="club">
                             </li>
                         </ul>
@@ -217,9 +217,9 @@
                                     услугам: тренажерный зал, аэробика, массаж, солярий, йога и множество других программ.
                                 </p>
                                 <ul class="list-inline three-photo-block">
-                                    <li><a href="#"><img src="img/jpeg_files/tab-1.jpg" alt="tab-photo"></a></li>
-                                    <li><a href="#"><img src="img/jpeg_files/tab-2.jpg" alt="tab-photo"></a></li>
-                                    <li><a href="#"><img src="img/jpeg_files/tab-3.jpg" alt="tab-photo"></a></li>
+                                    <li data-thumb="img/jpeg_files/tab-1.jpg" data-src="img/jpeg_files/tab-1.jpg"><a href="#"><img src="img/jpeg_files/tab-1.jpg" alt="tab-photo"></a></li>
+                                    <li data-thumb="img/jpeg_files/tab-2.jpg" data-src="img/jpeg_files/tab-2.jpg"><a href="#"><img src="img/jpeg_files/tab-2.jpg" alt="tab-photo"></a></li>
+                                    <li data-thumb="img/jpeg_files/tab-3.jpg" data-src="img/jpeg_files/tab-3.jpg"><a href="#"><img src="img/jpeg_files/tab-3.jpg" alt="tab-photo"></a></li>
                                 </ul>
 
                                 <ol class="list-counter list-counter__blue">
