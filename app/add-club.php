@@ -116,7 +116,7 @@
                                         <input type="text" class="border-input col-sm-12 col-xs-12" placeholder="Выбрать улицу">
                                     </div>
                                     <div class="col-sm-2 col-xs-12">
-                                        <input type="text" class="border-input col-sm-12 col-xs-12" placeholder="Номер">
+                                        <input type="text" class="input-number border-input col-sm-12 col-xs-12" placeholder="Номер">
                                     </div>
                                 </div>
                             </fieldset>
@@ -171,7 +171,7 @@
                                             <img src="img/jpeg_files/prev-5.jpg" alt="preview">
                                         </li>
                                         <li class="photo-set--item">
-                                            <img src="img/jpeg_files/prev-6.jpg" alt="preview">
+                                            <label for="file-3" class="custom-input-file-2"><input type="file" id="file-3"></label>
                                         </li>
                                     </ul>
 
@@ -241,7 +241,7 @@
                                             <div class="row">
                                                 <div class="col-sm-6 col-xs-12"><span class="info__label">Стоимость за месяц от:</span></div>
                                                 <div class="col-sm-6 col-xs-12 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
+                                                    <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                        </div>
@@ -249,7 +249,7 @@
                                             <div class="row">
                                                 <div class="col-sm-6 col-xs-12"><span class="info__label">Разовое посещение от:</span></div>
                                                 <div class="col-sm-6 col-xs-12 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
+                                                    <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                        </div>
@@ -259,7 +259,7 @@
                                             <div class="row">
                                                 <div class="col-sm-6 col-xs-12"><span class="info__label">Годовой абонемент от:</span></div>
                                                 <div class="col-sm-6 col-xs-12 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
+                                                    <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                        </div>
@@ -338,7 +338,7 @@
                                             <div class="row">
                                                 <div class="col-sm-6 col-xs-12"><span class="info__label">Стоимость за месяц от:</span></div>
                                                 <div class="col-sm-6 col-xs-12 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
+                                                    <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                         </div>
@@ -346,7 +346,7 @@
                                             <div class="row">
                                                 <div class="col-sm-6 col-xs-12"><span class="info__label">Разовое посещение от:</span></div>
                                                 <div class="col-sm-6 col-xs-12 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
+                                                    <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                         </div>
@@ -356,7 +356,7 @@
                                             <div class="row">
                                                 <div class="col-sm-6 col-xs-12"><span class="info__label">Годовой абонемент от:</span></div>
                                                 <div class="col-sm-6 col-xs-12 no-left-padding">
-                                                    <input type="text" class="border-input border-input--short col-sm-12 col-xs-12">
+                                                    <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
                                                 </div>
                                             </div>
                                         </div>

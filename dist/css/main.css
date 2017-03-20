@@ -978,7 +978,7 @@ body:after {
     width: auto;
     min-height: 300px;
     background-color: #fff;
-    z-index: 10;
+    z-index: 11;
     padding: 36px 36px 45px;
     -webkit-box-shadow: 0 5px 17px 3px rgba(0, 0, 0, 0.3);
             box-shadow: 0 5px 17px 3px rgba(0, 0, 0, 0.3); }
@@ -1357,24 +1357,24 @@ body:after {
   .site-top-filter__form .btn.dropdown-toggle.btn-default {
     padding-left: 47px;
     height: 58px; }
-
-.form-group {
-  float: left;
-  margin-bottom: 0;
-  width: 80%; }
-  .form-group--item {
+  .site-top-filter__form .form-group {
     float: left;
-    position: relative;
-    height: 58px;
-    background-color: #fff; }
-    .form-group--item .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
-      width: 100%; }
-    .form-group--item .icon-select-burger {
-      position: absolute;
-      top: 23px;
-      left: 13px;
-      z-index: 6;
+    margin-bottom: 0;
+    width: 80%; }
+    .site-top-filter__form .form-group--item {
+      float: left;
+      position: relative;
+      height: 58px;
       background-color: #fff; }
+      .site-top-filter__form .form-group--item .icon-select-burger {
+        position: absolute;
+        top: 23px;
+        left: 13px;
+        z-index: 6;
+        background-color: #fff; }
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 100%; }
 
 .left-round {
   width: 30%;
@@ -2105,6 +2105,9 @@ select.custom-select {
     -webkit-border-radius: 4px;
             border-radius: 4px;
     color: inherit; }
+    .site-pagination a:hover {
+      border-color: #1489e1;
+      color: #1489e1; }
   .site-pagination--prev {
     margin-right: 15px; }
   .site-pagination--next {
@@ -2565,24 +2568,24 @@ select.custom-select {
   .custom-input-file-2:after {
     content: '';
     display: block;
-    height: 50px;
+    height: 40px;
     width: 2px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -1px;
     background-color: #d6d6d6; }
   .custom-input-file-2:before {
     content: '';
     display: block;
     height: 2px;
-    width: 50px;
+    width: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-top: -2px;
-    margin-left: -25px;
+    margin-left: -20px;
     background-color: #d6d6d6; }
   .custom-input-file-2 input {
     display: none; }
@@ -3358,8 +3361,7 @@ select.custom-select {
        -moz-column-count: 2;
             column-count: 2;
     padding-left: 90px; }
-  .form-group {
-    float: left;
+  .site-top-filter__form .form-group {
     width: 100%; }
   .form-group--item {
     float: left;
