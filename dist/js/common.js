@@ -255,6 +255,39 @@ $(function() {
     $('.three-photo-block').lightGallery();
 
 
+    ////////////////////////////////////////////////// object scroll to anchor //////////////////////////////////////
+
+    ////////////////////// scroll to map
+
+    $('a[href*="#map"]').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('#map').offset().top-15
+        }, 1000);
+    });
+
+    ////////////////////// scroll to section price
+
+     $('a[href*="#section-anchor"]').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('#section-anchor').offset().top-15
+        }, 1000);
+         $('#section-anchor').trigger('click');
+    });
+
+    ////////////////////// scroll to reviews
+
+    $('a[href*="#reviews-anchor"]').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('#reviews-anchor').offset().top-15
+        }, 1000);
+         $('#reviews-anchor').trigger('click');
+    });
+
+
+
 
 
     function bindClickOnTabMenu(widthScreen){

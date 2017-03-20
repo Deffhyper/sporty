@@ -61,13 +61,13 @@
                                 <li>Карате,</li>
                                 <li>Спортивный зал,</li>
                                 <li>Пилатес</li>
-                                <li><a href="#" class="link link-blue">Ещё 5</a></li>
+                                <li><a href="#section-anchor" class="link link-blue">Ещё 5</a></li>
                             </ul>
                         </div>
 
                         <div class="goods-prop__location">
                             <i class="icon-blue-picker"></i>
-                            <a href="#">Киев, бул. Леси Украинки, 12 А</a>
+                            <a href="#map">Киев, бул. Леси Украинки, 12 А</a>
                         </div>
 
                         <div class="goods-prop__price">
@@ -122,7 +122,7 @@
                                      data-rateit-mode="font">
                                 </div>
                                 <span class="rateit-value-now">4.5</span>
-                                <a href="#" class="goods-prop__reviews">Отзывы (4)</a>
+                                <a href="#reviews-anchor" class="goods-prop__reviews">Отзывы (4)</a>
                                 <a href="#" class="goods-prop__to-favorite">
                                     <i class="icon-red-heart"></i>
                                     В избранное
@@ -204,8 +204,8 @@
                     <div id="responsive-tab" class="object-tabs">
                         <ul>
                             <li class="object-tabs__title"><a href="#tab-1">Описание</a></li>
-                            <li class="object-tabs__title"><a href="#tab-2">Секции и цены</a></li>
-                            <li class="object-tabs__title"><a href="#tab-3">Отзывы</a></li>
+                            <li class="object-tabs__title"><a href="#tab-2" id="section-anchor">Секции и цены</a></li>
+                            <li class="object-tabs__title"><a href="#tab-3" id="reviews-anchor">Отзывы</a></li>
                             <li class="object-tabs__title"><a href="#tab-4">Тренеры</a></li>
                             <li class="object-tabs__title"><a href="#tab-5">Акции</a></li>
                         </ul>
@@ -482,15 +482,19 @@
                         </div>
                         <div id="tab-3">
                             <div class="object-tabs__content">
-                                <h4 class="object-tabs__content--title goods-prop__title bold-text">Отзывы</h4>
+                                <h4 class="object-tabs__content--title goods-prop__title">
+                                    Отзывы о Fitness Life
+                                    <p class="reviews-label pull-right">
+                                        <i class="icon-reviews-label"></i>
+                                        <span>4.5 из 5</span>
+                                    </p>
+                                </h4>
 
                                 <ul class="reviews-list clearfix">
                                     <li class="goods">
                                         <div class="reviews-item">
                                             <div class="reviews-item__head clearfix">
-                                                <div class="reviews-title pull-left">
-                                                    <p>Отзыв к: <a href="#" class="link-blue">Fitness Life</a></p>
-                                                </div>
+                                                <p class="reviews-title reviews-title--sm pull-left">Александр</p>
                                                 <div class="reviews-rating pull-right">
                                                     <span>Рейтинг:</span>
                                                     <div class="rateit" data-rateit-resetable="false" data-rateit-value="3.5" data-rateit-mode="font"></div>
@@ -511,16 +515,14 @@
                                                 </div>
                                             </div>
                                             <div class="reviews-item__footer clearfix">
-                                                <time class="reviews-data pull-left">09.04.2018</time>
+                                                <time class="reviews-data pull-right">09.04.2018</time>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="goods">
                                         <div class="reviews-item">
                                             <div class="reviews-item__head clearfix">
-                                                <div class="reviews-title pull-left">
-                                                    <p>Отзыв к: <a href="#" class="link-blue">Fitness Life</a></p>
-                                                </div>
+                                                <p class="reviews-title reviews-title--sm pull-left">Александр</p>
                                                 <div class="reviews-rating pull-right">
                                                     <span>Рейтинг:</span>
                                                     <div class="rateit" data-rateit-resetable="false" data-rateit-value="3.5" data-rateit-mode="font"></div>
@@ -541,16 +543,14 @@
                                                 </div>
                                             </div>
                                             <div class="reviews-item__footer clearfix">
-                                                <time class="reviews-data pull-left">09.04.2018</time>
+                                                <time class="reviews-data pull-right">09.04.2018</time>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="goods">
                                         <div class="reviews-item">
                                             <div class="reviews-item__head clearfix">
-                                                <div class="reviews-title pull-left">
-                                                    <p>Отзыв к: <a href="#" class="link-blue">Fitness Life</a></p>
-                                                </div>
+                                                <p class="reviews-title reviews-title--sm pull-left">Александр</p>
                                                 <div class="reviews-rating pull-right">
                                                     <span>Рейтинг:</span>
                                                     <div class="rateit" data-rateit-resetable="false" data-rateit-value="3.5" data-rateit-mode="font"></div>
@@ -571,16 +571,14 @@
                                                 </div>
                                             </div>
                                             <div class="reviews-item__footer clearfix">
-                                                <time class="reviews-data pull-left">09.04.2018</time>
+                                                <time class="reviews-data pull-right">09.04.2018</time>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="goods">
                                         <div class="reviews-item">
                                             <div class="reviews-item__head clearfix">
-                                                <div class="reviews-title pull-left">
-                                                    <p>Отзыв к: <a href="#" class="link-blue">Fitness Life</a></p>
-                                                </div>
+                                                <p class="reviews-title reviews-title--sm pull-left">Александр</p>
                                                 <div class="reviews-rating pull-right">
                                                     <span>Рейтинг:</span>
                                                     <div class="rateit" data-rateit-resetable="false" data-rateit-value="3.5" data-rateit-mode="font"></div>
@@ -601,11 +599,67 @@
                                                 </div>
                                             </div>
                                             <div class="reviews-item__footer clearfix">
-                                                <time class="reviews-data pull-left">09.04.2018</time>
+                                                <time class="reviews-data pull-right">09.04.2018</time>
                                             </div>
                                         </div>
                                     </li>
                                 </ul>
+
+                                <div class="md-padding text-center">
+                                    <a href="#" class="link-button">Загрузить еще (180)</a>
+                                </div>
+
+                                <div class="reviews-add-form">
+                                    <h5 class="object-tabs__content--title goods-prop__title">
+                                        <i class="icon-reviews-label-2"></i>
+                                        Добавить отзыв о Fitness Life
+                                    </h5>
+                                    <form action="#">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-xs-12">
+                                                <fieldset class="input-md-margin pseudo-placeholder">
+                                                    <input type="text" id="user-name-1" class="input-round-border input-md">
+                                                    <label for="user-name-1">Ваше имя <span>*</span></label>
+                                                </fieldset>
+                                            </div>
+                                            <div class="col-sm-6 col-xs-12">
+                                                <fieldset class="input-md-margin pseudo-placeholder">
+                                                    <input type="text" id="user-email-1" class="input-round-border input-md">
+                                                    <label for="user-email-1">E-mail адрес <span>*</span></label>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <textarea class="border-input textarea-height col-xs-12" placeholder="Комментария"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="object-top__controls clearfix">
+                                            <div class="goods-prop__left-block">
+                                                <span>Рейтинг:</span>
+                                                <input type="range" value="0" step="0.25" id="backing5">
+                                                <div class="rateit"
+                                                     data-rateit-backingfld="#backing5"
+                                                     data-rateit-resetable="false"
+                                                     data-rateit-mode="font"
+                                                     data-rateit-max="5">
+                                                </div>
+                                            </div>
+                                            <div class="goods-prop__right-block">
+                                                <button type="submit" class="btn btn-medium btn-yellow-gradient">Оставить отзыв</button>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+
+
                             </div>
                         </div>
                         <div id="tab-4">

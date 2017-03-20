@@ -292,6 +292,16 @@
   display: inline-block;
 }
 
+.icon-reviews-label {
+  @include sprite($reviews-label);
+  display: inline-block;
+}
+
+.icon-reviews-label-2 {
+  @include sprite($reviews-label-2);
+  display: inline-block;
+}
+
 
 
 

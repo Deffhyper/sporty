@@ -2096,6 +2096,8 @@ select.custom-select {
   display: none;
   &+label {
     cursor: pointer;
+    position: relative;
+    padding-left: 25px;
     &:before {
       content: "";
       display: inline-block;
@@ -2103,9 +2105,10 @@ select.custom-select {
       width: 16px;
       border: 1px solid #cbcbcb;
       border-radius: 2px;
-      position: relative;
+      position: absolute;
       margin-right: 8px;
       top: 2px;
+      left: 0;
       background-color: #fff;
     }
   }
@@ -2702,7 +2705,7 @@ select.custom-select {
     }
     &--checkbox {
       font-family: $OS-Light-font;
-      margin-left: 70px;
+      margin-left: 45px;
       vertical-align: middle;
       margin-top: 5px;
       label {
@@ -2711,7 +2714,7 @@ select.custom-select {
         &:before {
           position: absolute;
           top: 2px;
-          left: -20px;
+          left: 0;
         }
       }
     }
@@ -2744,7 +2747,7 @@ select.custom-select {
   &:checked+label:before {
     border: none;
     @include sprite($checked-bold);
-    left: -22px;
+    left: -2px;
     top: 0;
   }
 
@@ -2844,6 +2847,10 @@ select.custom-select {
     font-family: $OS-SBold-font;
     font-size: 18px;
     max-width: 65%;
+    &--sm {
+      font-size: 16px;
+      margin-top: 2px;
+    }
   }
   &-rating {
     .rateit-value-now {
