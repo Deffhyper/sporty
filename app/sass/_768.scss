@@ -541,6 +541,23 @@
     padding-top: 15px;
   }
 
+  .athlete-result-photos {
+    float: none;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .athlete-result-content {
+    margin-left: 0;
+  }
+  .athlete-result-content__title {
+    margin-bottom: 15px;
+  }
+  .athlete-result-photos > div {
+    width: 120px;
+    height: 170px;
+
+  }
+
 
 
 

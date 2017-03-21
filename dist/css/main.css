@@ -37,7 +37,7 @@
 /* font-family: "PTSansBold"; */
 .icon-phone {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -175px -199px;
+  background-position: -196px -199px;
   width: 20px;
   height: 20px;
   display: inline-block; }
@@ -58,14 +58,14 @@
 
 .icon-inst {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -359px -199px;
+  background-position: -380px -199px;
   width: 14px;
   height: 14px;
   display: inline-block; }
 
 .icon-ok {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -358px -235px;
+  background-position: -75px -267px;
   width: 9px;
   height: 15px;
   display: inline-block; }
@@ -96,7 +96,7 @@
 
 .icon-b-line {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -153px -199px;
+  background-position: -174px -199px;
   width: 22px;
   height: 21px;
   display: inline-block; }
@@ -117,7 +117,7 @@
 
 .icon-map-picker {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -62px -267px;
+  background-position: -13px -285px;
   width: 12px;
   height: 16px;
   display: inline-block; }
@@ -138,14 +138,14 @@
 
 .icon-menu-man {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -16px -267px;
+  background-position: -32px -267px;
   width: 16px;
   height: 18px;
   display: inline-block; }
 
 .icon-menu-map {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -275px -199px;
+  background-position: -296px -199px;
   width: 18px;
   height: 14px;
   display: inline-block; }
@@ -159,7 +159,7 @@
 
 .icon-menu-sale {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -185px -235px;
+  background-position: -168px -235px;
   width: 17px;
   height: 17px;
   display: inline-block; }
@@ -180,14 +180,14 @@
 
 .icon-box-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -195px -199px;
+  background-position: -216px -199px;
   width: 19px;
   height: 20px;
   display: inline-block; }
 
 .icon-vall-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -117px -235px;
+  background-position: -185px -235px;
   width: 17px;
   height: 17px;
   display: inline-block; }
@@ -201,7 +201,7 @@
 
 .icon-swim-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -254px -199px;
+  background-position: -275px -199px;
   width: 21px;
   height: 14px;
   display: inline-block; }
@@ -215,14 +215,14 @@
 
 .icon-tennis-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -81px -235px;
+  background-position: -63px -235px;
   width: 18px;
   height: 18px;
   display: inline-block; }
 
 .icon-fitness-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -202px -235px;
+  background-position: -314px -235px;
   width: 16px;
   height: 16px;
   display: inline-block; }
@@ -236,49 +236,49 @@
 
 .icon-hockey-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -151px -235px;
+  background-position: -134px -235px;
   width: 17px;
   height: 17px;
   display: inline-block; }
 
 .icon-gym-blue {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -233px -199px;
+  background-position: -254px -199px;
   width: 21px;
   height: 17px;
   display: inline-block; }
 
 .icon-all-lines {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -298px -235px;
+  background-position: -234px -235px;
   width: 16px;
   height: 16px;
   display: inline-block; }
 
 .icon-close-modal {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -314px -235px;
+  background-position: -298px -235px;
   width: 16px;
   height: 16px;
   display: inline-block; }
 
 .icon-fb-big {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -200px 0px;
+  background-position: -200px -40px;
   width: 200px;
   height: 40px;
   display: inline-block; }
 
 .icon-vk-big {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -200px -40px;
+  background-position: -200px -80px;
   width: 200px;
   height: 40px;
   display: inline-block; }
 
 .icon-google-big {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -200px -80px;
+  background-position: -200px 0px;
   width: 200px;
   height: 40px;
   display: inline-block; }
@@ -306,21 +306,21 @@
 
 .icon-gray-man {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -32px -267px;
+  background-position: -16px -267px;
   width: 16px;
   height: 18px;
   display: inline-block; }
 
 .icon-gray-map {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -293px -199px;
+  background-position: -314px -199px;
   width: 18px;
   height: 14px;
   display: inline-block; }
 
 .icon-gray-house {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -218px -235px;
+  background-position: -202px -235px;
   width: 16px;
   height: 16px;
   display: inline-block; }
@@ -334,7 +334,7 @@
 
 .icon-gray-sale {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -168px -235px;
+  background-position: -151px -235px;
   width: 17px;
   height: 17px;
   display: inline-block;
@@ -392,7 +392,7 @@
 
 .icon-elect-2 {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -328px -154px;
+  background-position: -330px -120px;
   width: 32px;
   height: 32px;
   display: inline-block; }
@@ -420,7 +420,7 @@
 
 .icon-sticker-top {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -100px 0px;
+  background-position: 0px 0px;
   width: 100px;
   height: 100px;
   display: inline-block; }
@@ -434,7 +434,7 @@
 
 .icon-small-yellow-picker {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -345px -235px;
+  background-position: -62px -267px;
   width: 13px;
   height: 15px;
   display: inline-block; }
@@ -455,21 +455,21 @@
 
 .icon-vk-color {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -81px -199px;
+  background-position: -105px -199px;
   width: 24px;
   height: 24px;
   display: inline-block; }
 
 .icon-fb-color {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -129px -199px;
+  background-position: -81px -199px;
   width: 24px;
   height: 24px;
   display: inline-block; }
 
 .icon-google-color {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -105px -199px;
+  background-position: -129px -199px;
   width: 24px;
   height: 24px;
   display: inline-block; }
@@ -483,21 +483,21 @@
 
 .icon-return {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -329px -199px;
+  background-position: -350px -199px;
   width: 16px;
   height: 14px;
   display: inline-block; }
 
 .icon-sticker-empty {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: 0px 0px;
+  background-position: -100px 0px;
   width: 100px;
   height: 100px;
   display: inline-block; }
 
 .icon-reviews-label {
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -63px -235px;
+  background-position: -81px -235px;
   width: 18px;
   height: 18px;
   display: inline-block; }
@@ -507,6 +507,13 @@
   background-position: -296px -120px;
   width: 34px;
   height: 32px;
+  display: inline-block; }
+
+.icon-kg {
+  background-image: url(../img/png_sprite/sprite.png);
+  background-position: -153px -199px;
+  width: 21px;
+  height: 24px;
   display: inline-block; }
 
 html {
@@ -2829,7 +2836,7 @@ select.custom-select {
 .custom-checkbox.custom-checkbox__bold:checked + label:before {
   border: none;
   background-image: url(../img/png_sprite/sprite.png);
-  background-position: -214px -199px;
+  background-position: -235px -199px;
   width: 19px;
   height: 19px;
   left: -2px;
@@ -3076,6 +3083,16 @@ select.custom-select {
     .object-top__controls .goods-prop__to-favorite {
       margin-left: 40px; }
 
+.lSSlideOuter .lSPager.lSGallery li {
+  height: 82px;
+  position: relative;
+  overflow: hidden; }
+
+.lSSlideWrapper .lSSlide, .lSSlideWrapper.usingCss .lSFade > * {
+  height: 250px;
+  position: relative;
+  overflow: hidden; }
+
 .lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover {
   -webkit-border-radius: 0;
           border-radius: 0; }
@@ -3083,13 +3100,23 @@ select.custom-select {
 .lSSlideOuter .lSPager.lSGallery img {
   display: block;
   max-width: none;
-  height: 82px; }
+  height: 82px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
 
 .object-img-slider__item img {
   width: auto;
-  height: 252px;
-  margin: auto;
-  display: block; }
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
 
 .goods-prop__price b {
   margin: 0 5px; }
@@ -3208,7 +3235,7 @@ select.custom-select {
               border-radius: 5px 5px 0 0; }
 
 .r-tabs-nav .object-tabs__title {
-  margin-right: .82%; }
+  margin-right: .76%; }
   .r-tabs-nav .object-tabs__title:last-child {
     margin-right: 0; }
     .r-tabs-nav .object-tabs__title:last-child.r-tabs-state-active a {
@@ -3275,7 +3302,7 @@ select.custom-select {
   .three-photo-block li {
     padding: 0;
     width: 32%;
-    margin-right: 1.9%;
+    margin-right: 1.8%;
     margin-left: -2px;
     height: 170px;
     overflow: hidden;
@@ -3327,6 +3354,41 @@ select.custom-select {
 
 .textarea-height {
   height: 100px; }
+
+.athlete-result-list__item {
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 15px;
+  margin-bottom: 20px; }
+
+.athlete-result-photos {
+  float: left; }
+  .athlete-result-photos > div {
+    display: inline-block;
+    width: 152px;
+    height: 202px;
+    position: relative; }
+    .athlete-result-photos > div img {
+      width: auto;
+      height: 100%; }
+
+.athlete-result-photos__after {
+  border: 1px solid #21a124;
+  overflow: hidden; }
+
+.athlete-result-photos__before {
+  overflow: hidden;
+  border: 1px solid #1274bf;
+  margin-right: 5px; }
+
+.athlete-result-content {
+  margin-left: 330px; }
+
+.athlete-result-content__title {
+  margin-bottom: 25px; }
+  .athlete-result-content__title .icon-kg {
+    position: relative;
+    margin-right: 5px;
+    top: 3px; }
 
 .price-panel {
   margin-bottom: 10px; }
@@ -3522,10 +3584,10 @@ select.custom-select {
     padding: 10px 0;
     font-size: 14px; }
   .r-tabs-nav .object-tabs__title {
-    margin-right: .7%; }
+    margin-right: .67%; }
   .r-tabs-nav .object-tabs__title:last-child.r-tabs-state-active:after,
   .r-tabs-nav .object-tabs__title.r-tabs-state-active:after {
-    height: 39px; }
+    height: 40px; }
   .price-panel .panel-body .goods-prop__price--left {
     width: 80%; }
   .price-panel .panel-body .goods-prop__price--right {
@@ -4154,4 +4216,15 @@ select.custom-select {
   .reviews-add-form .goods-prop__right-block {
     padding: 0 0 15px; }
   .reviews-add-form {
-    padding-top: 15px; } }
+    padding-top: 15px; }
+  .athlete-result-photos {
+    float: none;
+    margin-bottom: 15px;
+    text-align: center; }
+  .athlete-result-content {
+    margin-left: 0; }
+  .athlete-result-content__title {
+    margin-bottom: 15px; }
+  .athlete-result-photos > div {
+    width: 120px;
+    height: 170px; } }

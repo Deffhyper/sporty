@@ -302,6 +302,11 @@
   display: inline-block;
 }
 
+.icon-kg {
+  @include sprite($kg);
+  display: inline-block;
+}
+
 
 
 

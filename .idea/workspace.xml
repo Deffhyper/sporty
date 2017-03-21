@@ -6,23 +6,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27c7432-2d14-4c37-8a99-157789600795" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png_icons/reviews-label-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/reviews-label-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png_icons/reviews-label.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/reviews-label.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/after-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/after-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/after-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/after-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/after-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/after-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/before-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/before-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/before-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/before-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/before-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/before-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png_icons/kg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/kg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/trainer-1-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/trainer-1-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/trainer-2-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/trainer-2-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/trainer-3-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/trainer-3-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/trainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/trainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/png_sprite/sprite.png" afterPath="$PROJECT_DIR$/app/img/png_sprite/sprite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/png_sprite/sprite.png" afterPath="$PROJECT_DIR$/dist/img/png_sprite/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_1200.scss" afterPath="$PROJECT_DIR$/app/sass/_1200.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_768.scss" afterPath="$PROJECT_DIR$/app/sass/_768.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" afterPath="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_sprite.scss" afterPath="$PROJECT_DIR$/app/sass/_sprite.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_tab-accord.scss" afterPath="$PROJECT_DIR$/app/sass/_tab-accord.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/common.js" afterPath="$PROJECT_DIR$/dist/js/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/object.php" afterPath="$PROJECT_DIR$/app/object.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/object.php" afterPath="$PROJECT_DIR$/dist/object.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sporty.iws" />
@@ -45,52 +60,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="object.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/object.php">
+      <file leaf-file-name="trainer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/trainer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
-              <caret line="124" column="56" selection-start-line="124" selection-start-column="56" selection-end-line="124" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.36809817">
+              <caret line="746" column="67" selection-start-line="746" selection-start-column="67" selection-end-line="746" selection-end-column="67" />
               <folding>
-                <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#h4#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_sprite-icons-style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/_sprite-icons-style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.653847">
-              <caret line="299" column="18" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.195122">
-              <caret line="2749" column="11" selection-start-line="2749" selection-start-column="11" selection-end-line="2749" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5862069">
-              <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -98,8 +78,28 @@
       <file leaf-file-name="_tab-accord.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_tab-accord.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.690909">
-              <caret line="166" column="19" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="19" />
+            <state vertical-scroll-proportion="-8.807693">
+              <caret line="189" column="6" selection-start-line="189" selection-start-column="8" selection-end-line="192" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_sprite-icons-style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_sprite-icons-style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.576923">
+              <caret line="304" column="0" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_1200.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_1200.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.309091">
+              <caret line="180" column="14" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -108,8 +108,8 @@
       <file leaf-file-name="_768.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_768.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.076923">
-              <caret line="541" column="3" selection-start-line="541" selection-start-column="3" selection-end-line="541" selection-end-column="3" />
+            <state vertical-scroll-proportion="-26.115385">
+              <caret line="554" column="32" selection-start-line="554" selection-start-column="32" selection-end-line="554" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -165,16 +165,17 @@
         <option value="$PROJECT_DIR$/app/direction.php" />
         <option value="$PROJECT_DIR$/app/sass/_991.scss" />
         <option value="$PROJECT_DIR$/app/sass/_price-accord.scss" />
-        <option value="$PROJECT_DIR$/app/sass/_1200.scss" />
         <option value="$PROJECT_DIR$/app/add-club.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/sass/libs.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" />
-        <option value="$PROJECT_DIR$/app/sass/_tab-accord.scss" />
-        <option value="$PROJECT_DIR$/app/sass/_768.scss" />
-        <option value="$PROJECT_DIR$/app/sass/main.scss" />
         <option value="$PROJECT_DIR$/app/object.php" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/sass/main.scss" />
+        <option value="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" />
+        <option value="$PROJECT_DIR$/app/sass/_768.scss" />
+        <option value="$PROJECT_DIR$/app/sass/_1200.scss" />
+        <option value="$PROJECT_DIR$/app/sass/_tab-accord.scss" />
+        <option value="$PROJECT_DIR$/app/trainer.php" />
       </list>
     </option>
   </component>
@@ -223,6 +224,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,14 +244,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sporty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sporty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sporty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sporty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/workspace/sempal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -496,7 +529,13 @@
       <option name="project" value="LOCAL" />
       <updated>1490007529181</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add smooth scroll to anchors on object.php. Fix bugs. Fix reviews tab">
+      <created>1490051128817</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1490051128817</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -513,7 +552,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2936893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2985437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -568,7 +607,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="header" />
     <MESSAGE value="add top menu, popup &quot;city-choice&quot;" />
     <MESSAGE value="add section on index.php" />
     <MESSAGE value="make dist for production(full version)" />
@@ -593,20 +631,14 @@
     <MESSAGE value=" object.php(complete) include slider, responsive tabs, bootstrap accordion" />
     <MESSAGE value="bug fix( input-number, main-menu z-index, pagination hover)" />
     <MESSAGE value="add gallery plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gallery plugin" />
+    <MESSAGE value="add smooth scroll to anchors on object.php. Fix bugs. Fix reviews tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="add smooth scroll to anchors on object.php. Fix bugs. Fix reviews tab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/libs/bootstrap/dist/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/css/libs.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.066667">
@@ -871,20 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_1200.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.302799">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_991.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6453988">
-          <caret line="285" column="3" selection-start-line="285" selection-start-column="3" selection-end-line="285" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/libs.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075">
@@ -913,61 +931,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_sprite-icons-style.scss">
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.653847">
-          <caret line="299" column="18" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_tab-accord.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.690909">
-          <caret line="166" column="19" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_768.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.076923">
-          <caret line="541" column="3" selection-start-line="541" selection-start-column="3" selection-end-line="541" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.195122">
-          <caret line="2749" column="11" selection-start-line="2749" selection-start-column="11" selection-end-line="2749" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/object.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="124" column="56" selection-start-line="124" selection-start-column="56" selection-end-line="124" selection-end-column="56" />
-          <folding>
-            <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#h4#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.10429448">
+          <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+    <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5862069">
-          <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.2195122">
+          <caret line="3083" column="19" selection-start-line="3083" selection-start-column="19" selection-end-line="3083" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_991.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6692112">
+          <caret line="285" column="3" selection-start-line="285" selection-start-column="3" selection-end-line="285" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_768.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.115385">
+          <caret line="554" column="32" selection-start-line="554" selection-start-column="32" selection-end-line="554" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_sprite-icons-style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.576923">
+          <caret line="304" column="0" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_1200.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.309091">
+          <caret line="180" column="14" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_tab-accord.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.807693">
+          <caret line="189" column="6" selection-start-line="189" selection-start-column="8" selection-end-line="192" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/trainer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36809817">
+          <caret line="746" column="67" selection-start-line="746" selection-start-column="67" selection-end-line="746" selection-end-column="67" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
