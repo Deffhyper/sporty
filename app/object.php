@@ -845,7 +845,7 @@
                                                 </div>
                                                 <div class="goods-prop__right-block">
                                                     <div class="goods-prop__start-price">
-                                                        <p><span class="goods-prop__title">7000</span> грн</p>
+                                                        <p><span class="goods-prop__actual-price">7000</span> грн</p>
                                                     </div>
                                                     <div class="goods-prop__more">
                                                         <a href="#" class="btn btn-medium btn-yellow-gradient">Купить пакет</a>
@@ -882,7 +882,7 @@
                                                 </div>
                                                 <div class="goods-prop__right-block">
                                                     <div class="goods-prop__start-price">
-                                                        <p><span class="goods-prop__title">7000</span> грн</p>
+                                                        <p><span class="goods-prop__actual-price">7000</span> грн</p>
                                                     </div>
                                                     <div class="goods-prop__more">
                                                         <a href="#" class="btn btn-medium btn-yellow-gradient">Купить пакет</a>
@@ -919,7 +919,7 @@
                                                 </div>
                                                 <div class="goods-prop__right-block">
                                                     <div class="goods-prop__start-price">
-                                                        <p><span class="goods-prop__title">8000</span> грн</p>
+                                                        <p><span class="goods-prop__actual-price">8000</span> грн</p>
                                                     </div>
                                                     <div class="goods-prop__more">
                                                         <a href="#" class="btn btn-medium btn-yellow-gradient">Купить пакет</a>

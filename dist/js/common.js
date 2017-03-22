@@ -24,12 +24,18 @@ $(function() {
         //}
     });
 
-    // remove pseudo labels from input after touch
+    // telephone masked input
 
     $('input[type="tel"]').mask("+38(099) 999-9999");
 
+    // entry ban for email
+
+    $('input[type="email"]').on('keyup keydown',function() {
+        this.value = this.value.replace(/[а-я|\s|\/|\\]/i, "");
+    });
+
     // just 0-9 in text input
-    $('.input-number').on('keydown', function(e){
+    $('.input-number').on('keyup keydown', function(e){
         -1!==$.inArray(e.keyCode,[46,8,9,27,13,110,190])||/65|67|86|88/
             .test(e.keyCode)&&(!0===e.ctrlKey||!0===e.metaKey)
             ||35<=e.keyCode&&40>=e.keyCode
@@ -38,6 +44,7 @@ $(function() {
             &&e.preventDefault()
     });
 
+    // remove pseudo labels from input after touch
 
     $('input[type="tel"], input[type="text"], input[type="password"], input[type="email"]').on('click touchstart', function(){
         if($(this).hasClass('touch')) {

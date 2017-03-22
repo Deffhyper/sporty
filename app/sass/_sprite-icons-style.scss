@@ -307,6 +307,16 @@
   display: inline-block;
 }
 
+.icon-stock-action {
+  @include sprite($stock-action);
+  display: inline-block;
+}
+
+.icon-sticker-sale-flag {
+  @include sprite($sticker-sale-flag);
+  display: inline-block;
+}
+
 
 
 

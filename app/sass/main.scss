@@ -2543,6 +2543,15 @@ select.custom-select {
       font-family: $OS-SBold-font;
       font-size: 18px;
       margin: 0 0 15px 0;
+
+      &--short {
+        max-width: 180px;
+        line-height: 1.3;
+        overflow: hidden;
+        max-height: 45px;
+        text-overflow: ellipsis;
+      }
+
       a {
         color: inherit;
       }
@@ -2628,9 +2637,6 @@ select.custom-select {
       text-align: center;
       padding-top: 2px;
       margin-bottom: 20px;
-      span {
-        font-family: $OS-Bold-font;
-      }
       p {
         margin: 0;
       }
@@ -3013,6 +3019,37 @@ select.custom-select {
     right: 0;
     z-index: 10;
   }
+  &__sticker-sale-flag {
+    position: absolute;
+    top: -1px;
+    right: 15px;
+    z-index: 10;
+    span {
+      font-family: $OS-SBold-font;
+      font-size: 18px;
+      color: #fff;
+      position: absolute;
+      top: 12px;
+      left: 9px;
+    }
+  }
+
+  &__photo {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 39px;
+    overflow: hidden;
+    position: relative;
+    img {
+      width: auto;
+      height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
 
   &__slider{
     width: 290px;
@@ -3134,6 +3171,30 @@ select.custom-select {
     td:nth-child(3) {
       width: 20%;
     }
+  }
+}
+
+.goods-prop__old-price {
+  color: #7d7d7d;
+  font-size: 14px;
+  font-family: $OS-Reg-font;
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+.goods-prop__actual-price {
+  font-family: $OS-SBold-font;
+  font-size: 18px;
+}
+.goods-prop__action-date {
+  position: relative;
+  margin-bottom: 15px;
+  span {
+    position: absolute;
+    top: 8px;
+    left: 35px;
+    color: #fff;
+    font-family: $OS-SBold-font;
+    font-size: 12px;
   }
 }
 
