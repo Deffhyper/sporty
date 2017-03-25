@@ -22,9 +22,9 @@
 
 <section class="section-block">
     <div class="container">
-        <div class="row">
+        <div class="row block-with-margin-bottom">
             <div class="col-md-9 col-sm-12">
-                <div class="object-top goods block-with-border">
+                <div class="object-top single-action block-with-border">
                     <div class="object-top__sticker-sale-flag">
                         <i class="icon-sticker-sale-flag"></i>
                         <span>-70%</span>
@@ -55,11 +55,12 @@
                         </div>
 
 
-                        <div class="goods-prop__start-price">
-                            <p>
+                        <div class="goods-prop__start-price clearfix">
+                            <div class="pull-left start-price__left"><span>Акция от: </span><a href="#" class="link-blue">Клуб FitnessLife</a></div>
+                            <div class="pull-right start-price__right">
                                 <span class="goods-prop__old-price">9000 грн</span>
                                 <span class="goods-prop__actual-price">7000</span> грн
-                            </p>
+                            </div>
                         </div>
 
 
@@ -153,7 +154,7 @@
             <div class="col-md-9 col-sm-12">
                 <div class="object-bottom">
                     <div id="responsive-tab" class="object-tabs">
-                        <ul>
+                        <ul class="object-tabs__list">
                             <li class="object-tabs__title"><a href="#tab-1">Описание</a></li>
                         </ul>
 
@@ -165,13 +166,11 @@
                                     услугам: тренажерный зал, аэробика, массаж, солярий, йога и множество других
                                     программ.
                                 </p>
-                                <ul class="list-inline three-photo-block">
-                                    <li data-thumb="img/jpeg_files/tab-1.jpg" data-src="img/jpeg_files/tab-1.jpg"><a
-                                            href="#"><img src="img/jpeg_files/tab-1.jpg" alt="tab-photo"></a></li>
-                                    <li data-thumb="img/jpeg_files/tab-2.jpg" data-src="img/jpeg_files/tab-2.jpg"><a
-                                            href="#"><img src="img/jpeg_files/tab-2.jpg" alt="tab-photo"></a></li>
-                                    <li data-thumb="img/jpeg_files/tab-3.jpg" data-src="img/jpeg_files/tab-3.jpg"><a
-                                            href="#"><img src="img/jpeg_files/tab-3.jpg" alt="tab-photo"></a></li>
+                                <ul class="list-inline two-photo-block">
+                                    <li data-thumb="img/jpeg_files/action-1.jpg" data-src="img/jpeg_files/action-1.jpg">
+                                        <a href="#"><img src="img/jpeg_files/action-1.jpg" alt="tab-photo"></a></li>
+                                    <li data-thumb="img/jpeg_files/action-2.jpg" data-src="img/jpeg_files/action-2.jpg">
+                                        <a href="#"><img src="img/jpeg_files/action-2.jpg" alt="tab-photo"></a></li>
                                 </ul>
 
                                 <ol class="list-counter list-counter__blue">
@@ -194,8 +193,14 @@
                                         </p>
                                     </li>
                                 </ol>
-                                <div class="image-wrapper">
-                                    <img src="img/jpeg_files/tab-4.jpg" alt="office picture">
+                                <div class="tip">
+                                    <a href="javascript:void(0)" class="tip-link">
+                                        <i class="icon-tip"></i>
+                                        <span class="tip-link-text">Узнай, как воспользоваться купленным купоном на скидку</span>
+                                        <span class="tip-link-right">
+                                            <i class="icon-arrow-right-blue-big"></i>
+                                        </span>
+                                    </a>
                                 </div>
                                 <p class="text-medium">
                                     Занимаясь на тренажерах AmpliTrain, вы активизируете обмен веществ, повышаете свою

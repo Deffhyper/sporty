@@ -317,6 +317,21 @@
   display: inline-block;
 }
 
+.icon-arrow-right-blue-big {
+  @include sprite($arrow-right-blue-big);
+  display: inline-block;
+}
+
+.icon-tip {
+  @include sprite($tip);
+  display: inline-block;
+}
+
+.icon-question {
+  @include sprite($question);
+  display: inline-block;
+}
+
 
 
 

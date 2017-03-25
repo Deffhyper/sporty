@@ -81,6 +81,13 @@
   .site-header--menu .navbar-nav > li:hover .site-header__main-menu {
     display: none;
   }
+  .main-menu__right {
+    width: 75%;
+    column-count: 2;
+  }
+  .main-menu__left {
+    width: 25%;
+  }
   .site-header--menu .navbar-nav > li > a i {
     left: 13px;
   }
@@ -271,18 +278,11 @@
     margin-left: -2px;
     margin-right: 4%;
   }
-  .object-top__slider {
-    float: none;
-    margin: 0 auto 15px;
+  .return-to-search {
+    padding-top: 0;
   }
-  .object-top__prop {
-    margin-left: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  .object-bottom {
-    margin-bottom: 25px;
+  .single-action .goods-prop__start-price {
+      margin-bottom: 0;
   }
 
 

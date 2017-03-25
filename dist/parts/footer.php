@@ -37,9 +37,11 @@
             <div class="col-md-3 col-sm-12">
                 <div class="page-footer__mailto">
                     <p class="page-footer__mailto-title">Свежие новости</p>
+
                     <form action="#">
                         <i class="icon-mail-flag"></i>
-                        <input type="email" id="footer-input" class="page-footer__mailto-input" placeholder="Ваш email-адрес">
+                        <input type="email" id="footer-input" class="page-footer__mailto-input"
+                               placeholder="Ваш email-адрес">
                         <label for="footer-input" class="icon-Email"></label>
                         <button class="btn page-footer__mailto-button">Подписаться</button>
                     </form>
@@ -70,11 +72,14 @@
                 <div class="row modal-body-wrapper">
                     <div class="col-sm-6 modal-block modal-block__left">
                         <h5 class="modal-title__small">Личный кабинет</h5>
+
                         <form action="#" class="logIn__form">
-                            <input type="email" class="input-round-border input-md input-md-margin" placeholder="Ваш e-mail">
-                            <input type="password" class="input-round-border input-md input-md-margin" placeholder="Пароль">
+                            <input type="email" class="input-round-border input-md input-md-margin"
+                                   placeholder="Ваш e-mail">
+                            <input type="password" class="input-round-border input-md input-md-margin"
+                                   placeholder="Пароль">
                             <a href="#" class="modal-link">Забыли пароль?</a>
-                            <button class="btn btn-big">Войти</button>
+                            <button class="btn btn-big btn-yellow-gradient">Войти</button>
                         </form>
                     </div>
 
@@ -86,7 +91,10 @@
                             <li><a href="#"><i class="icon-google-big"></i></a></li>
                         </ul>
                         <p class="modal-inform">Нет аккаунта?</p>
-                        <p class="modal-inform"><a href="#" id="toRegister" class="modal-link" data-toggle="modal" data-target="#register">Зарегистрироваться</a></p>
+
+                        <p class="modal-inform"><a href="#" id="toRegister" class="modal-link" data-toggle="modal"
+                                                   data-target="#register">Зарегистрироваться</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -107,6 +115,7 @@
                 <div class="row modal-body-wrapper">
                     <div class="col-sm-6 modal-block modal-block__left">
                         <h5 class="modal-title__small">Личный кабинет</h5>
+
                         <form action="#" class="register__form">
                             <fieldset class="input-md-margin pseudo-placeholder">
                                 <input type="text" id="user-name" class="input-round-border input-md">
@@ -130,21 +139,23 @@
 
                             <fieldset class="input-md-margin pseudo-placeholder">
                                 <input type="tel" id="user-tel" class="input-round-border input-md ">
-                                <label for="user-tel" class="pseudo-placeholder">+38 (0__)  ___ - __ -___<span>*</span></label>
+                                <label for="user-tel" class="pseudo-placeholder">+38 (0__) ___ - __
+                                    -___<span>*</span></label>
                             </fieldset>
 
                             <fieldset class="input-md-margin custom-checkbox">
                                 <input type="checkbox" id="user-confirm-rules">
-                                <label for="user-confirm-rules" class="text-small text-light">Регистрируясь на сайте , я соглашаюсь <a href="#" class="link">с условиями конфиденциальности</a></label>
+                                <label for="user-confirm-rules" class="text-small text-light">Регистрируясь на сайте , я
+                                    соглашаюсь <a href="#" class="link">с условиями конфиденциальности</a></label>
                             </fieldset>
-                            
+
                             <fieldset class="custom-radio">
-                                <input type="radio" id="user-owner"  name="user-choice">
+                                <input type="radio" id="user-owner" name="user-choice">
                                 <label for="user-owner">Владелец объекта или тренер</label>
                             </fieldset>
 
                             <fieldset class="custom-radio">
-                                <input type="radio" id="user-simple"  name="user-choice">
+                                <input type="radio" id="user-simple" name="user-choice">
                                 <label for="user-simple">Пользователь</label>
                             </fieldset>
 
@@ -160,6 +171,7 @@
                             <li><a href="#"><i class="icon-google-big"></i></a></li>
                         </ul>
                         <p class="modal-inform">Нет аккаунта?</p>
+
                         <p class="modal-inform"><a href="#" class="modal-link">Зарегистрироваться</a></p>
                     </div>
                 </div>
@@ -210,7 +222,7 @@
 </div>
 
 
-<!-- Modal city-choice -->
+<!-- Modal sort-choice -->
 <div id="sort-choice" class="modal fade" role="dialog">
     <div class="modal-dialog modal-dialog--big">
         <!-- Modal content-->
@@ -323,6 +335,52 @@
     </div>
 </div>
 
+<!-- Modal order-form -->
+<div id="order-form" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="icon-close-modal"></i></button>
+                <h4 class="modal-title">Форма записи</h4>
+            </div>
+            <div class="container-fluid">
+                <div class="row modal-body-wrapper">
+                    <div class="modal-block add-block">
+                        <p class="modal-order-form-title">
+                            <i class="icon-question"></i>
+                            <span>Оставьте ваши контактные данные и менеджере свяжется с Вами в удобноедля Вас время:</span>
+                        </p>
+                        <form action="#" class="order-request-form">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+
+                                    <label for="of-1" class="info__label">Ваше Имя и Фамилия: <span
+                                            class="mark-red">*</span></label>
+                                    <input id="of-1" type="text" class="input-round-border input-md"
+                                           placeholder="Ваш e-mail">
+
+                                    <label for="of-2" class="info__label">Ваше Имя и Фамилия: <span
+                                            class="mark-red">*</span></label>
+                                    <input type="text" id="of-2" class="input-round-border input-md"
+                                           placeholder="Ваш e-mail">
+                                </div>
+                                <div class="col-md-6 col-sm-12"></div>
+                            </div>
+                            <input type="email" class="input-round-border input-md input-md-margin"
+                                   placeholder="Ваш e-mail">
+                            <input type="password" class="input-round-border input-md input-md-margin"
+                                   placeholder="Пароль">
+
+                            <button class="btn btn-big btn-yellow-gradient">Войти</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 
 <script src="js/libs.min.js"></script>

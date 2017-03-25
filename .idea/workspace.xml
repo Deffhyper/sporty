@@ -5,14 +5,44 @@
     <bookmark url="file://$PROJECT_DIR$/app/direction.php" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27c7432-2d14-4c37-8a99-157789600795" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png_icons/sticker-sale-flag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/sticker-sale-flag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png_icons/stock-action.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/stock-action.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/action-single.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/actions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/main-page.php" />
+    <list default="true" id="f27c7432-2d14-4c37-8a99-157789600795" name="Default" comment="add modals.php,">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/action-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/action-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/jpeg_files/action-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/jpeg_files/action-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png_icons/arrow-right-blue-big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/arrow-right-blue-big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png_icons/question.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/question.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png_icons/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/modals.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/modals.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sort-sport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/sort-sport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/png_sprite/sprite.png" afterPath="$PROJECT_DIR$/app/img/png_sprite/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/png_sprite/sprite.png" afterPath="$PROJECT_DIR$/dist/img/png_sprite/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_1200.scss" afterPath="$PROJECT_DIR$/app/sass/_1200.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_768.scss" afterPath="$PROJECT_DIR$/app/sass/_768.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_991.scss" afterPath="$PROJECT_DIR$/app/sass/_991.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" afterPath="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_sprite.scss" afterPath="$PROJECT_DIR$/app/sass/_sprite.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_tab-accord.scss" afterPath="$PROJECT_DIR$/app/sass/_tab-accord.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/action-single.php" afterPath="$PROJECT_DIR$/app/action-single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/action-single.php" afterPath="$PROJECT_DIR$/dist/action-single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/add-club.php" afterPath="$PROJECT_DIR$/app/add-club.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/add-club.php" afterPath="$PROJECT_DIR$/dist/add-club.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/common.js" afterPath="$PROJECT_DIR$/dist/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/footer.php" afterPath="$PROJECT_DIR$/app/parts/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/parts/footer.php" afterPath="$PROJECT_DIR$/dist/parts/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/object.php" afterPath="$PROJECT_DIR$/app/object.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/object.php" afterPath="$PROJECT_DIR$/dist/object.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/trainer.php" afterPath="$PROJECT_DIR$/app/trainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/trainer.php" afterPath="$PROJECT_DIR$/dist/trainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sporty.iws" />
@@ -35,12 +65,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="object.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/object.php">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54442346">
-              <caret line="1041" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="1066" selection-end-column="7" />
+            <state vertical-scroll-proportion="-2.0487804">
+              <caret line="844" column="19" selection-start-line="844" selection-start-column="19" selection-end-line="844" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/parts/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28625953">
+              <caret line="356" column="0" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#2;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +124,6 @@
         <option value="$PROJECT_DIR$/app/libs/jquery.rateit/scripts/rateit.css" />
         <option value="$PROJECT_DIR$/app/js/libs.min.js" />
         <option value="$PROJECT_DIR$/app/sass/_var.scss" />
-        <option value="$PROJECT_DIR$/app/parts/footer.php" />
         <option value="$PROJECT_DIR$/app/index.php" />
         <option value="$PROJECT_DIR$/app/parts/header.php" />
         <option value="$PROJECT_DIR$/app/parts/breadcrumbs.php" />
@@ -94,20 +137,23 @@
         <option value="$PROJECT_DIR$/app/text.php" />
         <option value="$PROJECT_DIR$/app/direction.php" />
         <option value="$PROJECT_DIR$/app/sass/_price-accord.scss" />
-        <option value="$PROJECT_DIR$/app/add-club.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/sass/libs.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_tab-accord.scss" />
-        <option value="$PROJECT_DIR$/app/trainer.php" />
-        <option value="$PROJECT_DIR$/app/object.php" />
-        <option value="$PROJECT_DIR$/app/sass/_768.scss" />
         <option value="$PROJECT_DIR$/app/actions.php" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/action-single.php" />
+        <option value="$PROJECT_DIR$/app/object.php" />
+        <option value="$PROJECT_DIR$/app/trainer.php" />
+        <option value="$PROJECT_DIR$/app/sass/_tab-accord.scss" />
         <option value="$PROJECT_DIR$/app/sass/_1200.scss" />
+        <option value="$PROJECT_DIR$/app/sort-sport.php" />
         <option value="$PROJECT_DIR$/app/sass/_991.scss" />
+        <option value="$PROJECT_DIR$/app/sass/_768.scss" />
+        <option value="$PROJECT_DIR$/app/modals.php" />
+        <option value="$PROJECT_DIR$/app/add-club.php" />
         <option value="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
-        <option value="$PROJECT_DIR$/app/action-single.php" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/parts/footer.php" />
       </list>
     </option>
   </component>
@@ -174,6 +220,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sporty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sporty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -181,7 +241,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../artstep" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -447,7 +507,13 @@
       <option name="project" value="LOCAL" />
       <updated>1490202655627</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="fix bug in(IE), rename index.php to main-page.php, add actions.php, action-single.php(40%).&#10; Add entity ban to cyrillic, space and &quot;/&quot;, &quot;\&quot; on email inputs. (Update dist)">
+      <created>1490203094806</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1490203094806</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -464,23 +530,23 @@
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30339807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22087379" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32873562" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3187572" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31760645" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -519,7 +585,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make dist for production(full version)" />
     <MESSAGE value="fix menu, modal windows" />
     <MESSAGE value="add blog page (left-sidebar)" />
     <MESSAGE value="add article page (included &quot;Disqus&quot; and &quot;Social share counter&quot;)" />
@@ -544,20 +609,16 @@
     <MESSAGE value="add smooth scroll to anchors on object.php. Fix bugs. Fix reviews tab" />
     <MESSAGE value="fix object.php bug(firefox), fix image slider( big-img-center). Create trainer.php. Tab &quot;athlete-result&quot;. Check on (firefox, opera, chrome) TODO (IE, Safari)" />
     <MESSAGE value="fix bug in(IE), rename index.php to main-page.php, add actions.php, action-single.php(40%).&#10; Add entity ban to cyrillic, space and &quot;/&quot;, &quot;\&quot; on email inputs." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug in(IE), rename index.php to main-page.php, add actions.php, action-single.php(40%).&#10; Add entity ban to cyrillic, space and &quot;/&quot;, &quot;\&quot; on email inputs." />
+    <MESSAGE value="fix bug in(IE), rename index.php to main-page.php, add actions.php, action-single.php(40%).&#10; Add entity ban to cyrillic, space and &quot;/&quot;, &quot;\&quot; on email inputs. (Update dist)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug in(IE), rename index.php to main-page.php, add actions.php, action-single.php(40%).&#10; Add entity ban to cyrillic, space and &quot;/&quot;, &quot;\&quot; on email inputs. (Update dist)" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7118644">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_mixin.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51224107">
@@ -673,21 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/parts/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7457944">
-          <caret line="328" column="36" selection-start-line="328" selection-start-column="36" selection-end-line="328" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/parts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3076923">
-          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/parts/breadcrumbs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -730,24 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/personal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3207547">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/responsive-tabs/test/fixture.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2224299">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -769,13 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/add-club.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5214724">
-          <caret line="358" column="91" selection-start-line="358" selection-start-column="91" selection-end-line="358" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -807,63 +832,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_tab-accord.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="189" column="6" selection-start-line="189" selection-start-column="8" selection-end-line="192" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/trainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="746" column="67" selection-start-line="746" selection-start-column="67" selection-end-line="746" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/direction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="299" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="569" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_768.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.884615">
-          <caret line="559" column="28" selection-start-line="559" selection-start-column="28" selection-end-line="559" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_991.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3654224">
-          <caret line="232" column="18" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_1200.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3654224">
-          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/actions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5929368">
           <caret line="210" column="40" selection-start-line="210" selection-start-column="40" selection-end-line="210" selection-end-column="40" />
-          <folding>
-            <element signature="n#section#2;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,47 +844,151 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9634147">
-          <caret line="3044" column="17" selection-start-line="3044" selection-start-column="17" selection-end-line="3044" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.4272388">
+          <caret line="264" column="0" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/action-single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8076925">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_1200.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="216" column="18" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_tab-accord.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="16" />
           <folding>
-            <element signature="e#45648#46437#0" expanded="false" />
+            <element signature="e#2882#2989#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+    <entry file="file://$PROJECT_DIR$/app/text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7574317">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.15582822">
+          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/direction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56319016">
+          <caret line="325" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="569" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sort-sport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="11.769231">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_991.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2363634">
+          <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_768.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.072727">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/trainer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5006135">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35460123">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/parts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.31552163">
+          <caret line="56" column="91" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/personal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="73" column="80" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_sprite-icons-style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60368097">
-          <caret line="318" column="0" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6147239">
+          <caret line="327" column="1" selection-start-line="327" selection-start-column="1" selection-end-line="327" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/action-single.php">
+    <entry file="file://$PROJECT_DIR$/app/add-club.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44785276">
-          <caret line="53" column="93" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
+        <state vertical-scroll-proportion="-1.1923077">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0487804">
+          <caret line="844" column="19" selection-start-line="844" selection-start-column="19" selection-end-line="844" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/parts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28625953">
+          <caret line="356" column="0" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54442346">
-          <caret line="1041" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="1066" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>

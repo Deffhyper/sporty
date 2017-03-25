@@ -170,12 +170,15 @@
   .three-photo-block li {
     height: 140px;
   }
+  .two-photo-block li {
+    height: 220px;
+  }
   .object-tabs__title a {
     padding: 10px 0;
     font-size: 14px;
   }
   .r-tabs-nav .object-tabs__title {
-    margin-right: .67%;
+    //margin-right: .67%;
   }
   .r-tabs-nav .object-tabs__title:last-child.r-tabs-state-active:after,
   .r-tabs-nav .object-tabs__title.r-tabs-state-active:after {
@@ -209,7 +212,10 @@
     margin-bottom: 0;
   }
 
-
+  .object-top__photo {
+    width: 290px;
+    height: 290px;
+  }
 
 
 

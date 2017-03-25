@@ -23,9 +23,9 @@
 
 <section class="section-block">
     <div class="container">
-        <div class="row">
+        <div class="row block-with-margin-bottom">
             <div class="col-md-9 col-sm-12">
-                <div class="object-top goods block-with-border">
+                <div class="object-top block-with-border">
                     <div class="object-top__sticker">
                         <i class="icon-sticker-sale"></i>
                     </div>
@@ -202,7 +202,7 @@
             <div class="col-md-9 col-sm-12">
                 <div class="object-bottom">
                     <div id="responsive-tab" class="object-tabs">
-                        <ul>
+                        <ul class="object-tabs__list">
                             <li class="object-tabs__title"><a href="#tab-1">Описание</a></li>
                             <li class="object-tabs__title"><a href="#tab-2" id="section-anchor">Секции и цены</a></li>
                             <li class="object-tabs__title"><a href="#tab-3" id="reviews-anchor">Отзывы</a></li>

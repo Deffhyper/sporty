@@ -174,10 +174,7 @@
                                             <label for="file-3" class="custom-input-file-2"><input type="file" id="file-3"></label>
                                         </li>
                                     </ul>
-
                                 </div>
-
-
                             </fieldset>
                             <fieldset class="photo-set">
                                 <h3 class="photo-set--title top-zero">Главная фотография</h3>

@@ -55,8 +55,7 @@
     width: 100%;
   }
   .site-header--menu .navbar-nav li {
-    width: 100%;
-    display: inline-block;
+    display: block;
   }
   .site-header--menu .navbar-nav > li:not(:last-child) {
     width: 100%;
@@ -64,12 +63,18 @@
   .main-menu__left-list {
     border-right: none;
     margin-bottom: 15px;
+    display: inline-block;
   }
   .main-menu__right {
     width: 100%;
     padding: 0;
     column-count: 1;
     column-gap: 0;
+    text-align: center;
+  }
+  .main-menu__left {
+    width: 100%;
+    text-align: center;
   }
   .site-header__logo {
     max-width: 130px;
@@ -560,6 +565,48 @@
   .goods-prop__action-date {
     margin-top: 10px;
   }
+
+  .object-top__slider {
+    float: none;
+    margin: 0 auto 15px;
+  }
+  .object-top__prop {
+    margin-left: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .object-bottom {
+    margin-bottom: 25px;
+  }
+  .object-top__photo {
+    width: 268px;
+    height: 280px;
+    float: none;
+    margin: 0 auto 10px;
+  }
+  .object-top .goods-prop__location {
+    padding: 10px;
+    margin: 0;
+  }
+  .goods-prop__action-date {
+    margin-bottom: 10px;
+  }
+
+  .pull-left.start-price__left,
+  .pull-right.start-price__right {
+    float: none !important;
+    text-align: center;
+  }
+  .pull-left.start-price__left {
+    margin-bottom: 10px;
+  }
+
+  .sort-sport.block-with-border {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
 
 
 
