@@ -109,23 +109,50 @@ input::-webkit-input-placeholder {
   font-family: $OS-Light-font;
   font-size: 14px;
   color: #4e4e4e;
+  transition: .3s ease;
 }
 input:-moz-placeholder {
   font-family: $OS-Light-font;
   font-size: 14px;
   color: #4e4e4e;
+  transition: .3s ease;
 }
 input::-moz-placeholder {
   font-family: $OS-Light-font;
   font-size: 14px;
   color: #4e4e4e;
-
+  transition: .3s ease;
 }
 input:-ms-input-placeholder{
   font-family: $OS-Light-font;
   font-size: 14px;
   color: #4e4e4e;
+  transition: .3s ease;
+}
 
+textarea::-webkit-input-placeholder {
+  font-family: $OS-Light-font;
+  font-size: 14px;
+  color: #4e4e4e;
+  transition: .3s ease;
+}
+textarea:-moz-placeholder {
+  font-family: $OS-Light-font;
+  font-size: 14px;
+  color: #4e4e4e;
+  transition: .3s ease;
+}
+textarea::-moz-placeholder {
+  font-family: $OS-Light-font;
+  font-size: 14px;
+  color: #4e4e4e;
+  transition: .3s ease;
+}
+textarea:-ms-input-placeholder{
+  font-family: $OS-Light-font;
+  font-size: 14px;
+  color: #4e4e4e;
+  transition: .3s ease;
 }
 
 body {
@@ -268,7 +295,7 @@ body:after {
   color: #fff;
   transition: .3s ease;
   &:hover {
-    background-color: $accent;
+    //background-color: $accent;
     color: #fff;
   }
   &:focus {
@@ -809,6 +836,9 @@ body:after {
 .modal-body-wrapper {
   overflow: hidden;
 }
+.modal-content {
+  border-radius: 0;
+}
 .modal-block {
   padding: 10px 50px;
   &__left {
@@ -848,6 +878,13 @@ body:after {
     top: 5px;
     left: 1px;
   }
+}
+
+.modal-order-form-textarea {
+  width: 100%;
+}
+.modal-order-form-button {
+  float: right;
 }
 
 .link {
@@ -981,6 +1018,22 @@ body:after {
 }
 .modal-dialog--big {
   width: 1170px;
+}
+
+.modal-order-time-block {
+  &__input {
+    width: 73%;
+    display: inline-block;
+    margin: 0 -2px 0 -2px;
+  }
+  &__label {
+    display: inline-block;
+    margin: 0 13px 0 -2px;
+  }
+  &__title{
+    display: block;
+    margin-bottom: 7px;
+  }
 }
 
 .city-choice__list {
@@ -3351,7 +3404,35 @@ select.custom-select {
   padding-left: 30px;
 }
 
+.order-request-form {
+  .goods-prop__location{
+    padding-top: 10px;
+  }
+  .btn {
+    background-color: $button-color;
+    color: #fff;
+    &:hover {
+      color: $text-color;
+      .glyphicon {
+        background-color: transparent;
+      }
+    }
+  }
+}
 
+.new-tel-block {
+  a {
+    display: inline-block;
+    width: 15px;
+    height: 36px;
+    position: relative;
+  }
+  .icon-close-red {
+    position: absolute;
+    top: 13px;
+    left: 0;
+  }
+}
 
 
 

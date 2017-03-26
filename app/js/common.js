@@ -176,7 +176,7 @@ $(function() {
     $('.contact-info').on('click', function(e){
         e.preventDefault();
         var target = e.target;
-        var telBlock ='<div class="row">'+
+        var telBlock ='<div class="row new-tel-block">'+
                             '<div class="col-sm-2"></div>'+
                             '<div class="col-sm-7">'+
                                 '<div class="row">'+
@@ -185,15 +185,24 @@ $(function() {
                                 '</div>'+
                             '</div>'+
                             '<div class="col-sm-3">'+
+                                '<a href="#"><i class="icon-close-red"></i></a>'+
                             '</div>'+
                         '</div>';
         if(target.className == 'add-item') {
             $('.add-tel-number').append(telBlock);
             $('input[type="tel"]').mask("+38(099) 999-9999");
+        } else if($(target).closest('.new-tel-block').length) {
+           if(target.className == 'icon-close-red') {
+               $(target).closest('.new-tel-block').remove();
+           }
         }
     });
 
-    /////////////////////////////////////////////  checkout stream custom scrollbar ///////////////////////////////////
+    $('#add-s-s').on('click', function(e){
+        e.preventDefault();
+    });
+
+
 
     $('.checkout-stream__list').mCustomScrollbar({
         autoDraggerLength: false,
@@ -220,10 +229,21 @@ $(function() {
         }
     });
 
-    /////////////////////////////// datepicker ///////////////////////
-    $('.datepicker').datepicker({
-        format: 'mm/dd/yyyy',
-        language: 'ru'
+    /////////////////////////////// date picker ///////////////////////
+
+    $('.datepicker').datetimepicker({
+        viewMode: 'years',
+        useCurrent: false,
+        format: 'DD/MM/YYYY',
+        locale: 'ru'
+    });
+
+    //////////////////////////////// time picker //////////////////////
+
+    $('.time-picker').datetimepicker({
+        locale: 'ru',
+        useCurrent: false,
+        format: 'LT'
     });
 
     ////////////////////////////////// responsive table //////////////////////////////////////////

@@ -231,58 +231,60 @@
 
                             <fieldset class="add-sport-section-block">
                                 <h3 class="section-block__title">Добаления направления / секции</h3>
-                                <div class="add-sport-section">
-                                    <h4 class="section-block__title--light top-zero">Фитнес клуб</h4>
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="row">
-                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Стоимость за месяц от:</span></div>
-                                                <div class="col-sm-6 col-xs-12 no-left-padding">
-                                                    <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
+                                <div class="add-sport-section--item">
+                                    <div class="add-sport-section">
+                                        <h4 class="section-block__title--light top-zero">Фитнес клуб</h4>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-xs-12"><span class="info__label">Стоимость за месяц от:</span></div>
+                                                    <div class="col-sm-6 col-xs-12 no-left-padding">
+                                                        <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
+                                                    </div>
                                                 </div>
                                             </div>
-                                       </div>
-                                        <div class="col-sm-6">
-                                            <div class="row">
-                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Разовое посещение от:</span></div>
-                                                <div class="col-sm-6 col-xs-12 no-left-padding">
-                                                    <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
+                                            <div class="col-sm-6">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-xs-12"><span class="info__label">Разовое посещение от:</span></div>
+                                                    <div class="col-sm-6 col-xs-12 no-left-padding">
+                                                        <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
+                                                    </div>
                                                 </div>
                                             </div>
-                                       </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="row">
-                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Годовой абонемент от:</span></div>
-                                                <div class="col-sm-6 col-xs-12 no-left-padding">
-                                                    <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-xs-12"><span class="info__label">Годовой абонемент от:</span></div>
+                                                    <div class="col-sm-6 col-xs-12 no-left-padding">
+                                                        <input type="text" class="input-number border-input border-input--short col-sm-12 col-xs-12">
+                                                    </div>
                                                 </div>
                                             </div>
-                                       </div>
-                                        <div class="col-sm-6">
-                                            <div class="row">
-                                                <div class="col-sm-6 col-xs-12"><span class="info__label">Бесплатное занятие</span></div>
-                                                <div class="col-sm-6 col-xs-12 no-left-padding">
-                                                    <select class="custom-select" title="Да" data-width="70px">
-                                                        <option value="0">Да</option>
-                                                        <option value="1">Нет</option>
-                                                    </select>
+                                            <div class="col-sm-6">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-xs-12"><span class="info__label">Бесплатное занятие</span></div>
+                                                    <div class="col-sm-6 col-xs-12 no-left-padding">
+                                                        <select class="custom-select" title="Да" data-width="70px">
+                                                            <option value="0">Да</option>
+                                                            <option value="1">Нет</option>
+                                                        </select>
+                                                    </div>
                                                 </div>
                                             </div>
-                                       </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <input type="checkbox" id="add-2" class="custom-checkbox">
-                                            <label for="add-2" class="label-medium">Уточняйте</label>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <input type="checkbox" id="add-2" class="custom-checkbox">
+                                                <label for="add-2" class="label-medium">Уточняйте</label>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="sub-section clearfix">
-                                    <input type="checkbox" id="add-3" class="custom-checkbox">
-                                    <label for="add-3" class="label-medium pull-left">Для детей</label>
-                                    <button class="btn btn-danger pull-right">Удалить</button>
+                                    <div class="sub-section clearfix">
+                                        <input type="checkbox" id="add-3" class="custom-checkbox">
+                                        <label for="add-3" class="label-medium pull-left">Для детей</label>
+                                        <button class="btn btn-danger pull-right">Удалить</button>
+                                    </div>
                                 </div>
                             </fieldset>
                             <fieldset class="checkout-stream">
@@ -290,43 +292,43 @@
                                     <h3 class="photo-set--title top-zero">Выберете направление:</h3>
                                     <ul class="checkout-stream__list">
                                         <li class="checkout-stream__item">
-                                            <input type="checkbox" id="check-1" class="custom-checkbox">
+                                            <input type="checkbox" id="check-1" class="custom-checkbox" value="Бокс">
                                             <label for="check-1" class="label-medium">Бокс</label>
                                         </li>
                                         <li class="checkout-stream__item">
-                                            <input type="checkbox" id="check-2" class="custom-checkbox">
+                                            <input type="checkbox" id="check-2" class="custom-checkbox" value="Волейбол">
                                             <label for="check-2" class="label-medium">Волейбол</label>
                                         </li>
                                         <li class="checkout-stream__item">
-                                            <input type="checkbox" id="check-3" class="custom-checkbox">
+                                            <input type="checkbox" id="check-3" class="custom-checkbox" value="Йога">
                                             <label for="check-3" class="label-medium">Йога</label>
                                         </li>
                                         <li class="checkout-stream__item">
-                                            <input type="checkbox" id="check-4" class="custom-checkbox">
+                                            <input type="checkbox" id="check-4" class="custom-checkbox" value="Плавание">
                                             <label for="check-4" class="label-medium">Плавание</label>
                                         </li>
                                         <li class="checkout-stream__item">
-                                            <input type="checkbox" id="check-5" class="custom-checkbox">
+                                            <input type="checkbox" id="check-5" class="custom-checkbox" value="Танцы">
                                             <label for="check-5" class="label-medium">Танцы</label>
                                         </li>
                                         <li class="checkout-stream__item">
-                                            <input type="checkbox" id="check-6" class="custom-checkbox">
+                                            <input type="checkbox" id="check-6" class="custom-checkbox" value="Бокс">
                                             <label for="check-6" class="label-medium">Бокс</label>
                                         </li>
                                         <li class="checkout-stream__item">
-                                            <input type="checkbox" id="check-7" class="custom-checkbox">
+                                            <input type="checkbox" id="check-7" class="custom-checkbox" value="Волейбол">
                                             <label for="check-7" class="label-medium">Волейбол</label>
                                         </li>
                                         <li class="checkout-stream__item">
-                                            <input type="checkbox" id="check-8" class="custom-checkbox">
+                                            <input type="checkbox" id="check-8" class="custom-checkbox" value="Йога">
                                             <label for="check-8" class="label-medium">Йога</label>
                                         </li>
                                         <li class="checkout-stream__item">
-                                            <input type="checkbox" id="check-9" class="custom-checkbox">
+                                            <input type="checkbox" id="check-9" class="custom-checkbox" value="Плавание">
                                             <label for="check-9" class="label-medium">Плавание</label>
                                         </li>
                                         <li class="checkout-stream__item">
-                                            <input type="checkbox" id="check-10" class="custom-checkbox">
+                                            <input type="checkbox" id="check-10" class="custom-checkbox" value="Танцы">
                                             <label for="check-10" class="label-medium">Танцы</label>
                                         </li>
                                     </ul>
@@ -373,7 +375,7 @@
                                 <div class="sub-section clearfix">
                                     <input type="checkbox" id="add-5" class="custom-checkbox">
                                     <label for="add-5" class="label-medium pull-left">Для детей</label>
-                                    <button class="btn btn-success pull-right">Добавить</button>
+                                    <button id="add-s-s" class="btn btn-success pull-right">Добавить</button>
                                 </div>
                             </fieldset>
                             <fieldset class="text-center sm-padding">

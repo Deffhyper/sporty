@@ -345,34 +345,64 @@
                 <h4 class="modal-title">Форма записи</h4>
             </div>
             <div class="container-fluid">
-                <div class="row modal-body-wrapper">
+                <div class="row">
                     <div class="modal-block add-block">
                         <p class="modal-order-form-title">
                             <i class="icon-question"></i>
                             <span>Оставьте ваши контактные данные и менеджере свяжется с Вами в удобноедля Вас время:</span>
                         </p>
+
                         <form action="#" class="order-request-form">
-                            <div class="row">
+                            <div class="row row block-with-margin-bottom">
                                 <div class="col-md-6 col-sm-12">
-
-                                    <label for="of-1" class="info__label">Ваше Имя и Фамилия: <span
-                                            class="mark-red">*</span></label>
-                                    <input id="of-1" type="text" class="input-round-border input-md"
-                                           placeholder="Ваш e-mail">
-
-                                    <label for="of-2" class="info__label">Ваше Имя и Фамилия: <span
-                                            class="mark-red">*</span></label>
-                                    <input type="text" id="of-2" class="input-round-border input-md"
-                                           placeholder="Ваш e-mail">
+                                    <label for="of-1" class="">Ваше Имя и Фамилия:
+                                        <span class="mark-red">*</span></label>
+                                    <input id="of-1" type="text" class="border-input input-round-border input-md"
+                                           placeholder="Представьтесь">
+                                    <label for="of-2" class="">E-mail адрес:</label>
+                                    <input type="email" id="of-2" class="border-input input-round-border input-md"
+                                           placeholder="Укажите почту">
                                 </div>
-                                <div class="col-md-6 col-sm-12"></div>
-                            </div>
-                            <input type="email" class="input-round-border input-md input-md-margin"
-                                   placeholder="Ваш e-mail">
-                            <input type="password" class="input-round-border input-md input-md-margin"
-                                   placeholder="Пароль">
+                                <div class="col-md-6 col-sm-12">
+                                    <label for="of-3" class="">Номер телефона:
+                                        <span class="mark-red">*</span></label>
+                                    <input id="of-3" type="tel" class="border-input input-round-border input-md"
+                                           placeholder="+38(___)___ __ __">
+                                    <fieldset class="modal-order-time-block">
+                                        <span class="modal-order-time-block__title">Вам можно звонить:</span>
 
-                            <button class="btn btn-big btn-yellow-gradient">Войти</button>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <label for="of-4" class="modal-order-time-block__label">C</label>
+                                                <input name="" id="of-5"
+                                                       class="time-picker modal-order-time-block__input input-round-border input-md">
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <label for="of-5" class="modal-order-time-block__label">По</label>
+                                                <input name="" id="of-5"
+                                                       class="time-picker modal-order-time-block__input input-round-border input-md">
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="row block-with-margin-bottom">
+                                <div class="col-sm-12">
+                                    <textarea name="" id="" cols="" rows="5"
+                                              class="input-round-border modal-order-form-textarea" placeholder="Комментарий"></textarea>
+                                </div>
+                            </div>
+                            <div class="row block-with-margin-bottom">
+                                <div class="col-sm-12">
+                                    <div class="goods-prop__location">
+                                        <i class="icon-blue-picker"></i>
+                                        <span>Запись в:</span>
+                                        <a href="#">Киев, бул. Леси Украинки, 12 А</a>
+                                    </div>
+                                    <button class="btn btn-big btn-yellow-gradient modal-order-form-button">Войти</button>
+                                </div>
+                            </div>
+
                         </form>
                     </div>
                 </div>

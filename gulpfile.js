@@ -48,8 +48,8 @@ gulp.task('scripts', function() {
 		'app/libs/jquery.rateit/scripts/jquery.rateit.min.js', // rating star
 		'app/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js', // rating star
 		'app/libs/sticky-kit/sticky.min.js', // sticky-kit
-		'app/libs/bootstrap-datepicker-master/js/bootstrap-datepicker.min.js', // datepicker
-		'app/libs/bootstrap-datepicker-master/locales/bootstrap-datepicker.ru.min.js', // datepicker locale
+		'app/libs/moment/min/moment-with-locales.min.js', // moment with locales
+		'app/libs/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js', // data-time-picker
 		'app/libs/stacktable/stacktable.js', // stack table
 		'app/libs/light-slider/js/lightslider.min.js', // light slider
 		'app/libs/responsive-tabs/js/jquery.responsiveTabs.min.js',// responsive-tabs
