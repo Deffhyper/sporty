@@ -33,6 +33,10 @@
     margin: 0 auto 30px;
   }
 
+  .menu-trigger {
+    margin-left: 0;
+  }
+
   .site-header--top {
     padding: 15px 15px 10px;
   }
@@ -607,13 +611,82 @@
     padding-right: 15px;
   }
 
-
-
-
-
-
-
-
-
-
+  .error-page__title {
+    font-size: 150px;
+    margin-bottom: 0;
+    margin-top: 0;
   }
+  .error-page__subtitle {
+    font-size: 16px;
+  }
+  .error-page__direction {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .error-page .list-inline li {
+    margin-bottom: 20px;
+  }
+
+
+  .start-page {
+    padding: 0 0 20px;
+  }
+  .start-page__form--image {
+    display: none;
+  }
+  .start-page__form--inputLeft {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .start-page__form--inputRight {
+    padding-left: 15px;
+  }
+  .start-page__form i.icon-user-white {
+    left: 30px;
+  }
+  .start-page__form i.icon-mail-white {
+    left: 28px;
+  }
+  .start-page__title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .start-page__subtitle {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .start-page__counter {
+    padding-top: 0;
+  }
+  #countdown {
+    &>div {
+      width: 70px;
+      &>span:first-child {
+        font-size: 30px;
+      }
+      &>span:nth-child(2) {
+        font-size: 16px;
+      }
+      &>span:nth-child(3) {
+        font-size: 14px;
+      }
+      &:last-child {
+        &>span:first-child {
+          font-size: 30px;
+        }
+        &>span:nth-child(2) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+}

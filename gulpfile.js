@@ -54,6 +54,7 @@ gulp.task('scripts', function() {
 		'app/libs/light-slider/js/lightslider.min.js', // light slider
 		'app/libs/responsive-tabs/js/jquery.responsiveTabs.min.js',// responsive-tabs
 		'app/libs/light-gallery/js/lightgallery-all.min.js'// responsive-tabs
+		//'app/libs/countdown/countdown.js'// countdown
 
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js

@@ -200,6 +200,95 @@ $(function() {
 
     $('#add-s-s').on('click', function(e){
         e.preventDefault();
+        var sportDirection = $('#sportDirection').val();
+        var sportMonthCost = $('#sportMonthCost').val();
+        var sportOnceCost = $('#sportOnceCost').val();
+        var sportYearCost = $('#sportYearCost').val();
+        var sportOneFree = $('#sportOneFree').val();
+        var sportForKids = $('#sportForKids').is(':checked');
+        var randomId = Number(Math.random())
+        if (sportForKids) {
+            sportForKids = 'checked';
+        }
+        var addSportSectionBlock = $('.add-sport-section-block');
+        var addSportSectionItem =
+            '<div class="add-sport-section--item">' +
+                '<div class="add-sport-section">' +
+                    '<h4 class="section-block__title--light top-zero">'+sportDirection+'</h4>' +
+                    '<div class="row">' +
+                        '<div class="col-sm-6">' +
+                            '<div class="row">' +
+                                '<div class="col-sm-6 col-xs-12"><span class="info__label">Стоимость за месяц от:</span></div>' +
+                                '<div class="col-sm-6 col-xs-12 no-left-padding">' +
+                                    '<input type="text" value="' +sportMonthCost+ '" class="input-number border-input border-input--short col-sm-12 col-xs-12">' +
+                                '</div>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-sm-6">' +
+                            '<div class="row">' +
+                                '<div class="col-sm-6 col-xs-12"><span class="info__label">Разовое посещение от:</span></div>' +
+                                '<div class="col-sm-6 col-xs-12 no-left-padding">' +
+                                    '<input type="text" value="' +sportOnceCost+ '" class="input-number border-input border-input--short col-sm-12 col-xs-12">' +
+                                '</div>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div class="row">' +
+                        '<div class="col-sm-6">' +
+                            '<div class="row">' +
+                                '<div class="col-sm-6 col-xs-12"><span class="info__label">Годовой абонемент от:</span></div>' +
+                                '<div class="col-sm-6 col-xs-12 no-left-padding">' +
+                                    '<input type="text" value="' +sportYearCost+ '" class="input-number border-input border-input--short col-sm-12 col-xs-12">' +
+                                '</div>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="col-sm-6">' +
+                            '<div class="row">' +
+                                '<div class="col-sm-6 col-xs-12"><span class="info__label">Бесплатное занятие</span></div>' +
+                                    '<div class="col-sm-6 col-xs-12 no-left-padding">' +
+                                        '<select class="custom-select"  title="Да" data-width="70px">' +
+                                        '<option value="Да">Да</option>' +
+                                        '<option value="Нет">Нет</option>' +
+                                        '</select>' +
+                                    '</div>' +
+                                '</div>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="row">' +
+                            '<div class="col-sm-12">' +
+                                '<input type="checkbox" id="add-'+randomId+'" class="custom-checkbox">' +
+                                '<label for="add-'+randomId+'" class="label-medium">Уточняйте</label>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>' +
+
+
+                    '<div class="sub-section clearfix">' +
+                        '<input type="checkbox" id="addd-'+randomId+'" class="custom-checkbox"' +sportForKids+ '>' +
+                        '<label for="addd-'+randomId+'" class="label-medium pull-left">Для детей</label>' +
+                        '<button class="btn btn-danger pull-right">Удалить</button>' +
+                    '</div>' +
+                '</div>' +
+            '</div>';
+
+        console.log(sportDirection, sportMonthCost, sportOnceCost, sportYearCost, sportOneFree, sportForKids);
+
+        addSportSectionBlock.append(addSportSectionItem);
+
+        $('.custom-select').selectpicker({
+            iconBase: 'sprite-icon'
+        });
+
+    });
+
+    ////////////////////////////// section remover ////////////////////////////////
+
+    $('.add-sport-section-block').click(function(e){
+        e.preventDefault();
+        if($(e.target).hasClass() == "btn-danger") {
+            console.log('close');
+            //$(this).remove();
+        }
     });
 
 
@@ -370,4 +459,14 @@ $(function() {
 
 
 
+
+
+
+
+
+
+
+
+
 });
+

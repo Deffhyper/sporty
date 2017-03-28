@@ -2330,10 +2330,17 @@ select.custom-select {
     }
   }
   .add-sport-section-block {
+    //margin-bottom: 50px;
+  }
+  .add-sport-section--item {
     margin-bottom: 50px;
   }
-  .checkout-stream {
 
+  .btn-group.open .dropdown-toggle {
+    box-shadow: none;
+  }
+
+  .checkout-stream {
 
     &__list {
       border: 1px solid #e2e2e2;
@@ -2361,6 +2368,12 @@ select.custom-select {
       }
       .label-medium {
         display: block;
+      }
+    }
+    &__select {
+      margin-bottom: 30px;
+      .custom-select .bs-searchbox {
+        top: -40px;
       }
     }
   }
@@ -3408,9 +3421,13 @@ select.custom-select {
   .goods-prop__location{
     padding-top: 10px;
   }
+}
+.bootstrap-datetimepicker-widget {
   .btn {
     background-color: $button-color;
     color: #fff;
+    padding: 0 !important;
+    height: auto;
     &:hover {
       color: $text-color;
       .glyphicon {
@@ -3434,6 +3451,202 @@ select.custom-select {
   }
 }
 
+.error-page {
+
+  &__title {
+    font-size: 225px;
+    color: #5b5b5b;
+    font-family: $OS-Bold-font;
+    margin-bottom: -10px;
+    margin-top: 20px;
+  }
+
+  &__subtitle {
+    font-size: 22px;
+    color: #5b5b5b;
+  }
+
+  &__direction {
+    font-size: 20px;
+    color: $accent-second;
+    margin-bottom: 30px;
+  }
+
+  &__image {
+    margin: 10px 0 40px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .list-inline {
+    li {
+      margin-bottom: 30px;
+    }
+  }
+
+  .link-button {
+    font-size: 14px;
+    color: $accent-second;
+  }
+}
+
+.start-page {
+  padding: 35px 0 80px;
+
+  &__title {
+    color: $accent-second;
+    font-size: 29px;
+    font-family: $OS-Bold-font;
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    max-width: 530px;
+    display: inline-block;
+    margin-bottom: 35px;
+  }
+
+  &__form {
+    max-width: 530px;
+    margin: auto;
+    background-color: $accent-second;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    
+    &--title {
+      font-family: $OS-Bold-font;
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    
+    &--image {
+      position: absolute;
+      top: -54px;
+      left: -107px;
+    }
+    
+    &--inputRight {
+      padding-left:7px;
+    }
+    
+    &--inputLeft {
+      padding-right: 7px;
+      padding-left: 20px;
+    }
+    
+    i {
+      position: absolute;
+      top: 16px;
+      &.icon-user-white {
+        left: 36px;
+      }
+      &.icon-mail-white {
+        left: 19px;
+      }
+    }
+    
+    input.input-round-border {
+      background-color: #0f66a9;
+      border: none;
+      box-shadow: inset 0 0 4px 1px rgba(0,0,0,.2);
+      color: #fff !important;
+      padding-left: 40px;
+      margin-bottom: 20px;
+      height: 45px;
+      width: 100%;
+      border-radius: 5px;
+      &:-moz-placeholder {
+        color: #fff;
+      }
+      &:-ms-input-placeholder {
+        color: #fff;
+      }
+      &::-moz-placeholder {
+        color: #fff;
+      }
+      &::-webkit-input-placeholder {
+        color: #fff;
+      }
+    }
+    .btn {
+      font-family: $OS-Bold-font;
+    }
+  }
+
+  &__inform {
+    font-size: 10px;
+    display: inline-block;
+    max-width: 360px;
+    text-align: left;
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+
+  &__counter {
+    padding-top: 20px;
+
+    &--title {
+      color: #343434;
+      font-size: 20px;
+      font-family: $OS-Bold-font;
+    }
+  }
+}
+
+
+.mark-blue {
+  background: transparent;
+  color: $accent-second;
+}
+
+#countdown {
+  display: inline-block;
+  &>div {
+    display: inline-block;
+    text-align: center;
+    width: 90px;
+    &>span:first-child {
+      font-size: 45px;
+      color: $accent-second;
+      display: inline-block;
+    }
+    &>span:nth-child(2) {
+      font-size: 30px;
+      color: $accent-second;
+      display: inline-block;
+      position: relative;
+      left: 20px;
+      bottom: 7px;
+    }
+    &>span:nth-child(3) {
+      display: block;
+      font-size: 16px;
+      font-family: $OS-Bold-font;
+      color: #343434;
+    }
+    &:last-child {
+      &>span:first-child {
+        font-size: 45px;
+        color: $accent-second;
+        display: inline-block;
+      }
+      &>span:nth-child(2) {
+        display: block;
+        font-size: 16px;
+        font-family: $OS-Bold-font;
+        color: #343434;
+        left: 0;
+        bottom: 0;
+      }
+    }
+  }
+}
 
 
 

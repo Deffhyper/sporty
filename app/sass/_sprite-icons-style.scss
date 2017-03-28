@@ -332,6 +332,16 @@
   display: inline-block;
 }
 
+.icon-user-white {
+  @include sprite($user-white);
+  display: inline-block;
+}
+
+.icon-mail-white {
+  @include sprite($mail-white);
+  display: inline-block;
+}
+
 
 
 
