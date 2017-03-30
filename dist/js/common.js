@@ -26,7 +26,7 @@ $(function() {
 
     // telephone masked input
 
-    $('input[type="tel"]').mask("+38(099) 999-9999");
+    $('input[type="tel"]').mask("+38(099) 999-9999",{placeholder:"+38(0__) ___ ____ "});
 
     // entry ban for email
 
@@ -197,6 +197,8 @@ $(function() {
         }
     });
 
+    var randomId = 10;
+
     $('#add-s-s').on('click', function(e){
         e.preventDefault();
         var sportDirection = $('#sportDirection').val();
@@ -205,10 +207,17 @@ $(function() {
         var sportYearCost = $('#sportYearCost').val();
         var sportOneFree = $('#sportOneFree').val();
         var sportForKids = $('#sportForKids').is(':checked');
-        var randomId = Number(Math.random())
         if (sportForKids) {
-            sportForKids = 'checked';
+            sportForKids ='checked';
+        } else {
+            sportForKids = ''
         }
+        if(sportOneFree == "") {
+            sportOneFree="Да";
+        } else {
+            sportOneFree;
+        }
+
         var addSportSectionBlock = $('.add-sport-section-block');
         var addSportSectionItem =
             '<div class="add-sport-section--item">' +
@@ -245,7 +254,7 @@ $(function() {
                             '<div class="row">' +
                                 '<div class="col-sm-6 col-xs-12"><span class="info__label">Бесплатное занятие</span></div>' +
                                     '<div class="col-sm-6 col-xs-12 no-left-padding">' +
-                                        '<select class="custom-select"  title="Да" data-width="70px">' +
+                                        '<select class="custom-select" val="'+sportOneFree+'"  title="'+sportOneFree+'" data-width="70px">' +
                                         '<option value="Да">Да</option>' +
                                         '<option value="Нет">Нет</option>' +
                                         '</select>' +
@@ -255,36 +264,34 @@ $(function() {
                         '</div>' +
                         '<div class="row">' +
                             '<div class="col-sm-12">' +
-                                '<input type="checkbox" id="add-'+randomId+'" class="custom-checkbox">' +
-                                '<label for="add-'+randomId+'" class="label-medium">Уточняйте</label>' +
+                                '<input type="checkbox" name="checkbox" id="add-'+randomId+'" class="custom-checkbox">' +
+                                '<label for="add-'+randomId+'" class="label-medium">Уточняйте</label>'+
                             '</div>' +
                         '</div>' +
                     '</div>' +
-
-
                     '<div class="sub-section clearfix">' +
-                        '<input type="checkbox" id="addd-'+randomId+'" class="custom-checkbox"' +sportForKids+ '>' +
-                        '<label for="addd-'+randomId+'" class="label-medium pull-left">Для детей</label>' +
+                        '<input type="checkbox" name="checkbox" id="addd-'+randomId+'" class="custom-checkbox" '+sportForKids+'>' +
+                        '<label for="addd-'+randomId+'" class="label-medium">Для детей</label>'+
                         '<button class="btn btn-danger pull-right">Удалить</button>' +
                     '</div>' +
                 '</div>' +
             '</div>';
 
-        console.log(sportDirection, sportMonthCost, sportOnceCost, sportYearCost, sportOneFree, sportForKids);
-
         addSportSectionBlock.append(addSportSectionItem);
+
+        randomId++;
 
         $('.custom-select').selectpicker({
             iconBase: 'sprite-icon'
         });
-
+        console.log(sportOneFree);
     });
 
     ////////////////////////////// section remover ////////////////////////////////
 
     $('.add-sport-section-block').click(function(e){
-        e.preventDefault();
         if($(e.target).hasClass('btn-danger')&&$(e.target).closest('.add-sport-section--item').length) {
+            //e.preventDefault();
             $(e.target).closest('.add-sport-section--item').remove();
         }
     });
@@ -416,6 +423,7 @@ $(function() {
                 if($(target).text() && $(target).attr('href')){
                     var directSelectData = $(target).text();
                     $sortChoice.modal('hide');
+                    // прошу понять и простить, но целая регулярка работать отказывалась ((
                     directSelectData = String(directSelectData).replace(/\d/ig, "");
                     directSelectData = String(directSelectData).replace(/\(/ig, "");
                     directSelectData = String(directSelectData).replace(/\)/ig, "");

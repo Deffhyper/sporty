@@ -6,20 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27c7432-2d14-4c37-8a99-157789600795" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_1200.scss" afterPath="$PROJECT_DIR$/app/sass/_1200.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/action-single.php" afterPath="$PROJECT_DIR$/app/action-single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/action-single.php" afterPath="$PROJECT_DIR$/dist/action-single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/common.js" afterPath="$PROJECT_DIR$/dist/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/direction.php" afterPath="$PROJECT_DIR$/app/direction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/direction.php" afterPath="$PROJECT_DIR$/dist/direction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/object.php" afterPath="$PROJECT_DIR$/app/object.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/object.php" afterPath="$PROJECT_DIR$/dist/object.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/trainer.php" afterPath="$PROJECT_DIR$/app/trainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/trainer.php" afterPath="$PROJECT_DIR$/dist/trainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sporty.iws" />
@@ -45,8 +33,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2834" column="23" selection-start-line="2834" selection-start-column="23" selection-end-line="2834" selection-end-column="23" />
+            <state vertical-scroll-proportion="-2.9146342">
+              <caret line="2170" column="16" selection-start-line="2170" selection-start-column="16" selection-end-line="2170" selection-end-column="16" />
               <folding>
                 <element signature="e#42434#42986#0" expanded="false" />
                 <element signature="e#42999#43177#0" expanded="false" />
@@ -59,18 +47,8 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64608073">
-              <caret line="453" column="0" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="direction.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/direction.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+            <state vertical-scroll-proportion="0.5159129">
+              <caret line="214" column="32" selection-start-line="214" selection-start-column="32" selection-end-line="214" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -91,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/css/libs.min.css" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/sass/_mixin.scss" />
         <option value="$PROJECT_DIR$/app/sass/_sprite.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -140,7 +116,9 @@
         <option value="$PROJECT_DIR$/app/action-single.php" />
         <option value="$PROJECT_DIR$/app/trainer.php" />
         <option value="$PROJECT_DIR$/app/direction.php" />
+        <option value="$PROJECT_DIR$/dist/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
+        <option value="$PROJECT_DIR$/dist/add-club.php" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
       </list>
     </option>
@@ -190,6 +168,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -219,49 +198,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sporty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sporty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sporty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sporty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -555,7 +497,13 @@
       <option name="project" value="LOCAL" />
       <updated>1490743283888</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="bind function remover to &quot;Add-Dir&quot;, fix filter in direction.php. Independent block in object.php, action-single.php, trainer.php">
+      <created>1490862407429</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1490862407429</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -572,14 +520,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.197411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20711975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28275862" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28078252" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -627,7 +575,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix search input in filter(index.php), add article.php  (included &quot;Disqus&quot; and &quot;Social share counter&quot;)" />
     <MESSAGE value="add jQuery plugin for rating stars. Fix left sidebar. Add h1 to blog.php. Fix &quot;breadcrumbs&quot;" />
     <MESSAGE value="Add text.php (include new block to left-sidebar)" />
     <MESSAGE value="start adding &quot;add-club&quot; page (include plugin custom scrollbar)" />
@@ -652,7 +599,8 @@
     <MESSAGE value="add modals.php, sort-sport.php, action-single.php, fix bug in top menu" />
     <MESSAGE value="add modal.php bug fix." />
     <MESSAGE value="add 404 and start.php Add script to add-club.php. Fix &quot;order&quot; popup" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 404 and start.php Add script to add-club.php. Fix &quot;order&quot; popup" />
+    <MESSAGE value="bind function remover to &quot;Add-Dir&quot;, fix filter in direction.php. Independent block in object.php, action-single.php, trainer.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="bind function remover to &quot;Add-Dir&quot;, fix filter in direction.php. Independent block in object.php, action-single.php, trainer.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -661,20 +609,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/libs/masked-input/masked-input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12128419">
-          <caret line="6" column="4112" selection-start-line="6" selection-start-column="4112" selection-end-line="6" selection-end-column="4112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/parts/pagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020858895">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/social-likes-master/src/social-likes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -995,18 +929,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/direction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2834" column="23" selection-start-line="2834" selection-start-column="23" selection-end-line="2834" selection-end-column="23" />
+        <state vertical-scroll-proportion="-2.9146342">
+          <caret line="2170" column="16" selection-start-line="2170" selection-start-column="16" selection-end-line="2170" selection-end-column="16" />
           <folding>
             <element signature="e#42434#42986#0" expanded="false" />
             <element signature="e#42999#43177#0" expanded="false" />
@@ -1015,10 +941,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/direction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42619926">
+          <caret line="311" column="45" selection-start-line="311" selection-start-column="45" selection-end-line="311" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#1;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64608073">
-          <caret line="453" column="0" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5159129">
+          <caret line="214" column="32" selection-start-line="214" selection-start-column="32" selection-end-line="214" selection-end-column="32" />
           <folding />
         </state>
       </provider>
