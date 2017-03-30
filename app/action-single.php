@@ -13,7 +13,6 @@
                 <a href="#" class="link">
                     <span>Вернуться к поиску</span>
                 </a>
-
             </div>
         </div>
     </div>
@@ -22,9 +21,9 @@
 
 <section class="section-block">
     <div class="container">
-        <div class="row block-with-margin-bottom">
+        <div class="row">
             <div class="col-md-9 col-sm-12">
-                <div class="object-top single-action block-with-border">
+                <div class="object-top single-action block-with-border block-with-margin-bottom">
                     <div class="object-top__sticker-sale-flag">
                         <i class="icon-sticker-sale-flag"></i>
                         <span>-70%</span>
@@ -88,71 +87,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-12 hidden-sm hidden-xs">
-                <div class="right-sidebar">
-                    <div class="block-with-border">
-                        <ul class="object-contacts ">
-                            <li>
-                                <p class="object-contacts__title">Время работы:</p>
-                                <ul class="business-hours">
-                                    <li>
-                                        <span><b>Пн-Пт</b></span>
-                                        <time>07:00 - 23:00</time>
-                                    </li>
-                                    <li>
-                                        <span><b>Сб-Вс</b></span>
-                                        <time>10:00 - 20:00</time>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p class="object-contacts__title">Телефоны:</p>
-                                <ul class="business-tel">
-                                    <li>
-                                        <a href="tel:8 (800) 757 32 15">8 (800) 757 32 15</a><span> - рецепция</span>
-                                    </li>
-                                    <li>
-                                        <a href="tel:8 (495) 180 52 90">8 (495) 180 52
-                                            90</a><span> - отдел продаж</span>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p class="object-contacts__title">E-mail:</p>
-                                <ul class="business-email">
-                                    <li>
-                                        <a href="mailto:info@fitness-life.com.ua" class="link-blue">info@fitness-life.com.ua</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p class="object-contacts__title">Поделиться:</p>
-                                <ul class="social-share">
-                                    <li>
-                                        <a href="javascript:void(0)"><i class="icon-vk-color"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)"><i class="icon-fb-color"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)"><i class="icon-google-color"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)"><i class="icon-ok-color"></i></a>
-                                    </li>
-                                </ul>
-                            </li>
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-9 col-sm-12">
-                <div class="object-bottom">
+                <div class="object-bottom block-with-margin-bottom">
                     <div id="responsive-tab" class="object-tabs">
                         <ul class="object-tabs__list">
                             <li class="object-tabs__title"><a href="#tab-1">Описание</a></li>
@@ -219,8 +154,8 @@
 
                 </div>
             </div>
-            <div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
-                <div class="right-sidebar">
+            <div class="col-md-3 col-sm-12">
+                <div class="right-sidebar block-with-margin-bottom">
                     <div class="block-with-border">
                         <ul class="object-contacts ">
                             <li>
@@ -243,8 +178,25 @@
                                         <a href="tel:8 (800) 757 32 15">8 (800) 757 32 15</a><span> - рецепция</span>
                                     </li>
                                     <li>
-                                        <a href="tel:8 (495) 180 52 90">8 (495) 180 52
-                                            90</a><span> - отдел продаж</span>
+                                        <a href="tel:8 (495) 180 52 90">8 (495) 180 52 90</a><span> - отдел продаж</span>
+                                    </li>
+                                    <li>
+                                        <a href="tel:8 (800) 757 32 15">8 (800) 757 32 15</a><span> - рецепция</span>
+                                    </li>
+                                    <li>
+                                        <a href="tel:8 (495) 180 52 90">8 (495) 180 52 90</a><span> - отдел продаж</span>
+                                    </li>
+                                    <li>
+                                        <a href="tel:8 (800) 757 32 15">8 (800) 757 32 15</a><span> - рецепция</span>
+                                    </li>
+                                    <li>
+                                        <a href="tel:8 (495) 180 52 90">8 (495) 180 52 90</a><span> - отдел продаж</span>
+                                    </li>
+                                    <li>
+                                        <a href="tel:8 (800) 757 32 15">8 (800) 757 32 15</a><span> - рецепция</span>
+                                    </li>
+                                    <li>
+                                        <a href="tel:8 (495) 180 52 90">8 (495) 180 52 90</a><span> - отдел продаж</span>
                                     </li>
                                 </ul>
                             </li>
@@ -278,9 +230,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <div class="right-sidebar">
+                <div class="right-sidebar block-with-margin-bottom">
                     <div class="right-sidebar__map">
                         <a href="#" class="right-sidebar__map--link btn btn-success">Развернуть карту</a>
 

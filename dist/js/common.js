@@ -47,10 +47,9 @@ $(function() {
     // remove pseudo labels from input after touch
 
     $('input[type="tel"], input[type="text"], input[type="password"], input[type="email"]').on('click touchstart', function(){
-        if($(this).hasClass('touch')) {
-            return;
-        } else {
-            $(this).addClass('touch')
+        if(!$(this).hasClass('touch')) {
+            $(this).addClass('touch');
+
         }
     });
     $('input[type="tel"], input[type="text"], input[type="password"], input[type="email"]').on('blur', function(){
@@ -285,9 +284,8 @@ $(function() {
 
     $('.add-sport-section-block').click(function(e){
         e.preventDefault();
-        if($(e.target).hasClass() == "btn-danger") {
-            console.log('close');
-            //$(this).remove();
+        if($(e.target).hasClass('btn-danger')&&$(e.target).closest('.add-sport-section--item').length) {
+            $(e.target).closest('.add-sport-section--item').remove();
         }
     });
 
@@ -308,7 +306,10 @@ $(function() {
                                 '<span>'+trainerName+'</span>' +
                                 '<i class="icon-close-red"></i>'+
                             '</li>';
-        $('.add-sport-trainer__list').append(trainerBlock);
+        if(trainerName) {
+            $('.add-sport-trainer__list').append(trainerBlock);
+        }
+
     });
 
     $('.add-sport-trainer__list').on('click', function(e){
@@ -401,6 +402,27 @@ $(function() {
             scrollTop: $('#reviews-anchor').offset().top-15
         }, 1000);
          $('#reviews-anchor').trigger('click');
+    });
+
+    ///////////////////////////// direction popap select ///////////////////////////////
+
+    $('#direct-select').on('click', function(){
+        var $that = $(this);
+        var $sortChoice = $('#sort-choice');
+        $sortChoice.modal('show');
+        if($sortChoice.length) {
+            $('.site-header__main-menu').on('click', function(e){
+                var target = e.target;
+                if($(target).text() && $(target).attr('href')){
+                    var directSelectData = $(target).text();
+                    $sortChoice.modal('hide');
+                    directSelectData = String(directSelectData).replace(/\d/ig, "");
+                    directSelectData = String(directSelectData).replace(/\(/ig, "");
+                    directSelectData = String(directSelectData).replace(/\)/ig, "");
+                    $that.val(directSelectData);
+                }
+            });
+        }
     });
 
 

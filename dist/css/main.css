@@ -2966,7 +2966,12 @@ select.custom-select {
     .direction-filter__wrapper .custom-select .dropdown-menu {
       margin: 0; }
     .direction-filter__wrapper--lg {
-      width: 180px; }
+      width: 180px;
+      position: relative;
+      overflow: hidden; }
+      .direction-filter__wrapper--lg input {
+        height: 40px;
+        padding: 0 10px; }
     .direction-filter__wrapper--md {
       width: 130px; }
 
@@ -4015,7 +4020,7 @@ select.custom-select {
     font-size: 14px; }
   .r-tabs-nav .object-tabs__title:last-child.r-tabs-state-active:after,
   .r-tabs-nav .object-tabs__title.r-tabs-state-active:after {
-    height: 40px; }
+    height: 41px; }
   .price-panel .panel-body .goods-prop__price--left {
     width: 80%; }
   .price-panel .panel-body .goods-prop__price--right {

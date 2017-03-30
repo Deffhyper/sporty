@@ -2831,6 +2831,12 @@ select.custom-select {
     }
     &--lg{
       width: 180px;
+      position: relative;
+      overflow: hidden;
+      input {
+        height: 40px;
+        padding: 0 10px;
+      }
     }
     &--md{
       width: 130px;

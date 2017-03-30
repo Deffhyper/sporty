@@ -10,12 +10,13 @@
                     <div class="direction-filter__item add-block">
                         <label for="df-1" class="info__label">Направление:</label>
                         <div class="direction-filter__wrapper direction-filter__wrapper--lg">
-                            <select name="" id="df-1" class="custom-select" title="Спортивные залы" data-width="100%" style="display: none">
-                                <option value="0">Спортивные залы-1</option>
-                                <option value="1">Спортивные залы-2</option>
-                                <option value="2">Спортивные залы-3</option>
-                                <option value="3">Спортивные залы-4</option>
-                            </select>
+                            <input type="text" id="direct-select" placeholder="Спортивные залы">
+<!--                            <select name="" id="df-1" class="custom-select" title="Спортивные залы" data-width="100%" style="display: none">-->
+<!--                                <option value="0">Спортивные залы-1</option>-->
+<!--                                <option value="1">Спортивные залы-2</option>-->
+<!--                                <option value="2">Спортивные залы-3</option>-->
+<!--                                <option value="3">Спортивные залы-4</option>-->
+<!--                            </select>-->
                         </div>
                     </div>
                     <div class="direction-filter__item add-block">
