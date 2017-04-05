@@ -110,7 +110,9 @@
                             <p class="blog-list--title">Куньлунь Ред Стар - Магнитогорск </p>
 
                             <div class="star-ratings-css">
-                                <div class="rateit" data-rateit-resetable="false" data-rateit-mode="font"></div>
+                                <div class="rateit" data-rateit-resetable="false" data-rateit-mode="font"
+                                     data-rateit-value="2.5" data-rateit-ispreset="true"
+                                     data-rateit-readonly="true"></div>
                             </div>
                             <a href="#" class="blog-list--subtitle link-blue">Хоккей</a>
 
@@ -138,7 +140,9 @@
                             <p class="blog-list--title">Пилоты «F-1» круче космонавтов</p>
 
                             <div class="star-ratings-css">
-                                <div class="rateit" data-rateit-resetable="false" data-rateit-mode="font"></div>
+                                <div class="rateit" data-rateit-resetable="false" data-rateit-mode="font"
+                                     data-rateit-value="3.5" data-rateit-ispreset="true"
+                                     data-rateit-readonly="true"></div>
                             </div>
                             <a href="#" class="blog-list--subtitle link-blue">F-1</a>
 
