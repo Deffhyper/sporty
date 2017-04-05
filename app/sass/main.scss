@@ -833,6 +833,10 @@ body:after {
 .input-md-margin {
   margin-bottom: 20px;
 }
+
+.input-sm-margin {
+  margin-bottom: 10px;
+}
 .modal-body-wrapper {
   overflow: hidden;
 }
@@ -1008,6 +1012,9 @@ body:after {
   margin-bottom: 30px;
   .btn {
     margin-top: 20px;
+  }
+  label {
+    font-size: 14px;
   }
 }
 #sort-choice {

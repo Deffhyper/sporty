@@ -1266,6 +1266,9 @@ body:after {
 .input-md-margin {
   margin-bottom: 20px; }
 
+.input-sm-margin {
+  margin-bottom: 10px; }
+
 .modal-body-wrapper {
   overflow: hidden; }
 
@@ -1422,6 +1425,8 @@ body:after {
   margin-bottom: 30px; }
   .register__form .btn {
     margin-top: 20px; }
+  .register__form label {
+    font-size: 14px; }
 
 #sort-choice .site-header__main-menu {
   display: block; }

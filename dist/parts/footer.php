@@ -117,30 +117,30 @@
                         <h5 class="modal-title__small">Личный кабинет</h5>
 
                         <form action="#" class="register__form">
-                            <fieldset class="input-md-margin pseudo-placeholder">
-                                <input type="text" id="user-name" class="input-round-border input-md">
-                                <label for="user-name">Ваше имя <span>*</span></label>
+                            <fieldset>
+                                <label for="user-name">Ваше имя <span class="mark-red">*</span></label>
+                                <input type="text" id="user-name" class="input-round-border input-md input-sm-margin">
                             </fieldset>
 
-                            <fieldset class="input-md-margin pseudo-placeholder">
-                                <input type="email" id="user-email" class="input-round-border input-md">
-                                <label for="user-email">Ваш e-mail <span>*</span></label>
+                            <fieldset>
+                                <label for="user-email">Ваш e-mail <span class="mark-red">*</span></label>
+                                <input type="email" id="user-email" class="input-round-border input-md input-sm-margin">
                             </fieldset>
 
-                            <fieldset class="input-md-margin pseudo-placeholder">
-                                <input type="password" id="user-pass" class="input-round-border input-md">
-                                <label for="user-pass">Пароль <span>*</span></label>
+                            <fieldset>
+                                <label for="user-pass">Пароль <span class="mark-red">*</span></label>
+                                <input type="password" id="user-pass" class="input-round-border input-md input-sm-margin">
                             </fieldset>
 
-                            <fieldset class="input-md-margin pseudo-placeholder">
-                                <input type="password" id="user-confirm-pass" class="input-round-border input-md">
-                                <label for="user-confirm-pass">Повторите пароль <span>*</span></label>
+                            <fieldset>
+                                <label for="user-confirm-pass">Повторите пароль <span class="mark-red">*</span></label>
+                                <input type="password" id="user-confirm-pass" class="input-round-border input-md input-sm-margin">
                             </fieldset>
 
-                            <fieldset class="input-md-margin pseudo-placeholder">
-                                <input type="tel" id="user-tel" class="input-round-border input-md ">
+                            <fieldset>
                                 <label for="user-tel" class="pseudo-placeholder">+38 (0__) ___ - __
-                                    -___<span>*</span></label>
+                                    -___<span class="mark-red">*</span></label>
+                                <input type="tel" id="user-tel" class="input-round-border input-md input-md-margin">
                             </fieldset>
 
                             <fieldset class="input-md-margin custom-checkbox">
