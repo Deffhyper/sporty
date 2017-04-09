@@ -10,7 +10,7 @@
                     <div class="direction-filter__item add-block">
                         <label for="df-1" class="info__label">Направление:</label>
                         <div class="direction-filter__wrapper direction-filter__wrapper--lg">
-                            <input type="text" id="direct-select" placeholder="Спортивные залы">
+                            <input type="text" id="direct-select" placeholder="Спортивные залы" readonly>
 <!--                            <select name="" id="df-1" class="custom-select" title="Спортивные залы" data-width="100%" style="display: none">-->
 <!--                                <option value="0">Спортивные залы-1</option>-->
 <!--                                <option value="1">Спортивные залы-2</option>-->
@@ -96,14 +96,14 @@
             </div>
         </div>
         <div class="row">
-            <div id="sticky-left" class="col-md-9 col-sm-12">
+            <div id="sticky-left" class="col-md-8 col-sm-12">
                 <div class="banner"">
                     <a href="#">
                         <img src="img/jpeg_files/banner.jpg" alt="banner">
                     </a>
                 </div>
 
-                <ul class="favorite-list clearfix">
+                <ul class="direction-list clearfix">
                     <li class="goods">
                         <div class="goods-photo">
                             <a href="#">
@@ -281,10 +281,10 @@
                                         </div>
                                         <span class="rateit-value-now">4.5</span>
                                         <a href="#" class="goods-prop__reviews">Отзывы (4)</a>
-                                        <a href="#" class="goods-prop__to-favorite">
-                                            <i class="icon-red-heart"></i>
-                                            В избранное
-                                        </a>
+<!--                                        <a href="#" class="goods-prop__to-favorite">-->
+<!--                                            <i class="icon-red-heart"></i>-->
+<!--                                            В избранное-->
+<!--                                        </a>-->
                                     </div>
                                 </div>
                                 <div class="goods-prop__right-block">
@@ -304,7 +304,7 @@
                     <a href="#">Показать еще</a>
                 </div>
             </div>
-            <div id="sticky-block" class="col-md-3 col-sm-12">
+            <div id="sticky-block" class="col-md-4 col-sm-12">
                 <div class="right-sidebar">
                     <div class="right-sidebar__map">
                         <a href="#" class="right-sidebar__map--link btn btn-success">Развернуть карту</a>

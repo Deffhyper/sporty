@@ -138,8 +138,7 @@
                             </fieldset>
 
                             <fieldset>
-                                <label for="user-tel" class="pseudo-placeholder">+38 (0__) ___ - __
-                                    -___<span class="mark-red">*</span></label>
+                                <label for="user-tel" class="pseudo-placeholder"> Ваш номер телефона<span class="mark-red">*</span></label>
                                 <input type="tel" id="user-tel" class="input-round-border input-md input-md-margin">
                             </fieldset>
 
@@ -170,9 +169,9 @@
                             <li><a href="#"><i class="icon-vk-big"></i></a></li>
                             <li><a href="#"><i class="icon-google-big"></i></a></li>
                         </ul>
-                        <p class="modal-inform">Нет аккаунта?</p>
-
-                        <p class="modal-inform"><a href="#" class="modal-link">Зарегистрироваться</a></p>
+                        <p class="modal-inform xs-padding--bottom">Уже есть аккаунт?</p>
+                        <p class="modal-inform"><a href="#logIn" id="toLogIn"  data-toggle="modal"
+                                                   data-target="#logIn" class="btn btn-big">Войти</a></p>
                     </div>
                 </div>
             </div>

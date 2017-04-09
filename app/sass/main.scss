@@ -913,6 +913,9 @@ body:after {
 .md-padding--bottom {
   padding:0 0 70px;
 }
+.xs-padding--bottom {
+  padding:0 0 10px;
+}
 .custom-checkbox {
   position: relative;
 
@@ -1103,6 +1106,43 @@ body:after {
   padding: 60px 0;
   background: url("../img/jpeg_files/m-bg.jpg") repeat-x;
 
+ &__input {
+  width: 100%;
+   height: 58px;
+   padding-left: 20px;
+   padding-right: 46px;
+   &::-webkit-input-placeholder {color:#474747;font-family: $OS-Reg-font;}
+   &::-moz-placeholder          {color:#474747;font-family: $OS-Reg-font;}
+   &:-moz-placeholder           {color:#474747;font-family: $OS-Reg-font;}
+   &:-ms-input-placeholder      {color:#474747;font-family: $OS-Reg-font;}
+ }
+  &__input-result {
+    opacity: 0;
+    background-color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    max-height: 295px;
+    overflow-y: scroll;
+    z-index: -1;
+    a {
+      color: inherit;
+      padding: 14px 20px;
+      display: block;
+      border-top: 1px solid #eee;
+      transition: .3s ease-in-out;
+      &:hover {
+        background-color: #f2f2f2;
+      }
+    }
+    &.show {
+      opacity: 1;
+      z-index: 10;
+    }
+  }
 
   &__title {
     font-size: 36px;
@@ -1133,6 +1173,13 @@ body:after {
           position: absolute;
           top: 23px;
           left: 13px;
+          z-index: 6;
+          background-color: #fff;
+        }
+        .icon-blue-select-burger {
+          position: absolute;
+          top: 23px;
+          right: 13px;
           z-index: 6;
           background-color: #fff;
         }
@@ -2843,6 +2890,7 @@ select.custom-select {
       input {
         height: 40px;
         padding: 0 10px;
+        cursor: pointer;
       }
     }
     &--md{
@@ -2857,7 +2905,38 @@ select.custom-select {
     left: -2px;
     top: 0;
   }
+}
 
+.direction-list {
+
+  .goods-photo {
+    width: 250px;
+    height: 250px;
+  }
+  .goods-photo img {
+    height: 100%;
+    width: auto;
+  }
+  .goods-prop {
+    margin-left: 255px;
+    height: 250px;
+  }
+  .goods-prop__start-price {
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-right: 30px;
+    display: inline-block;
+  }
+  .goods-prop__more {
+    display: inline-block;
+  }
+  .goods-prop__location {
+    height: 30px;
+  }
+  .goods-prop__right-block {
+    margin-top: 11px;
+  }
 }
 
 .item-filter {
@@ -2889,6 +2968,8 @@ select.custom-select {
     }
   }
 }
+
+
 
 .banner {
   margin-bottom: 20px;
@@ -3660,6 +3741,8 @@ select.custom-select {
     }
   }
 }
+
+
 
 
 

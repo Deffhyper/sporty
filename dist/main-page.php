@@ -13,23 +13,48 @@
                             <div class="form-group--item left-round">
                                 <span class="icon-select-burger"></span>
                                 <select class="custom-select " style="display: none">
-                                    <option value="1" data-icon="icon-gray-burger">Спортивные объекты</option>
-                                    <option value="2" data-icon="icon-gray-man">Тренеры</option>
-                                    <option value="3" data-icon="icon-gray-map">Аренда</option>
-                                    <option value="4" data-icon="icon-gray-house">Спортивные магазины</option>
-                                    <option value="5 "data-icon="icon-gray-sale">Акции</option>
+                                    <option value="1" data-icon="icon-blue-burger">Спортивные объекты</option>
+                                    <option value="2" data-icon="icon-blue-man">Тренеры</option>
+                                    <option value="3" data-icon="icon-blue-map">Аренда</option>
+                                    <option value="4" data-icon="icon-blue-house">Спортивные магазины</option>
+                                    <option value="5 "data-icon="icon-blue-sale">Акции</option>
                                 </select>
                             </div>
 
                             <div class="form-group--item no-round">
-                                <a href="#" id="modal-select" class="icon-select-burger"></a>
-                                <select  class="custom-select " data-live-search="true" style="display: none">
-                                    <option value="0">Выберите направление спорта</option>
-                                    <option value="1" data-tokens="Футбол aen,jk">Футбол</option>
-                                    <option value="2" data-tokens="Волейбол djktq,jk">Волейбол</option>
-                                    <option value="3" data-tokens="Велоспорт dtkjcgjhn">Велоспорт</option>
-                                    <option value="4" data-tokens="Дзю До lp. lj">Дзю До</option>
-                                </select>
+                                <a href="#" id="modal-select" class="icon-blue-select-burger"></a>
+                                <input type="text" id="filter-search" class="site-top-filter__input" placeholder="Выберите направление спорта">
+                                <div id="filter-search-result" class="site-top-filter__input-result">
+                                    <ul>
+                                        <li><a href="#">Футбол</a></li>
+                                        <li><a href="#">Волейбол</a></li>
+                                        <li><a href="#">Велоспорт</a></li>
+                                        <li><a href="#">Дзю До</a></li>
+                                        <li><a href="#">Автоспорт</a></li>
+                                        <li><a href="#">Мотоспорт</a></li>
+                                        <li><a href="#">Айкидо</a></li>
+                                        <li><a href="#">Аквааэробика</a></li>
+                                        <li><a href="#">Авиационный клуб</a></li>
+                                        <li><a href="#">Гольф</a></li>
+                                        <li id="noResult"><a href="#">Нет результатов</a></li>
+                                    </ul>
+                                </div>
+<!--                                <select  class="custom-select " data-live-search="true" style="display: none">-->
+<!--                                    <option value="0">Выберите направление спорта</option>-->
+<!--                                    <option value="1" data-tokens="Футбол aen,jk">Футбол</option>-->
+<!--                                    <option value="2" data-tokens="Волейбол djktq,jk">Волейбол</option>-->
+<!--                                    <option value="3" data-tokens="Волейбол dtkjcgjhn">Велоспорт</option>-->
+<!--                                    <option value="4" data-tokens="Дзю До lp. lj">Дзю До</option>-->
+<!--                                    <option value="2" data-tokens="Волейбол djktq,jk">Волейбол</option>-->
+<!--                                    <option value="3" data-tokens="Велоспорт dtkjcgjhn">Велоспорт</option>-->
+<!--                                    <option value="4" data-tokens="Дзю До lp. lj">Дзю До</option>-->
+<!--                                    <option value="2" data-tokens="Волейбол djktq,jk">Волейбол</option>-->
+<!--                                    <option value="3" data-tokens="Велоспорт dtkjcgjhn">Велоспорт</option>-->
+<!--                                    <option value="4" data-tokens="Дзю До lp. lj">Дзю До</option>-->
+<!--                                    <option value="2" data-tokens="Волейбол djktq,jk">Волейбол</option>-->
+<!--                                    <option value="3" data-tokens="Велоспорт dtkjcgjhn">Велоспорт</option>-->
+<!--                                    <option value="4" data-tokens="Дзю До lp. lj">Дзю До</option>-->
+<!--                                </select>-->
                             </div>
 
                             <div class="form-group--item right-round">

@@ -175,8 +175,40 @@
   @include sprite($select-burger);
   display: inline-block;
 }
+
+.icon-blue-select-burger {
+  @include sprite($blue-select-burger);
+  display: inline-block;
+}
 .icon-gray-sale {
   @include sprite($gray-sale);
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.icon-blue-burger {
+  @include sprite($blue-burger);
+  display: inline-block;
+}
+.icon-blue-man {
+  @include sprite($blue-man);
+  display: inline-block;
+}
+.icon-blue-map {
+  @include sprite($blue-map);
+  display: inline-block;
+}
+.icon-blue-house {
+  @include sprite($blue-house);
+  display: inline-block;
+}
+.icon-blue-burger {
+  @include sprite($blue-burger);
+  display: inline-block;
+}
+.icon-blue-sale {
+  @include sprite($blue-sale);
   display: inline-block;
   position: relative;
   top: 3px;

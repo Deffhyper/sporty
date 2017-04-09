@@ -217,8 +217,20 @@
     height: 290px;
   }
 
-
-
+  .direction-list {
+    .goods-prop__rating-favorite {
+      max-width: 100%;
+    }
+    .goods-prop__to-favorite {
+      display: inline-block;
+    }
+    .rateit-value-now {
+      margin-right: 5px;
+    }
+    .goods-prop__reviews {
+      margin-right: 10px;
+    }
+  }
 
 
 

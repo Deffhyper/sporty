@@ -156,13 +156,16 @@ $(function() {
         ]
     });
 
-    $("#modal-select").click(function(){
-        $('#sort-choice').modal('show');
-    });
+
 
     $("#toRegister").click(function(e){
         e.preventDefault();
         $("#logIn").modal('hide');
+    });
+
+    $("#toLogIn").click(function(e){
+        e.preventDefault();
+        $("#register").modal('hide');
     });
 
     $('.rateit').rateit();
@@ -298,11 +301,11 @@ $(function() {
 
 
 
-    $('.checkout-stream__list').mCustomScrollbar({
-        autoDraggerLength: false,
-        scrollEasing:"easeOut",
-        setHeight: "210px"
-    });
+    //$('.checkout-stream__list').mCustomScrollbar({
+    //    autoDraggerLength: false,
+    //    scrollEasing:"easeOut",
+    //    setHeight: "210px"
+    //});
 
     ///////////////////////////////////////////// add trainer to add-form //////////////////////////////////////////
 
@@ -423,15 +426,62 @@ $(function() {
                 if($(target).text() && $(target).attr('href')){
                     var directSelectData = $(target).text();
                     $sortChoice.modal('hide');
-                    // прошу понять и простить, но целая регулярка работать отказывалась ((
-                    directSelectData = String(directSelectData).replace(/\d/ig, "");
-                    directSelectData = String(directSelectData).replace(/\(/ig, "");
-                    directSelectData = String(directSelectData).replace(/\)/ig, "");
+                    directSelectData = String(directSelectData).replace(/\(+\d+\)/g, "");
                     $that.val(directSelectData);
                 }
             });
         }
     });
+
+    //$("#modal-select").click(function(){
+    //    $('#sort-choice').modal('show');
+    //});
+
+    $('#modal-select').on('click', function(){
+        var $that = $('#filter-search');
+        var $sortChoice = $('#sort-choice');
+        $sortChoice.modal('show');
+        if($sortChoice.length) {
+            $('.site-header__main-menu').on('click', function(e){
+                var target = e.target;
+                if($(target).text() && $(target).attr('href')){
+                    var directSelectData = $(target).text();
+                    $sortChoice.modal('hide');
+                    directSelectData = String(directSelectData).replace(/\(+\d+\)/g, "");
+                    $that.val(directSelectData);
+                }
+            });
+        }
+    });
+
+    $('#filter-search').quicksearch('#filter-search-result ul li', {
+        selector: 'a',
+        delay: "500",
+        noResults: 'li#noResult'
+    });
+
+    $('#filter-search').focus(function(){
+       $(this).val('');
+    });
+
+    $(document).on('click', function (e) {
+        if ($(e.target).hasClass('touch')) {
+            $('#filter-search-result').addClass('show');
+        } else {
+            $('#filter-search-result').removeClass('show');
+        }
+    });
+
+    $('#filter-search-result').on('click', function(e){
+        e.preventDefault();
+        var target = e.target;
+        if($(target).text() && $(target).attr('href')){
+            var targetText = $(target).text();
+            console.log(targetText);
+            $('#filter-search').val(String(targetText).replace(/\(+\d+\)/g, ""));
+        }
+    });
+
 
 
 
@@ -472,7 +522,8 @@ $(function() {
 
             $('#sticky-block').stick_in_parent({
                 offset_top: 20
-            }).on("sticky_kit:stick", function() {
+            })
+                .on("sticky_kit:stick", function() {
                 $(this).parent().css("height", styckyHeight -20);
             });
 
