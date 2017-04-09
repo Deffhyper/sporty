@@ -36,15 +36,23 @@
             </div>
             <div class="col-md-3 col-sm-12">
                 <div class="page-footer__mailto">
-                    <p class="page-footer__mailto-title">Свежие новости</p>
+                    <p class="page-footer__mailto-title">Свяжитесь с нами:</p>
+                    <div class="page-footer__mailto-wrapper">
+                        <ul>
+                            <li><i class="icon-b-line"></i><a href="tel:+38 (093) 757 32 15"><span>+38 (093)</span> 757 32 15</a></li>
+                            <li><i class="icon-vd-phone"></i><a href="tel:+38 (099) 757 32 15"><span>+38 (099)</span> 757 32 15</a></li>
+                            <li><i class="icon-kvstr"></i><a href="tel:+38 (067) 757 32 15"><span>+38 (067)</span> 757 32 15</a></li>
+                        </ul>
+                    </div>
 
-                    <form action="#">
-                        <i class="icon-mail-flag"></i>
-                        <input type="email" id="footer-input" class="page-footer__mailto-input"
-                               placeholder="Ваш email-адрес">
-                        <label for="footer-input" class="icon-Email"></label>
-                        <button class="btn page-footer__mailto-button">Подписаться</button>
-                    </form>
+<!--                    <form action="#">-->
+<!--                        <i class="icon-mail-flag"></i>-->
+<!--                        <input type="email" id="footer-input" class="page-footer__mailto-input"-->
+<!--                               placeholder="Ваш email-адрес">-->
+<!--                        <label for="footer-input" class="icon-Email"></label>-->
+<!--                        <button class="btn page-footer__mailto-button">Подписаться</button>-->
+<!--                    </form>-->
+
                 </div>
             </div>
         </div>

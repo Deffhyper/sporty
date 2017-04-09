@@ -1,6 +1,7 @@
 $(function() {
 
     var widthScreen = $(window).width() + 17;
+    var scrollTop = $(window).scrollTop();
 
     //show and hide search
 
@@ -483,6 +484,21 @@ $(function() {
     });
 
 
+    ///////////////////////////////////////////////// sticky head menu ///////////////////////////////////////////
+
+    $(document).on('scroll', function(){
+        if($(this).width() > 768 && $(this).scrollTop() > 180){
+            $('.site-header--menu').addClass('fix-menu');
+            setTimeout(function(){
+                $('.site-header--menu').addClass('change');
+                },100);
+        } else {
+            $('.site-header--menu').removeClass('fix-menu');
+            $('.site-header--menu').removeClass('change');
+
+        }
+    });
+
 
 
 
@@ -516,6 +532,7 @@ $(function() {
             $('.left-sidebar--title').unbind('click');
             $('.left-sidebar--title').removeClass('open');
             $('.left-sidebar--title').next().slideDown();
+            $('.navbar-nav').removeAttr('style');
 
             /////////////////////////////////// sticky right sidebar //////////////////
             var styckyHeight = $("#sticky-left").height();

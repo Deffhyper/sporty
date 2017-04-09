@@ -84,16 +84,6 @@
   height: 36px;
   display: inline-block; }
 
-.icon-Email {
-  background-image: url(../img/png_sprite/sprite.png);
-  background-position: -264px -233px;
-  width: 16px;
-  height: 11px;
-  display: block;
-  position: absolute;
-  top: 60px;
-  left: 31px; }
-
 .icon-b-line {
   background-image: url(../img/png_sprite/sprite.png);
   background-position: -272px -199px;
@@ -833,45 +823,26 @@ body:after {
 
 .page-footer__mailto {
   position: relative; }
-  .page-footer__mailto .icon-mail-flag {
-    position: absolute;
-    top: -7px;
-    left: 15px; }
-  .page-footer__mailto form {
+  .page-footer__mailto-wrapper {
     border: 1px dashed #313435;
     -webkit-border-radius: 5px;
             border-radius: 5px;
-    padding: 15px 15px 5px;
-    text-align: center; }
+    padding: 15px 0;
+    text-align: center;
+    color: #fff; }
+    .page-footer__mailto-wrapper li {
+      padding: 5px 0; }
+      .page-footer__mailto-wrapper li i {
+        position: relative;
+        margin-right: 10px;
+        top: 3px; }
+    .page-footer__mailto-wrapper a {
+      color: inherit; }
   .page-footer__mailto-title {
     font-family: "OpenSans-Light", sans-serif;
     font-size: 16px;
-    text-transform: uppercase;
     text-align: center;
     margin-bottom: 5px; }
-  .page-footer__mailto-input {
-    position: relative;
-    height: 44px;
-    padding-left: 45px;
-    width: 100%;
-    -webkit-border-radius: 2px;
-            border-radius: 2px; }
-    .page-footer__mailto-input:focus {
-      padding-left: 15px; }
-      .page-footer__mailto-input:focus + .icon-Email {
-        opacity: 0; }
-  .page-footer__mailto-button {
-    font-size: 14px;
-    text-transform: uppercase;
-    height: 40px;
-    width: 173px;
-    -webkit-border-radius: 5px;
-            border-radius: 5px;
-    margin: 15px auto -20px;
-    display: inline-block; }
-    .page-footer__mailto-button:hover {
-      background-color: #1489e1;
-      color: #fff; }
 
 .btn {
   border: none;
@@ -1054,6 +1025,18 @@ body:after {
   .site-header--menu {
     background-color: #1489e1;
     height: 60px; }
+    .site-header--menu.fix-menu {
+      position: fixed;
+      top: -100px;
+      left: 0;
+      right: 0;
+      z-index: 100; }
+      .site-header--menu.fix-menu.change {
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: translateY(100px);
+            -ms-transform: translateY(100px);
+                transform: translateY(100px); }
     .site-header--menu .navbar-collapse.in {
       position: relative;
       z-index: 1;

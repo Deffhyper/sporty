@@ -240,52 +240,64 @@ body:after {
 .page-footer__mailto {
   position: relative;
 
-  .icon-mail-flag {
-    position: absolute;
-    top: -7px;
-    left: 15px;
-  }
-  form {
+  //.icon-mail-flag {
+  //  position: absolute;
+  //  top: -7px;
+  //  left: 15px;
+  //}
+  &-wrapper {
     border: 1px dashed #313435;
     border-radius: 5px;
-    padding: 15px 15px 5px;
+    padding: 15px 0;
     text-align: center;
+    color: #fff;
+    li {
+      padding: 5px 0;
+      i {
+        position: relative;
+        margin-right: 10px;
+        top: 3px;
+      }
+    }
+    a{
+      color: inherit;
+    }
 
   }
 
   &-title {
     font-family: $OS-Light-font;
     font-size: 16px;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     text-align: center;
     margin-bottom: 5px;
   }
-  &-input {
-    position: relative;
-    height: 44px;
-    padding-left: 45px;
-    width: 100%;
-    border-radius: 2px;
-    &:focus {
-      padding-left: 15px;
-      &+.icon-Email {
-        opacity: 0;
-      }
-    }
-  }
-  &-button {
-    font-size: 14px;
-    text-transform: uppercase;
-    height: 40px;
-    width: 173px;
-    border-radius: 5px;
-    margin: 15px auto -20px;
-    display: inline-block;
-    &:hover {
-      background-color: $accent;
-      color: #fff;
-    }
-  }
+  //&-input {
+  //  position: relative;
+  //  height: 44px;
+  //  padding-left: 45px;
+  //  width: 100%;
+  //  border-radius: 2px;
+  //  &:focus {
+  //    padding-left: 15px;
+  //    &+.icon-Email {
+  //      opacity: 0;
+  //    }
+  //  }
+  //}
+  //&-button {
+  //  font-size: 14px;
+  //  text-transform: uppercase;
+  //  height: 40px;
+  //  width: 173px;
+  //  border-radius: 5px;
+  //  margin: 15px auto -20px;
+  //  display: inline-block;
+  //  &:hover {
+  //    background-color: $accent;
+  //    color: #fff;
+  //  }
+  //}
 }
 
 .btn {
@@ -516,6 +528,21 @@ body:after {
   &--menu {
     background-color: $accent;
     height: 60px;
+
+    &.fix-menu {
+      position: fixed;
+      top: -100px;
+      left: 0;
+      right: 0;
+      z-index: 100;
+
+      &.change {
+        transition: .3s ease-in-out;
+        transform: translateY(100px);
+      }
+    }
+
+
     .navbar-collapse.in {
       position: relative;
       z-index: 1;

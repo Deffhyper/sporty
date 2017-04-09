@@ -5,37 +5,15 @@
     <bookmark url="file://$PROJECT_DIR$/app/direction.php" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27c7432-2d14-4c37-8a99-157789600795" name="Default" comment="add search input to main-page filter. Refactor direction.php(increase  size of map)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/png_icons/blue-select-burger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/quicksearch-master/examples/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/quicksearch-master/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/quicksearch-master/examples/example.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/quicksearch-master/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/quicksearch-master/examples/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/quicksearch-master/jquery.quicksearch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/quicksearch-master/examples/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/quicksearch-master/examples/super_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/png_sprite/sprite.png" afterPath="$PROJECT_DIR$/app/img/png_sprite/sprite.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/png_sprite/sprite.png" afterPath="$PROJECT_DIR$/dist/img/png_sprite/sprite.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_1200.scss" afterPath="$PROJECT_DIR$/app/sass/_1200.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_768.scss" afterPath="$PROJECT_DIR$/app/sass/_768.scss" />
+    <list default="true" id="f27c7432-2d14-4c37-8a99-157789600795" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" afterPath="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_sprite.scss" afterPath="$PROJECT_DIR$/app/sass/_sprite.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/common.js" afterPath="$PROJECT_DIR$/dist/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/direction.php" afterPath="$PROJECT_DIR$/app/direction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/direction.php" afterPath="$PROJECT_DIR$/dist/direction.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/parts/footer.php" afterPath="$PROJECT_DIR$/app/parts/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/parts/footer.php" afterPath="$PROJECT_DIR$/dist/parts/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/libs.min.js" afterPath="$PROJECT_DIR$/app/js/libs.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/libs.min.js" afterPath="$PROJECT_DIR$/dist/js/libs.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main-page.php" afterPath="$PROJECT_DIR$/app/main-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/main-page.php" afterPath="$PROJECT_DIR$/dist/main-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/libs/sticky-kit/sticky.min.js" afterPath="$PROJECT_DIR$/app/libs/sticky-kit/sticky.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sporty.iws" />
@@ -61,18 +39,18 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4840871">
-              <caret line="480" column="81" selection-start-line="480" selection-start-column="81" selection-end-line="480" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.6633166">
+              <caret line="530" column="72" selection-start-line="530" selection-start-column="72" selection-end-line="530" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main-page.php">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/parts/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="24" column="60" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="60" />
+            <state vertical-scroll-proportion="-7.230769">
+              <caret line="38" column="74" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -81,8 +59,26 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="1142" column="17" selection-start-line="1142" selection-start-column="17" selection-end-line="1142" selection-end-column="17" />
+            <state vertical-scroll-proportion="-3.621951">
+              <caret line="258" column="16" selection-start-line="258" selection-start-column="16" selection-end-line="258" selection-end-column="16" />
+              <folding>
+                <element signature="e#5601#5736#0" expanded="false" />
+                <element signature="e#5748#5874#0" expanded="false" />
+                <element signature="e#5885#7156#0" expanded="false" />
+                <element signature="e#7172#7859#0" expanded="false" />
+                <element signature="e#7875#8163#0" expanded="false" />
+                <element signature="e#8174#8593#0" expanded="false" />
+                <element signature="e#8606#9241#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_sprite-icons-style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_sprite-icons-style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2727273">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="2" selection-end-line="39" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -115,7 +111,6 @@
         <option value="$PROJECT_DIR$/app/js/libs.min.js" />
         <option value="$PROJECT_DIR$/app/sass/_var.scss" />
         <option value="$PROJECT_DIR$/app/index.php" />
-        <option value="$PROJECT_DIR$/app/parts/header.php" />
         <option value="$PROJECT_DIR$/app/parts/breadcrumbs.php" />
         <option value="$PROJECT_DIR$/app/article.php" />
         <option value="$PROJECT_DIR$/app/club.php" />
@@ -144,14 +139,15 @@
         <option value="$PROJECT_DIR$/dist/add-club.php" />
         <option value="$PROJECT_DIR$/dist/blog.php" />
         <option value="$PROJECT_DIR$/app/blog.php" />
-        <option value="$PROJECT_DIR$/app/parts/footer.php" />
         <option value="$PROJECT_DIR$/app/libs/sticky-kit/sticky.min.js" />
         <option value="$PROJECT_DIR$/app/sass/_1200.scss" />
         <option value="$PROJECT_DIR$/app/sass/_768.scss" />
         <option value="$PROJECT_DIR$/app/direction.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" />
         <option value="$PROJECT_DIR$/app/main-page.php" />
+        <option value="$PROJECT_DIR$/app/parts/header.php" />
+        <option value="$PROJECT_DIR$/app/sass/_sprite-icons-style.scss" />
+        <option value="$PROJECT_DIR$/app/parts/footer.php" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
       </list>
@@ -202,8 +198,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,10 +218,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/workspace/baby-shop" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -547,7 +543,13 @@
       <option name="project" value="LOCAL" />
       <updated>1491427812643</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add search input to main-page filter. Refactor direction.php(increase  size of map)">
+      <created>1491733187661</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1491733187661</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -564,7 +566,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23381877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23786408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -789,14 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/parts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.31552163">
-          <caret line="56" column="91" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/eonasdan-bootstrap-datetimepicker/build/js/ru.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.95957196">
@@ -902,13 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.576923">
-          <caret line="561" column="65" selection-start-line="561" selection-start-column="65" selection-end-line="561" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/trainer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5413534">
@@ -934,6 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.807693">
           <caret line="685" column="3" selection-start-line="685" selection-start-column="3" selection-end-line="685" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -948,21 +936,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/parts/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_sprite-icons-style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.509091">
-          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -988,26 +962,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="561" column="65" selection-start-line="561" selection-start-column="65" selection-end-line="561" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/main-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="60" />
+        <state vertical-scroll-proportion="-39.23077">
+          <caret line="60" column="72" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/parts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.576923">
+          <caret line="176" column="61" selection-start-line="176" selection-start-column="61" selection-end-line="176" selection-end-column="61" />
+          <folding>
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#1;n#header#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_sprite-icons-style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2727273">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="2" selection-end-line="39" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/parts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.230769">
+          <caret line="38" column="74" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="1142" column="17" selection-start-line="1142" selection-start-column="17" selection-end-line="1142" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="-3.621951">
+          <caret line="258" column="16" selection-start-line="258" selection-start-column="16" selection-end-line="258" selection-end-column="16" />
+          <folding>
+            <element signature="e#5601#5736#0" expanded="false" />
+            <element signature="e#5748#5874#0" expanded="false" />
+            <element signature="e#5885#7156#0" expanded="false" />
+            <element signature="e#7172#7859#0" expanded="false" />
+            <element signature="e#7875#8163#0" expanded="false" />
+            <element signature="e#8174#8593#0" expanded="false" />
+            <element signature="e#8606#9241#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4840871">
-          <caret line="480" column="81" selection-start-line="480" selection-start-column="81" selection-end-line="480" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.6633166">
+          <caret line="530" column="72" selection-start-line="530" selection-start-column="72" selection-end-line="530" selection-end-column="72" />
           <folding />
         </state>
       </provider>
