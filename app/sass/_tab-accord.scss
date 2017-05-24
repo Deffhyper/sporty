@@ -1,10 +1,14 @@
 .object-tabs {
-    font-size: 14px;
+  font-size: 14px;
 
   &__title {
     text-align: center;
     width: 19%;
     position: relative;
+    flex-grow: 1;
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
     a {
       color: #066ab6;
       display: block;
@@ -25,7 +29,7 @@
   justify-content: space-between;
   .object-tabs__title {
     //margin-right: .76%;
-    &:nth-child(5) {
+    &:last-child {
       //margin-right: 0;
       &.r-tabs-state-active {
         a {
@@ -72,7 +76,7 @@
 .object-tabs__content {
   opacity: 0;
   transition: opacity .3s ease;
-  &--title{
+  &--title {
     &.goods-prop__title {
       margin-bottom: 25px;
     }
@@ -81,7 +85,7 @@
 }
 
 .r-tabs .r-tabs-panel {
-  display: block !important;
+
   position: absolute;
   left: -9999px;
   top: 0;
@@ -121,6 +125,7 @@
     }
   }
 }
+
 .two-photo-block {
   @extend .three-photo-block;
   li {
@@ -216,7 +221,7 @@
 }
 
 .reviews-label {
-  
+
   .icon-reviews-label {
     margin-right: 5px;
     position: relative;
@@ -225,7 +230,7 @@
 }
 
 .reviews-add-form {
-  
+
   .icon-reviews-label-2 {
     margin-right: 5px;
     position: relative;
@@ -243,6 +248,7 @@
     margin-top: 5px;
   }
 }
+
 .textarea-height {
   height: 100px;
 }
@@ -254,8 +260,9 @@
     margin-bottom: 20px;
   }
 }
+
 .athlete-result-photos {
-  &>div {
+  & > div {
     display: inline-block;
     width: 152px;
     height: 202px;
@@ -282,13 +289,14 @@
   border: 1px solid #1274bf;
   margin-right: 5px;
 }
+
 .athlete-result-content {
   margin-left: 330px;
 }
 
 .athlete-result-content__title {
   margin-bottom: 25px;
-  .icon-kg{
+  .icon-kg {
     position: relative;
     margin-right: 5px;
     top: 3px;

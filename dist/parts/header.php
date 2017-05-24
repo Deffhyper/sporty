@@ -31,7 +31,7 @@
                         <div class="site-header__location">
                             <i class="icon-map-picker"></i>
                             <span>Ваш город: </span>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#city-choice">
+                            <a href="#" data-toggle="modal" data-target="#city-choice">
                                 <span>Киев</span>
                                 <span class="icon-arrow"></span>
                             </a>

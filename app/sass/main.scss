@@ -2175,6 +2175,7 @@ select.custom-select {
   font-family: $OS-Reg-font;
   color: #3d3d3d;
   margin-bottom: 15px;
+  word-wrap: break-word;
 }
 .list-counter {
   padding-left: 50px;

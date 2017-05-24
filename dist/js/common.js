@@ -455,6 +455,16 @@ $(function() {
         }
     });
 
+    $('#city-choice').on('shown.bs.modal', function (){
+        $('.city-choice__list').on('click', 'li', function(){
+            var cityChoiceData = $(this).find('a').text();
+            $(this).addClass('city-checked').siblings().removeClass('city-checked');
+            console.log(cityChoiceData);
+            $('.site-header__location a span:first-child').text(cityChoiceData);
+            $('#city-choice').modal('hide');
+        });
+    });
+
     $('#filter-search').quicksearch('#filter-search-result ul li', {
         selector: 'a',
         delay: "500",
@@ -465,12 +475,15 @@ $(function() {
        $(this).val('');
     });
 
-    $(document).on('click', function (e) {
-        if ($(e.target).hasClass('touch')) {
+    $(document).on('focus', '#filter-search', function () {
             $('#filter-search-result').addClass('show');
-        } else {
+    });
+
+    $(document).on('blur', '#filter-search', function () {
+        setTimeout(function(){
             $('#filter-search-result').removeClass('show');
-        }
+        }, 200);
+
     });
 
     $('#filter-search-result').on('click', function(e){
